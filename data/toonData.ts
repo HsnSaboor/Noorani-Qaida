@@ -1,6 +1,6 @@
 /**
  * Auto-generated Toon Data Bundle
- * Generated: 2026-01-03T06:24:46.154Z
+ * Generated: 2026-01-03T08:26:29.495Z
  * 
  * This file contains all lesson content from .toon files.
  * DO NOT EDIT MANUALLY - regenerate using: npx tsx scripts/bundleToon.ts
@@ -14,6 +14,9 @@ export interface ToonItem {
   surah?: number;
   ayah?: number;
   word_index?: number;
+  audio?: {
+    main: string;
+  };
 }
 
 export interface ToonMeta {
@@ -1258,43 +1261,85 @@ export const lesson4Data: ToonItem[] = [
     "id": "l4_w_0",
     "text_ar": "خَلَقَ",
     "transliteration": "Khalaqa",
-    "type": "sequence"
+    "type": "sequence",
+    "surah": 55,
+    "ayah": 14,
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/055_014_001.mp3"
+    }
   },
   {
     "id": "l4_w_1",
     "text_ar": "صَدَقَ",
     "transliteration": "Sadaqa",
-    "type": "sequence"
+    "type": "sequence",
+    "surah": 3,
+    "ayah": 95,
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_095_002.mp3"
+    }
   },
   {
     "id": "l4_w_2",
     "text_ar": "ضَرَبَ",
     "transliteration": "Daraba",
-    "type": "sequence"
+    "type": "sequence",
+    "surah": 14,
+    "ayah": 24,
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/014_024_003.mp3"
+    }
   },
   {
     "id": "l4_w_3",
     "text_ar": "غَلَبَ",
     "transliteration": "Ghalaba",
-    "type": "sequence"
+    "type": "sequence",
+    "surah": 18,
+    "ayah": 21,
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/018_021_002.mp3"
+    }
   },
   {
     "id": "l4_w_4",
-    "text_ar": "طَلَبَ",
-    "transliteration": "Talaba",
-    "type": "sequence"
+    "text_ar": "خَطَبَ",
+    "transliteration": "Khataba",
+    "type": "sequence",
+    "surah": 22,
+    "ayah": 73,
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/022_073_014.mp3"
+    }
   },
   {
     "id": "l4_w_5",
     "text_ar": "قَتَلَ",
     "transliteration": "Qatala",
-    "type": "sequence"
+    "type": "sequence",
+    "surah": 5,
+    "ayah": 32,
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/005_032_008.mp3"
+    }
   },
   {
     "id": "l4_w_6",
     "text_ar": "ظَلَمَ",
     "transliteration": "Zalama",
-    "type": "sequence"
+    "type": "sequence",
+    "surah": 2,
+    "ayah": 231,
+    "word_index": 26,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_231_026.mp3"
+    }
   },
   {
     "id": "l4_w_7",
@@ -1303,37 +1348,70 @@ export const lesson4Data: ToonItem[] = [
     "type": "sequence",
     "surah": 2,
     "ayah": 7,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_001.mp3"
+    }
   },
   {
     "id": "l4_w_8",
     "text_ar": "صَبَرَ",
     "transliteration": "Sabara",
-    "type": "sequence"
+    "type": "sequence",
+    "surah": 42,
+    "ayah": 43,
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/042_043_003.mp3"
+    }
   },
   {
     "id": "l4_w_9",
     "text_ar": "قَرَأَ",
     "transliteration": "Qara-a",
-    "type": "sequence"
+    "type": "sequence",
+    "surah": 96,
+    "ayah": 1,
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/096_001_001.mp3"
+    }
   },
   {
     "id": "l4_w_light_0",
     "text_ar": "كَتَبَ",
     "transliteration": "Kataba (Light)",
-    "type": "sequence"
+    "type": "sequence",
+    "surah": 58,
+    "ayah": 21,
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/058_021_001.mp3"
+    }
   },
   {
     "id": "l4_w_light_1",
     "text_ar": "سَمِعَ",
     "transliteration": "Sami'a (Light)",
-    "type": "sequence"
+    "type": "sequence",
+    "surah": 58,
+    "ayah": 1,
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/058_001_002.mp3"
+    }
   },
   {
     "id": "l4_w_light_2",
     "text_ar": "فَتَحَ",
     "transliteration": "Fataha (Light)",
-    "type": "sequence"
+    "type": "sequence",
+    "surah": 2,
+    "ayah": 76,
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_076_008.mp3"
+    }
   }
 ];
 
@@ -1438,7 +1516,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 55,
     "ayah": 14,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/055_014_001.mp3"
+    }
   },
   {
     "id": "l6_fatha_1",
@@ -1447,7 +1528,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 22,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_022_002.mp3"
+    }
   },
   {
     "id": "l6_fatha_2",
@@ -1456,7 +1540,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 62,
     "ayah": 2,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/062_002_003.mp3"
+    }
   },
   {
     "id": "l6_fatha_3",
@@ -1465,7 +1552,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 76,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_076_015.mp3"
+    }
   },
   {
     "id": "l6_fatha_4",
@@ -1474,7 +1564,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_001.mp3"
+    }
   },
   {
     "id": "l6_fatha_5",
@@ -1483,7 +1576,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 7,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_007_004.mp3"
+    }
   },
   {
     "id": "l6_fatha_6",
@@ -1492,7 +1588,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 80,
     "ayah": 1,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/080_001_001.mp3"
+    }
   },
   {
     "id": "l6_fatha_7",
@@ -1501,7 +1600,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 29,
     "ayah": 20,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/029_020_007.mp3"
+    }
   },
   {
     "id": "l6_fatha_8",
@@ -1510,7 +1612,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_010.mp3"
+    }
   },
   {
     "id": "l6_fatha_9",
@@ -1519,7 +1624,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 37,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_037_011.mp3"
+    }
   },
   {
     "id": "l6_fatha_10",
@@ -1528,7 +1636,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 55,
     "ayah": 19,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/055_019_001.mp3"
+    }
   },
   {
     "id": "l6_fatha_11",
@@ -1537,7 +1648,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 26,
     "ayah": 193,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/026_193_001.mp3"
+    }
   },
   {
     "id": "l6_fatha_12",
@@ -1546,7 +1660,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 7,
     "ayah": 150,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/007_150_002.mp3"
+    }
   },
   {
     "id": "l6_fatha_13",
@@ -1555,7 +1672,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 100,
-    "word_index": 24
+    "word_index": 24,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_100_024.mp3"
+    }
   },
   {
     "id": "l6_fatha_14",
@@ -1564,7 +1684,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 12,
     "ayah": 22,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/012_022_002.mp3"
+    }
   },
   {
     "id": "l6_fatha_15",
@@ -1573,7 +1696,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 133,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_133_005.mp3"
+    }
   },
   {
     "id": "l6_fatha_16",
@@ -1582,7 +1708,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 6,
     "ayah": 13,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/006_013_003.mp3"
+    }
   },
   {
     "id": "l6_fatha_17",
@@ -1591,7 +1720,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 113,
     "ayah": 5,
-    "word_index": 3
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/113_005_005.mp3"
+    }
   },
   {
     "id": "l6_fatha_18",
@@ -1600,7 +1732,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 95,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_095_002.mp3"
+    }
   },
   {
     "id": "l6_fatha_19",
@@ -1609,7 +1744,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 42,
     "ayah": 43,
-    "word_index": 3
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/042_043_002.mp3"
+    }
   },
   {
     "id": "l6_fatha_20",
@@ -1618,7 +1756,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 27,
     "ayah": 40,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/027_040_009.mp3"
+    }
   },
   {
     "id": "l6_fatha_21",
@@ -1627,7 +1768,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 5,
     "ayah": 60,
-    "word_index": 18
+    "word_index": 18,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/005_060_018.mp3"
+    }
   },
   {
     "id": "l6_fatha_22",
@@ -1636,7 +1780,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 123,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_123_002.mp3"
+    }
   },
   {
     "id": "l6_fatha_23",
@@ -1645,7 +1792,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 58,
     "ayah": 21,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/058_021_001.mp3"
+    }
   },
   {
     "id": "l6_fatha_24",
@@ -1654,16 +1804,22 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 108,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_108_003.mp3"
+    }
   },
   {
     "id": "l6_fatha_25",
     "text_ar": "ذَكَرَ",
     "transliteration": "Dhakara",
     "type": "single",
-    "surah": 12,
-    "ayah": 45,
-    "word_index": 2
+    "surah": 87,
+    "ayah": 15,
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/087_015_001.mp3"
+    }
   },
   {
     "id": "l6_fatha_26",
@@ -1672,7 +1828,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 30,
     "ayah": 44,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/030_044_002.mp3"
+    }
   },
   {
     "id": "l6_fatha_27",
@@ -1681,7 +1840,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 27,
     "ayah": 11,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/027_011_003.mp3"
+    }
   },
   {
     "id": "l6_fatha_28",
@@ -1690,7 +1852,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 5,
     "ayah": 32,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/005_032_008.mp3"
+    }
   },
   {
     "id": "l6_fatha_29",
@@ -1699,7 +1864,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 6,
     "ayah": 148,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/006_148_002.mp3"
+    }
   },
   {
     "id": "l6_fatha_30",
@@ -1708,7 +1876,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 12,
     "ayah": 81,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/012_081_006.mp3"
+    }
   },
   {
     "id": "l6_fatha_31",
@@ -1717,7 +1888,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 13,
     "ayah": 42,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/013_042_003.mp3"
+    }
   },
   {
     "id": "l6_fatha_32",
@@ -1726,7 +1900,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 18,
     "ayah": 50,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/018_050_009.mp3"
+    }
   },
   {
     "id": "l6_fatha_33",
@@ -1735,7 +1912,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 8,
     "ayah": 42,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/008_042_015.mp3"
+    }
   },
   {
     "id": "l6_fatha_34",
@@ -1744,7 +1924,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 70,
     "ayah": 1,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/070_001_001.mp3"
+    }
   },
   {
     "id": "l6_fatha_35",
@@ -1753,7 +1936,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 14,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_014_001.mp3"
+    }
   },
   {
     "id": "l6_fatha_36",
@@ -1762,7 +1948,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 74,
     "ayah": 21,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/074_021_002.mp3"
+    }
   },
   {
     "id": "l6_fatha_37",
@@ -1771,7 +1960,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 40,
     "ayah": 48,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/040_048_004.mp3"
+    }
   },
   {
     "id": "l6_fatha_38",
@@ -1780,7 +1972,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 235,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_235_010.mp3"
+    }
   },
   {
     "id": "l6_fatha_39",
@@ -1789,7 +1984,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 18,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_018_001.mp3"
+    }
   },
   {
     "id": "l6_fatha_40",
@@ -1798,7 +1996,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 9,
     "ayah": 68,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/009_068_001.mp3"
+    }
   },
   {
     "id": "l6_fatha_41",
@@ -1807,7 +2008,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 64,
     "ayah": 7,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/064_007_001.mp3"
+    }
   },
   {
     "id": "l6_fatha_42",
@@ -1816,7 +2020,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 18,
     "ayah": 93,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/018_093_010.mp3"
+    }
   },
   {
     "id": "l6_fatha_43",
@@ -1825,7 +2032,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 7,
     "ayah": 154,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/007_154_007.mp3"
+    }
   },
   {
     "id": "l6_fatha_44",
@@ -1834,7 +2044,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 7,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_007_004.mp3"
+    }
   },
   {
     "id": "l6_fatha_45",
@@ -1843,7 +2056,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 104,
     "ayah": 2,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/104_002_002.mp3"
+    }
   },
   {
     "id": "l6_fatha_46",
@@ -1852,7 +2068,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 9,
     "ayah": 34,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/009_034_012.mp3"
+    }
   },
   {
     "id": "l6_fatha_47",
@@ -1861,7 +2080,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 38,
     "ayah": 43,
-    "word_index": 2
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/038_043_001.mp3"
+    }
   },
   {
     "id": "l6_fatha_48",
@@ -1870,7 +2092,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 5,
     "ayah": 3,
-    "word_index": 22
+    "word_index": 17,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/005_003_017.mp3"
+    }
   },
   {
     "id": "l6_fatha_49",
@@ -1879,16 +2104,22 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 81,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_081_003.mp3"
+    }
   },
   {
     "id": "l6_fatha_50",
     "text_ar": "عَدَلَ",
     "transliteration": "Adala",
     "type": "single",
-    "surah": 6,
-    "ayah": 70,
-    "word_index": 7
+    "surah": 82,
+    "ayah": 7,
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/082_007_004.mp3"
+    }
   },
   {
     "id": "l6_fatha_51",
@@ -1897,7 +2128,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 6,
     "ayah": 158,
-    "word_index": 11
+    "word_index": 21,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/006_158_021.mp3"
+    }
   },
   {
     "id": "l6_fatha_52",
@@ -1906,7 +2140,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 30,
     "ayah": 41,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/030_041_001.mp3"
+    }
   },
   {
     "id": "l6_fatha_53",
@@ -1915,7 +2152,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 6,
     "ayah": 151,
-    "word_index": 1
+    "word_index": 29,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/006_151_029.mp3"
+    }
   },
   {
     "id": "l6_fatha_54",
@@ -1924,7 +2164,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 249,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_249_002.mp3"
+    }
   },
   {
     "id": "l6_fatha_55",
@@ -1933,7 +2176,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 74,
     "ayah": 18,
-    "word_index": 4
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/074_018_003.mp3"
+    }
   },
   {
     "id": "l6_fatha_56",
@@ -1942,7 +2188,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 8,
     "ayah": 68,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/008_068_005.mp3"
+    }
   },
   {
     "id": "l6_fatha_57",
@@ -1951,7 +2200,10 @@ export const lesson6Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 231,
-    "word_index": 26
+    "word_index": 19,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_231_019.mp3"
+    }
   }
 ];
 
@@ -1963,7 +2215,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 8,
     "ayah": 23,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/008_023_002.mp3"
+    }
   },
   {
     "id": "l7_kasra_1",
@@ -1972,7 +2227,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 58,
     "ayah": 1,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/058_001_002.mp3"
+    }
   },
   {
     "id": "l7_kasra_2",
@@ -1981,7 +2239,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 41,
     "ayah": 20,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/041_020_005.mp3"
+    }
   },
   {
     "id": "l7_kasra_3",
@@ -1990,7 +2251,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 40,
     "ayah": 40,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/040_040_002.mp3"
+    }
   },
   {
     "id": "l7_kasra_4",
@@ -1999,7 +2263,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 12,
     "ayah": 53,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/012_053_010.mp3"
+    }
   },
   {
     "id": "l7_kasra_5",
@@ -2008,7 +2275,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 47,
     "ayah": 29,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/047_029_002.mp3"
+    }
   },
   {
     "id": "l7_kasra_6",
@@ -2017,7 +2287,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 249,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_249_011.mp3"
+    }
   },
   {
     "id": "l7_kasra_7",
@@ -2026,7 +2299,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 10,
     "ayah": 45,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/010_045_013.mp3"
+    }
   },
   {
     "id": "l7_kasra_8",
@@ -2035,7 +2311,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 40,
     "ayah": 14,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/040_014_007.mp3"
+    }
   },
   {
     "id": "l7_kasra_9",
@@ -2044,7 +2323,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 9,
     "ayah": 81,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/009_081_001.mp3"
+    }
   },
   {
     "id": "l7_kasra_10",
@@ -2053,7 +2335,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 60,
     "ayah": 13,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/060_013_007.mp3"
+    }
   },
   {
     "id": "l7_kasra_11",
@@ -2062,7 +2347,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 92,
     "ayah": 8,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/092_008_003.mp3"
+    }
   },
   {
     "id": "l7_kasra_12",
@@ -2071,7 +2359,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 9,
     "ayah": 79,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/009_079_015.mp3"
+    }
   },
   {
     "id": "l7_kasra_13",
@@ -2080,7 +2371,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 11,
     "ayah": 69,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/011_069_011.mp3"
+    }
   },
   {
     "id": "l7_kasra_14",
@@ -2089,7 +2383,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 283,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_283_011.mp3"
+    }
   },
   {
     "id": "l7_kasra_15",
@@ -2098,7 +2395,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 34,
-    "word_index": 20
+    "word_index": 20,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_034_020.mp3"
+    }
   },
   {
     "id": "l7_kasra_16",
@@ -2107,7 +2407,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 130,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_130_008.mp3"
+    }
   },
   {
     "id": "l7_kasra_17",
@@ -2116,7 +2419,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 38,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_038_010.mp3"
+    }
   },
   {
     "id": "l7_kasra_18",
@@ -2125,7 +2431,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 5,
     "ayah": 5,
-    "word_index": 37
+    "word_index": 37,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/005_005_037.mp3"
+    }
   },
   {
     "id": "l7_kasra_19",
@@ -2134,7 +2443,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 60,
     "ayah": 13,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/060_013_015.mp3"
+    }
   },
   {
     "id": "l7_kasra_20",
@@ -2143,7 +2455,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 20,
     "ayah": 109,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/020_109_007.mp3"
+    }
   },
   {
     "id": "l7_kasra_21",
@@ -2152,7 +2467,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 2,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_002_001.mp3"
+    }
   },
   {
     "id": "l7_kasra_22",
@@ -2161,7 +2479,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 8,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_008_001.mp3"
+    }
   },
   {
     "id": "l7_kasra_23",
@@ -2170,7 +2491,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 25,
-    "word_index": 49
+    "word_index": 49,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_025_049.mp3"
+    }
   },
   {
     "id": "l7_kasra_24",
@@ -2179,7 +2503,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 5,
     "ayah": 28,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/005_028_009.mp3"
+    }
   },
   {
     "id": "l7_kasra_25",
@@ -2188,7 +2515,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 7,
     "ayah": 21,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/007_021_004.mp3"
+    }
   },
   {
     "id": "l7_kasra_26",
@@ -2197,7 +2527,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 7,
     "ayah": 40,
-    "word_index": 16
+    "word_index": 16,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/007_040_016.mp3"
+    }
   },
   {
     "id": "l7_kasra_27",
@@ -2206,7 +2539,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 11,
     "ayah": 42,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/011_042_001.mp3"
+    }
   },
   {
     "id": "l7_kasra_28",
@@ -2215,7 +2551,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 18,
     "ayah": 17,
-    "word_index": 31
+    "word_index": 31,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/018_017_031.mp3"
+    }
   },
   {
     "id": "l7_kasra_29",
@@ -2224,7 +2563,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 20,
     "ayah": 18,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/020_018_010.mp3"
+    }
   },
   {
     "id": "l7_kasra_30",
@@ -2233,7 +2575,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 22,
     "ayah": 45,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/022_045_007.mp3"
+    }
   },
   {
     "id": "l7_kasra_31",
@@ -2242,7 +2587,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 28,
     "ayah": 34,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/028_034_008.mp3"
+    }
   },
   {
     "id": "l7_kasra_32",
@@ -2251,7 +2599,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 37,
     "ayah": 10,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/037_010_003.mp3"
+    }
   },
   {
     "id": "l7_kasra_33",
@@ -2260,7 +2611,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 39,
     "ayah": 8,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/039_008_014.mp3"
+    }
   },
   {
     "id": "l7_kasra_34",
@@ -2269,7 +2623,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 48,
     "ayah": 18,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/048_018_002.mp3"
+    }
   },
   {
     "id": "l7_kasra_35",
@@ -2278,7 +2635,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 200,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_200_011.mp3"
+    }
   },
   {
     "id": "l7_kasra_36",
@@ -2287,7 +2647,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 5,
     "ayah": 80,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/005_080_013.mp3"
+    }
   },
   {
     "id": "l7_kasra_37",
@@ -2296,7 +2659,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 6,
     "ayah": 80,
-    "word_index": 19
+    "word_index": 19,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/006_080_019.mp3"
+    }
   },
   {
     "id": "l7_kasra_38",
@@ -2305,7 +2671,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 96,
-    "word_index": 23
+    "word_index": 23,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_096_023.mp3"
+    }
   },
   {
     "id": "l7_kasra_39",
@@ -2314,7 +2683,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 7,
     "ayah": 56,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/007_056_004.mp3"
+    }
   },
   {
     "id": "l7_kasra_40",
@@ -2323,7 +2695,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 19
+    "word_index": 19,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_019.mp3"
+    }
   },
   {
     "id": "l7_kasra_41",
@@ -2332,7 +2707,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_004.mp3"
+    }
   },
   {
     "id": "l7_kasra_42",
@@ -2341,7 +2719,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_006.mp3"
+    }
   },
   {
     "id": "l7_kasra_43",
@@ -2350,7 +2731,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 14,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_014_010.mp3"
+    }
   },
   {
     "id": "l7_kasra_44",
@@ -2359,7 +2743,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 223,
-    "word_index": 16
+    "word_index": 16,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_223_016.mp3"
+    }
   },
   {
     "id": "l7_kasra_45",
@@ -2368,7 +2755,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 221,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_221_015.mp3"
+    }
   },
   {
     "id": "l7_kasra_46",
@@ -2377,7 +2767,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 17,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_017_003.mp3"
+    }
   },
   {
     "id": "l7_kasra_47",
@@ -2386,7 +2779,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 2,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_002_001.mp3"
+    }
   },
   {
     "id": "l7_kasra_48",
@@ -2395,7 +2791,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 2,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_002_002.mp3"
+    }
   },
   {
     "id": "l7_kasra_49",
@@ -2404,7 +2803,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 2,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_002_005.mp3"
+    }
   },
   {
     "id": "l7_kasra_50",
@@ -2413,7 +2815,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_001.mp3"
+    }
   },
   {
     "id": "l7_kasra_51",
@@ -2422,7 +2827,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_002.mp3"
+    }
   },
   {
     "id": "l7_kasra_52",
@@ -2431,7 +2839,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_003.mp3"
+    }
   },
   {
     "id": "l7_kasra_53",
@@ -2440,7 +2851,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_004.mp3"
+    }
   },
   {
     "id": "l7_kasra_54",
@@ -2449,7 +2863,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_006.mp3"
+    }
   },
   {
     "id": "l7_kasra_55",
@@ -2458,7 +2875,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_001.mp3"
+    }
   },
   {
     "id": "l7_kasra_56",
@@ -2467,7 +2887,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_003.mp3"
+    }
   },
   {
     "id": "l7_kasra_57",
@@ -2476,7 +2899,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_004.mp3"
+    }
   },
   {
     "id": "l7_kasra_58",
@@ -2485,7 +2911,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_005.mp3"
+    }
   },
   {
     "id": "l7_kasra_59",
@@ -2494,7 +2923,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_008.mp3"
+    }
   },
   {
     "id": "l7_kasra_60",
@@ -2503,7 +2935,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_009.mp3"
+    }
   },
   {
     "id": "l7_kasra_61",
@@ -2512,7 +2947,10 @@ export const lesson7Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_010.mp3"
+    }
   }
 ];
 
@@ -2524,7 +2962,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 2,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_002_006.mp3"
+    }
   },
   {
     "id": "l8_damma_1",
@@ -2533,7 +2974,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_002.mp3"
+    }
   },
   {
     "id": "l8_damma_2",
@@ -2542,7 +2986,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 262,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_262_003.mp3"
+    }
   },
   {
     "id": "l8_damma_3",
@@ -2551,7 +2998,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_004.mp3"
+    }
   },
   {
     "id": "l8_damma_4",
@@ -2560,7 +3010,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_011.mp3"
+    }
   },
   {
     "id": "l8_damma_5",
@@ -2569,7 +3022,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 6,
     "ayah": 75,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/006_075_011.mp3"
+    }
   },
   {
     "id": "l8_damma_6",
@@ -2578,7 +3034,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 5,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_005_001.mp3"
+    }
   },
   {
     "id": "l8_damma_7",
@@ -2587,7 +3046,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 5,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_005_007.mp3"
+    }
   },
   {
     "id": "l8_damma_8",
@@ -2596,7 +3058,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 6,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_006_009.mp3"
+    }
   },
   {
     "id": "l8_damma_9",
@@ -2605,7 +3070,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_004.mp3"
+    }
   },
   {
     "id": "l8_damma_10",
@@ -2614,7 +3082,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 8,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_008_010.mp3"
+    }
   },
   {
     "id": "l8_damma_11",
@@ -2623,7 +3094,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 9,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_009_001.mp3"
+    }
   },
   {
     "id": "l8_damma_12",
@@ -2632,7 +3106,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 10,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_010_002.mp3"
+    }
   },
   {
     "id": "l8_damma_13",
@@ -2641,7 +3118,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_005.mp3"
+    }
   },
   {
     "id": "l8_damma_14",
@@ -2650,7 +3130,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_006.mp3"
+    }
   },
   {
     "id": "l8_damma_15",
@@ -2659,7 +3142,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 14,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_014_015.mp3"
+    }
   },
   {
     "id": "l8_damma_16",
@@ -2668,7 +3154,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 15,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_015_006.mp3"
+    }
   },
   {
     "id": "l8_damma_17",
@@ -2677,7 +3166,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 16,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_016_011.mp3"
+    }
   },
   {
     "id": "l8_damma_18",
@@ -2686,7 +3178,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_015.mp3"
+    }
   },
   {
     "id": "l8_damma_19",
@@ -2695,7 +3190,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 17
+    "word_index": 17,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_017.mp3"
+    }
   },
   {
     "id": "l8_damma_20",
@@ -2704,7 +3202,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 18,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_018_001.mp3"
+    }
   },
   {
     "id": "l8_damma_21",
@@ -2713,7 +3214,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 18,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_018_002.mp3"
+    }
   },
   {
     "id": "l8_damma_22",
@@ -2722,7 +3226,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 18,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_018_003.mp3"
+    }
   },
   {
     "id": "l8_damma_23",
@@ -2731,7 +3238,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_006.mp3"
+    }
   },
   {
     "id": "l8_damma_24",
@@ -2740,7 +3250,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 18
+    "word_index": 18,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_018.mp3"
+    }
   },
   {
     "id": "l8_damma_25",
@@ -2749,7 +3262,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 20,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_020_005.mp3"
+    }
   },
   {
     "id": "l8_damma_26",
@@ -2758,7 +3274,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 20,
-    "word_index": 23
+    "word_index": 23,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_020_023.mp3"
+    }
   },
   {
     "id": "l8_damma_27",
@@ -2767,7 +3286,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 23,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_023_002.mp3"
+    }
   },
   {
     "id": "l8_damma_28",
@@ -2776,7 +3298,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 23,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_023_014.mp3"
+    }
   },
   {
     "id": "l8_damma_29",
@@ -2785,7 +3310,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 23,
-    "word_index": 16
+    "word_index": 16,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_023_016.mp3"
+    }
   },
   {
     "id": "l8_damma_30",
@@ -2794,7 +3322,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 24,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_024_012.mp3"
+    }
   },
   {
     "id": "l8_damma_31",
@@ -2803,7 +3334,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_013.mp3"
+    }
   },
   {
     "id": "l8_damma_32",
@@ -2812,7 +3346,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_014.mp3"
+    }
   },
   {
     "id": "l8_damma_33",
@@ -2821,7 +3358,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 22
+    "word_index": 22,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_022.mp3"
+    }
   },
   {
     "id": "l8_damma_34",
@@ -2830,7 +3370,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 27
+    "word_index": 27,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_027.mp3"
+    }
   },
   {
     "id": "l8_damma_35",
@@ -2839,7 +3382,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 31
+    "word_index": 31,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_031.mp3"
+    }
   },
   {
     "id": "l8_damma_36",
@@ -2848,7 +3394,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 26,
-    "word_index": 29
+    "word_index": 29,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_026_029.mp3"
+    }
   },
   {
     "id": "l8_damma_37",
@@ -2857,7 +3406,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 27,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_027_014.mp3"
+    }
   },
   {
     "id": "l8_damma_38",
@@ -2866,7 +3418,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 28,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_028_007.mp3"
+    }
   },
   {
     "id": "l8_damma_39",
@@ -2875,7 +3430,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 28,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_028_008.mp3"
+    }
   },
   {
     "id": "l8_damma_40",
@@ -2884,7 +3442,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 28,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_028_010.mp3"
+    }
   },
   {
     "id": "l8_damma_41",
@@ -2893,7 +3454,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 28,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_028_013.mp3"
+    }
   },
   {
     "id": "l8_damma_42",
@@ -2902,7 +3466,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 29,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_029_001.mp3"
+    }
   },
   {
     "id": "l8_damma_43",
@@ -2911,7 +3478,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 30,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_030_014.mp3"
+    }
   },
   {
     "id": "l8_damma_44",
@@ -2920,7 +3490,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 30,
-    "word_index": 19
+    "word_index": 19,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_030_019.mp3"
+    }
   },
   {
     "id": "l8_damma_45",
@@ -2929,7 +3502,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 31,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_031_004.mp3"
+    }
   },
   {
     "id": "l8_damma_46",
@@ -2938,7 +3514,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 32,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_032_002.mp3"
+    }
   },
   {
     "id": "l8_damma_47",
@@ -2947,7 +3526,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 33,
-    "word_index": 19
+    "word_index": 19,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_033_019.mp3"
+    }
   },
   {
     "id": "l8_damma_48",
@@ -2956,7 +3538,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 34,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_034_002.mp3"
+    }
   },
   {
     "id": "l8_damma_49",
@@ -2965,7 +3550,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 36,
-    "word_index": 16
+    "word_index": 16,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_036_016.mp3"
+    }
   },
   {
     "id": "l8_damma_50",
@@ -2974,7 +3562,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 38,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_038_011.mp3"
+    }
   },
   {
     "id": "l8_damma_51",
@@ -2983,7 +3574,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 40,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_040_010.mp3"
+    }
   },
   {
     "id": "l8_damma_52",
@@ -2992,7 +3586,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 41,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_041_004.mp3"
+    }
   },
   {
     "id": "l8_damma_53",
@@ -3001,7 +3598,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 46,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_046_004.mp3"
+    }
   },
   {
     "id": "l8_damma_54",
@@ -3010,7 +3610,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 48,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_048_010.mp3"
+    }
   },
   {
     "id": "l8_damma_55",
@@ -3019,7 +3622,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 48,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_048_014.mp3"
+    }
   },
   {
     "id": "l8_damma_56",
@@ -3028,7 +3634,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 48,
-    "word_index": 19
+    "word_index": 19,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_048_019.mp3"
+    }
   },
   {
     "id": "l8_damma_57",
@@ -3037,7 +3646,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 49,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_049_007.mp3"
+    }
   },
   {
     "id": "l8_damma_58",
@@ -3046,7 +3658,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 49,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_049_009.mp3"
+    }
   },
   {
     "id": "l8_damma_59",
@@ -3055,7 +3670,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 4,
-    "word_index": 17
+    "word_index": 17,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_004_017.mp3"
+    }
   },
   {
     "id": "l8_damma_60",
@@ -3064,7 +3682,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 6,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_006_003.mp3"
+    }
   },
   {
     "id": "l8_damma_61",
@@ -3073,7 +3694,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 7,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_007_008.mp3"
+    }
   },
   {
     "id": "l8_damma_62",
@@ -3082,7 +3706,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 7,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_007_009.mp3"
+    }
   },
   {
     "id": "l8_damma_63",
@@ -3091,7 +3718,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 7,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_007_010.mp3"
+    }
   },
   {
     "id": "l8_damma_64",
@@ -3100,7 +3730,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 7,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_007_013.mp3"
+    }
   },
   {
     "id": "l8_damma_65",
@@ -3109,7 +3742,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 7,
-    "word_index": 38
+    "word_index": 38,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_007_038.mp3"
+    }
   },
   {
     "id": "l8_damma_66",
@@ -3118,7 +3754,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 7,
-    "word_index": 45
+    "word_index": 45,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_007_045.mp3"
+    }
   },
   {
     "id": "l8_damma_67",
@@ -3127,7 +3766,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 8,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_008_003.mp3"
+    }
   },
   {
     "id": "l8_damma_68",
@@ -3136,7 +3778,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 8,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_008_004.mp3"
+    }
   },
   {
     "id": "l8_damma_69",
@@ -3145,7 +3790,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 9,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_009_012.mp3"
+    }
   },
   {
     "id": "l8_damma_70",
@@ -3154,7 +3802,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 10,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_010_005.mp3"
+    }
   },
   {
     "id": "l8_damma_71",
@@ -3163,7 +3814,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 12,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_012_001.mp3"
+    }
   },
   {
     "id": "l8_damma_72",
@@ -3172,7 +3826,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 13,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_013_009.mp3"
+    }
   },
   {
     "id": "l8_damma_73",
@@ -3181,7 +3838,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 13,
-    "word_index": 20
+    "word_index": 20,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_013_020.mp3"
+    }
   },
   {
     "id": "l8_damma_74",
@@ -3190,7 +3850,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 14,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_014_001.mp3"
+    }
   },
   {
     "id": "l8_damma_75",
@@ -3199,7 +3862,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 14,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_014_003.mp3"
+    }
   },
   {
     "id": "l8_damma_76",
@@ -3208,7 +3874,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 14,
-    "word_index": 23
+    "word_index": 23,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_014_023.mp3"
+    }
   },
   {
     "id": "l8_damma_77",
@@ -3217,7 +3886,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 15,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_015_001.mp3"
+    }
   },
   {
     "id": "l8_damma_78",
@@ -3226,7 +3898,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 15,
-    "word_index": 18
+    "word_index": 18,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_015_018.mp3"
+    }
   },
   {
     "id": "l8_damma_79",
@@ -3235,7 +3910,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 16,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_016_008.mp3"
+    }
   },
   {
     "id": "l8_damma_80",
@@ -3244,7 +3922,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 19,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_019_009.mp3"
+    }
   },
   {
     "id": "l8_damma_81",
@@ -3253,7 +3934,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 23,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_023_009.mp3"
+    }
   },
   {
     "id": "l8_damma_82",
@@ -3262,7 +3946,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 23,
-    "word_index": 20
+    "word_index": 20,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_023_020.mp3"
+    }
   },
   {
     "id": "l8_damma_83",
@@ -3271,7 +3958,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 25,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_025_009.mp3"
+    }
   },
   {
     "id": "l8_damma_84",
@@ -3280,7 +3970,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 25,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_025_015.mp3"
+    }
   },
   {
     "id": "l8_damma_85",
@@ -3289,7 +3982,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 26,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_026_001.mp3"
+    }
   },
   {
     "id": "l8_damma_86",
@@ -3298,7 +3994,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 26,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_026_005.mp3"
+    }
   },
   {
     "id": "l8_damma_87",
@@ -3307,7 +4006,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 27,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_027_001.mp3"
+    }
   },
   {
     "id": "l8_damma_88",
@@ -3316,7 +4018,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 28,
-    "word_index": 21
+    "word_index": 21,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_028_021.mp3"
+    }
   },
   {
     "id": "l8_damma_89",
@@ -3325,7 +4030,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 29,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_029_001.mp3"
+    }
   },
   {
     "id": "l8_damma_90",
@@ -3334,7 +4042,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 29,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_029_003.mp3"
+    }
   },
   {
     "id": "l8_damma_91",
@@ -3343,7 +4054,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 29,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_029_006.mp3"
+    }
   },
   {
     "id": "l8_damma_92",
@@ -3352,7 +4066,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 29,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_029_008.mp3"
+    }
   },
   {
     "id": "l8_damma_93",
@@ -3361,7 +4078,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 30,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_030_009.mp3"
+    }
   },
   {
     "id": "l8_damma_94",
@@ -3370,7 +4090,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 30,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_030_013.mp3"
+    }
   },
   {
     "id": "l8_damma_95",
@@ -3379,7 +4102,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 31,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_031_004.mp3"
+    }
   },
   {
     "id": "l8_damma_96",
@@ -3388,7 +4114,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 31,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_031_007.mp3"
+    }
   },
   {
     "id": "l8_damma_97",
@@ -3397,7 +4126,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 31,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_031_011.mp3"
+    }
   },
   {
     "id": "l8_damma_98",
@@ -3406,7 +4138,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 32,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_032_010.mp3"
+    }
   },
   {
     "id": "l8_damma_99",
@@ -3415,7 +4150,10 @@ export const lesson8Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 34,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_034_001.mp3"
+    }
   }
 ];
 
@@ -3427,7 +4165,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 183,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_183_004.mp3"
+    }
   },
   {
     "id": "l9_mix_1",
@@ -3436,7 +4177,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 84,
     "ayah": 21,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/084_021_002.mp3"
+    }
   },
   {
     "id": "l9_mix_2",
@@ -3445,7 +4189,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 22,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_022_002.mp3"
+    }
   },
   {
     "id": "l9_mix_3",
@@ -3454,7 +4201,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 96,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_096_004.mp3"
+    }
   },
   {
     "id": "l9_mix_4",
@@ -3463,7 +4213,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 22,
     "ayah": 39,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/022_039_001.mp3"
+    }
   },
   {
     "id": "l9_mix_5",
@@ -3472,7 +4225,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 144,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_144_013.mp3"
+    }
   },
   {
     "id": "l9_mix_6",
@@ -3481,7 +4237,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 108,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_108_007.mp3"
+    }
   },
   {
     "id": "l9_mix_7",
@@ -3490,7 +4249,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_014.mp3"
+    }
   },
   {
     "id": "l9_mix_8",
@@ -3499,7 +4261,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 12,
     "ayah": 75,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/012_075_004.mp3"
+    }
   },
   {
     "id": "l9_mix_9",
@@ -3508,7 +4273,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 30,
     "ayah": 2,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/030_002_001.mp3"
+    }
   },
   {
     "id": "l9_mix_10",
@@ -3517,7 +4285,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 22,
     "ayah": 60,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/022_060_009.mp3"
+    }
   },
   {
     "id": "l9_mix_11",
@@ -3526,7 +4297,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 24,
     "ayah": 21,
-    "word_index": 22
+    "word_index": 22,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/024_021_022.mp3"
+    }
   },
   {
     "id": "l9_mix_12",
@@ -3535,7 +4309,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 9,
     "ayah": 109,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/009_109_003.mp3"
+    }
   },
   {
     "id": "l9_mix_13",
@@ -3544,7 +4321,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 178,
-    "word_index": 16
+    "word_index": 16,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_178_016.mp3"
+    }
   },
   {
     "id": "l9_mix_14",
@@ -3553,7 +4333,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 8,
     "ayah": 17,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/008_017_007.mp3"
+    }
   },
   {
     "id": "l9_mix_15",
@@ -3562,7 +4345,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 101,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_101_014.mp3"
+    }
   },
   {
     "id": "l9_mix_16",
@@ -3571,7 +4357,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 11,
     "ayah": 1,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/011_001_006.mp3"
+    }
   },
   {
     "id": "l9_mix_17",
@@ -3580,7 +4369,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 74,
     "ayah": 8,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/074_008_002.mp3"
+    }
   },
   {
     "id": "l9_mix_18",
@@ -3589,7 +4381,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 60,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_060_015.mp3"
+    }
   },
   {
     "id": "l9_mix_19",
@@ -3598,7 +4393,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 181,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_181_002.mp3"
+    }
   },
   {
     "id": "l9_mix_20",
@@ -3607,7 +4405,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 29,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_029_003.mp3"
+    }
   },
   {
     "id": "l9_mix_21",
@@ -3616,7 +4417,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_001.mp3"
+    }
   },
   {
     "id": "l9_mix_22",
@@ -3625,7 +4429,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 7,
     "ayah": 29,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/007_029_015.mp3"
+    }
   },
   {
     "id": "l9_mix_23",
@@ -3634,7 +4441,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 45,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_045_002.mp3"
+    }
   },
   {
     "id": "l9_mix_24",
@@ -3643,7 +4453,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 5,
     "ayah": 3,
-    "word_index": 17
+    "word_index": 17,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/005_003_017.mp3"
+    }
   },
   {
     "id": "l9_mix_25",
@@ -3652,7 +4465,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 6,
     "ayah": 14,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/006_014_015.mp3"
+    }
   },
   {
     "id": "l9_mix_26",
@@ -3661,7 +4477,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 105,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_105_004.mp3"
+    }
   },
   {
     "id": "l9_mix_27",
@@ -3670,7 +4489,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 56,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_056_002.mp3"
+    }
   },
   {
     "id": "l9_mix_28",
@@ -3679,7 +4501,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_010.mp3"
+    }
   },
   {
     "id": "l9_mix_29",
@@ -3688,7 +4513,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 6,
     "ayah": 32,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/006_032_005.mp3"
+    }
   },
   {
     "id": "l9_mix_30",
@@ -3697,7 +4525,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 180,
-    "word_index": 19
+    "word_index": 19,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_180_019.mp3"
+    }
   },
   {
     "id": "l9_mix_31",
@@ -3706,7 +4537,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 278,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_278_008.mp3"
+    }
   },
   {
     "id": "l9_mix_32",
@@ -3715,7 +4549,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 2,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_002_002.mp3"
+    }
   },
   {
     "id": "l9_mix_33",
@@ -3724,7 +4561,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_002.mp3"
+    }
   },
   {
     "id": "l9_mix_34",
@@ -3733,7 +4573,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_003.mp3"
+    }
   },
   {
     "id": "l9_mix_35",
@@ -3742,7 +4585,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_005.mp3"
+    }
   },
   {
     "id": "l9_mix_36",
@@ -3751,7 +4597,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_007.mp3"
+    }
   },
   {
     "id": "l9_mix_37",
@@ -3760,7 +4609,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_001.mp3"
+    }
   },
   {
     "id": "l9_mix_38",
@@ -3769,7 +4621,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 2,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_002_006.mp3"
+    }
   },
   {
     "id": "l9_mix_39",
@@ -3778,7 +4633,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 9,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_009_004.mp3"
+    }
   },
   {
     "id": "l9_mix_40",
@@ -3787,7 +4645,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 6,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_006_003.mp3"
+    }
   },
   {
     "id": "l9_mix_41",
@@ -3796,7 +4657,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_002.mp3"
+    }
   },
   {
     "id": "l9_mix_42",
@@ -3805,7 +4669,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_004.mp3"
+    }
   },
   {
     "id": "l9_mix_43",
@@ -3814,7 +4681,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_006.mp3"
+    }
   },
   {
     "id": "l9_mix_44",
@@ -3823,7 +4693,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_008.mp3"
+    }
   },
   {
     "id": "l9_mix_45",
@@ -3832,7 +4705,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_011.mp3"
+    }
   },
   {
     "id": "l9_mix_46",
@@ -3841,7 +4717,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 8,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_008_004.mp3"
+    }
   },
   {
     "id": "l9_mix_47",
@@ -3850,7 +4729,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 8,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_008_002.mp3"
+    }
   },
   {
     "id": "l9_mix_48",
@@ -3859,7 +4741,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 10,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_010_003.mp3"
+    }
   },
   {
     "id": "l9_mix_49",
@@ -3868,7 +4753,10 @@ export const lesson9Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 10,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_010_004.mp3"
+    }
   }
 ];
 
@@ -4384,7 +5272,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 183,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_183_004.mp3"
+    }
   },
   {
     "id": "l10_full_1",
@@ -4393,7 +5284,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 144,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_144_013.mp3"
+    }
   },
   {
     "id": "l10_full_2",
@@ -4402,7 +5296,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 108,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_108_007.mp3"
+    }
   },
   {
     "id": "l10_full_3",
@@ -4411,7 +5308,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 56,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_056_002.mp3"
+    }
   },
   {
     "id": "l10_full_4",
@@ -4420,7 +5320,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 101,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_101_014.mp3"
+    }
   },
   {
     "id": "l10_full_5",
@@ -4429,7 +5332,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 96,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_096_004.mp3"
+    }
   },
   {
     "id": "l10_full_6",
@@ -4438,7 +5344,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 22,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_022_002.mp3"
+    }
   },
   {
     "id": "l10_full_7",
@@ -4447,7 +5356,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 30,
     "ayah": 2,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/030_002_001.mp3"
+    }
   },
   {
     "id": "l10_full_8",
@@ -4456,7 +5368,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 212,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_212_001.mp3"
+    }
   },
   {
     "id": "l10_full_9",
@@ -4465,7 +5380,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 46,
     "ayah": 6,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/046_006_002.mp3"
+    }
   },
   {
     "id": "l10_full_10",
@@ -4474,7 +5392,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_001.mp3"
+    }
   },
   {
     "id": "l10_full_11",
@@ -4483,7 +5404,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 48,
     "ayah": 1,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/048_001_004.mp3"
+    }
   },
   {
     "id": "l10_full_12",
@@ -4492,7 +5416,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_010.mp3"
+    }
   },
   {
     "id": "l10_full_13",
@@ -4501,7 +5428,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 57,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_057_014.mp3"
+    }
   },
   {
     "id": "l10_full_14",
@@ -4510,7 +5440,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 18,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_018_001.mp3"
+    }
   },
   {
     "id": "l10_full_15",
@@ -4519,7 +5452,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 7,
     "ayah": 151,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/007_151_008.mp3"
+    }
   },
   {
     "id": "l10_full_16",
@@ -4528,7 +5464,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 6,
     "ayah": 32,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/006_032_005.mp3"
+    }
   },
   {
     "id": "l10_full_17",
@@ -4537,7 +5476,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 180,
-    "word_index": 19
+    "word_index": 19,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_180_019.mp3"
+    }
   },
   {
     "id": "l10_full_18",
@@ -4546,7 +5488,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 278,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_278_008.mp3"
+    }
   },
   {
     "id": "l10_full_19",
@@ -4555,7 +5500,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 6,
     "ayah": 34,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/006_034_003.mp3"
+    }
   },
   {
     "id": "l10_full_20",
@@ -4564,7 +5512,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 98,
     "ayah": 3,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/098_003_002.mp3"
+    }
   },
   {
     "id": "l10_full_21",
@@ -4573,7 +5524,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 98,
     "ayah": 2,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/098_002_005.mp3"
+    }
   },
   {
     "id": "l10_full_22",
@@ -4582,7 +5536,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 114,
     "ayah": 5,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/114_005_004.mp3"
+    }
   },
   {
     "id": "l10_full_23",
@@ -4591,7 +5548,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_004.mp3"
+    }
   },
   {
     "id": "l10_full_24",
@@ -4600,7 +5560,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 66,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_066_009.mp3"
+    }
   },
   {
     "id": "l10_full_25",
@@ -4609,7 +5572,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 2,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_002_002.mp3"
+    }
   },
   {
     "id": "l10_full_26",
@@ -4618,7 +5584,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_002.mp3"
+    }
   },
   {
     "id": "l10_full_27",
@@ -4627,7 +5596,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_003.mp3"
+    }
   },
   {
     "id": "l10_full_28",
@@ -4636,7 +5608,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_005.mp3"
+    }
   },
   {
     "id": "l10_full_29",
@@ -4645,7 +5620,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_007.mp3"
+    }
   },
   {
     "id": "l10_full_30",
@@ -4654,7 +5632,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_001.mp3"
+    }
   },
   {
     "id": "l10_full_31",
@@ -4663,7 +5644,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 2,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_002_006.mp3"
+    }
   },
   {
     "id": "l10_full_32",
@@ -4672,7 +5656,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 9,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_009_004.mp3"
+    }
   },
   {
     "id": "l10_full_33",
@@ -4681,7 +5668,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 6,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_006_003.mp3"
+    }
   },
   {
     "id": "l10_full_34",
@@ -4690,7 +5680,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_002.mp3"
+    }
   },
   {
     "id": "l10_full_35",
@@ -4699,7 +5692,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_004.mp3"
+    }
   },
   {
     "id": "l10_full_36",
@@ -4708,7 +5704,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_006.mp3"
+    }
   },
   {
     "id": "l10_full_37",
@@ -4717,7 +5716,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_008.mp3"
+    }
   },
   {
     "id": "l10_full_38",
@@ -4726,7 +5728,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_011.mp3"
+    }
   },
   {
     "id": "l10_full_39",
@@ -4735,7 +5740,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 8,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_008_004.mp3"
+    }
   },
   {
     "id": "l10_full_40",
@@ -4744,7 +5752,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 8,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_008_002.mp3"
+    }
   },
   {
     "id": "l10_full_41",
@@ -4753,7 +5764,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 10,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_010_003.mp3"
+    }
   },
   {
     "id": "l10_full_42",
@@ -4762,7 +5776,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 29,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_029_003.mp3"
+    }
   },
   {
     "id": "l10_full_43",
@@ -4771,7 +5788,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 60,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_060_015.mp3"
+    }
   },
   {
     "id": "l10_full_44",
@@ -4780,7 +5800,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 181,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_181_002.mp3"
+    }
   },
   {
     "id": "l10_full_45",
@@ -4789,7 +5812,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_005.mp3"
+    }
   },
   {
     "id": "l10_full_46",
@@ -4798,7 +5824,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_009.mp3"
+    }
   },
   {
     "id": "l10_full_47",
@@ -4807,7 +5836,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_010.mp3"
+    }
   },
   {
     "id": "l10_full_48",
@@ -4816,7 +5848,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 5,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_005_002.mp3"
+    }
   },
   {
     "id": "l10_full_49",
@@ -4825,7 +5860,10 @@ export const lesson10Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 5,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_005_007.mp3"
+    }
   }
 ];
 
@@ -4837,7 +5875,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 59,
     "ayah": 12,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/059_012_003.mp3"
+    }
   },
   {
     "id": "l11_c_m_1",
@@ -4846,7 +5887,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 32,
     "ayah": 14,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/032_014_002.mp3"
+    }
   },
   {
     "id": "l11_c_m_2",
@@ -4855,7 +5899,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 26,
     "ayah": 208,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/026_208_006.mp3"
+    }
   },
   {
     "id": "l11_c_m_3",
@@ -4864,7 +5911,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 21,
     "ayah": 100,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/021_100_002.mp3"
+    }
   },
   {
     "id": "l11_c_m_4",
@@ -4873,7 +5923,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 5,
     "ayah": 22,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/005_022_012.mp3"
+    }
   },
   {
     "id": "l11_c_m_5",
@@ -4882,7 +5935,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 15,
     "ayah": 81,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/015_081_004.mp3"
+    }
   },
   {
     "id": "l11_c_m_6",
@@ -4891,7 +5947,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 47,
     "ayah": 25,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/047_025_010.mp3"
+    }
   },
   {
     "id": "l11_c_m_7",
@@ -4900,7 +5959,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 11,
     "ayah": 77,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/011_077_006.mp3"
+    }
   },
   {
     "id": "l11_c_m_8",
@@ -4909,7 +5971,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 18,
     "ayah": 18,
-    "word_index": 18
+    "word_index": 18,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/018_018_018.mp3"
+    }
   },
   {
     "id": "l11_c_m_9",
@@ -4918,7 +5983,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 9,
     "ayah": 95,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/009_095_008.mp3"
+    }
   },
   {
     "id": "l11_c_m_10",
@@ -4927,7 +5995,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 18,
     "ayah": 22,
-    "word_index": 25
+    "word_index": 25,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/018_022_025.mp3"
+    }
   },
   {
     "id": "l11_c_m_11",
@@ -4936,7 +6007,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 1,
     "ayah": 7,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/001_007_004.mp3"
+    }
   },
   {
     "id": "l11_c_m_12",
@@ -4945,7 +6019,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 6,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_006_012.mp3"
+    }
   },
   {
     "id": "l11_c_m_13",
@@ -4954,7 +6031,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 44,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_044_009.mp3"
+    }
   },
   {
     "id": "l11_c_m_14",
@@ -4963,7 +6043,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 43,
     "ayah": 60,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/043_060_004.mp3"
+    }
   },
   {
     "id": "l11_c_m_15",
@@ -4972,7 +6055,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 10,
     "ayah": 16,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/010_016_013.mp3"
+    }
   },
   {
     "id": "l11_c_m_16",
@@ -4981,7 +6067,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 150,
-    "word_index": 18
+    "word_index": 18,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_150_018.mp3"
+    }
   },
   {
     "id": "l11_c_m_17",
@@ -4990,7 +6079,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 36,
     "ayah": 16,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/036_016_005.mp3"
+    }
   },
   {
     "id": "l11_c_m_18",
@@ -4999,7 +6091,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 81,
-    "word_index": 16
+    "word_index": 16,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_081_016.mp3"
+    }
   },
   {
     "id": "l11_c_m_19",
@@ -5008,7 +6103,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 73,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_073_010.mp3"
+    }
   },
   {
     "id": "l11_c_m_20",
@@ -5017,7 +6115,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 286,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_286_013.mp3"
+    }
   },
   {
     "id": "l11_c_m_21",
@@ -5026,7 +6127,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 53,
     "ayah": 23,
-    "word_index": 24
+    "word_index": 24,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/053_023_024.mp3"
+    }
   },
   {
     "id": "l11_c_m_22",
@@ -5035,7 +6139,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 52,
     "ayah": 48,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/052_048_003.mp3"
+    }
   },
   {
     "id": "l11_c_m_23",
@@ -5044,7 +6151,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 18,
     "ayah": 98,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/018_098_005.mp3"
+    }
   },
   {
     "id": "l11_c_m_24",
@@ -5053,7 +6163,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 18,
     "ayah": 1,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/018_001_006.mp3"
+    }
   },
   {
     "id": "l11_c_m_25",
@@ -5062,7 +6175,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 48,
     "ayah": 27,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/048_027_004.mp3"
+    }
   },
   {
     "id": "l11_c_m_26",
@@ -5071,7 +6187,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 207,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_207_005.mp3"
+    }
   },
   {
     "id": "l11_c_m_27",
@@ -5080,7 +6199,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 125,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_125_006.mp3"
+    }
   },
   {
     "id": "l11_c_m_28",
@@ -5089,7 +6211,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 5,
     "ayah": 46,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/005_046_010.mp3"
+    }
   },
   {
     "id": "l11_c_m_29",
@@ -5098,7 +6223,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 204,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_204_014.mp3"
+    }
   },
   {
     "id": "l11_c_m_30",
@@ -5107,7 +6235,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 6,
     "ayah": 125,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/006_125_007.mp3"
+    }
   },
   {
     "id": "l11_c_m_31",
@@ -5116,7 +6247,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 100,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_100_015.mp3"
+    }
   },
   {
     "id": "l11_c_m_32",
@@ -5125,7 +6259,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 75,
     "ayah": 33,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/075_033_004.mp3"
+    }
   },
   {
     "id": "l11_c_m_33",
@@ -5134,7 +6271,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 111,
     "ayah": 2,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/111_002_001.mp3"
+    }
   },
   {
     "id": "l11_c_m_34",
@@ -5143,7 +6283,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 31,
     "ayah": 33,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/031_033_011.mp3"
+    }
   },
   {
     "id": "l11_c_m_35",
@@ -5152,7 +6295,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 74,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_074_003.mp3"
+    }
   },
   {
     "id": "l11_c_m_36",
@@ -5161,7 +6307,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 43,
     "ayah": 74,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/043_074_004.mp3"
+    }
   },
   {
     "id": "l11_c_m_37",
@@ -5170,7 +6319,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 107,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_107_006.mp3"
+    }
   },
   {
     "id": "l11_c_m_38",
@@ -5179,7 +6331,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "join",
     "surah": 16,
     "ayah": 53,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_053_004.mp3"
+    }
   },
   {
     "id": "l11_c_m_39",
@@ -5188,7 +6343,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 131,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_131_002.mp3"
+    }
   },
   {
     "id": "l11_c_m_40",
@@ -5197,7 +6355,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 37,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_037_004.mp3"
+    }
   },
   {
     "id": "l11_c_m_41",
@@ -5206,7 +6367,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 25,
     "ayah": 45,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/025_045_014.mp3"
+    }
   },
   {
     "id": "l11_c_m_42",
@@ -5215,7 +6379,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 22,
     "ayah": 61,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/022_061_007.mp3"
+    }
   },
   {
     "id": "l11_c_m_43",
@@ -5224,7 +6391,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 13,
     "ayah": 26,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/013_026_009.mp3"
+    }
   },
   {
     "id": "l11_c_m_44",
@@ -5233,7 +6403,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 59,
     "ayah": 20,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/059_020_006.mp3"
+    }
   },
   {
     "id": "l11_c_m_45",
@@ -5242,7 +6415,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 32,
     "ayah": 20,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/032_020_005.mp3"
+    }
   },
   {
     "id": "l11_c_m_46",
@@ -5251,7 +6427,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 10,
     "ayah": 32,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/010_032_004.mp3"
+    }
   },
   {
     "id": "l11_c_m_47",
@@ -5260,7 +6439,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 47,
     "ayah": 25,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/047_025_011.mp3"
+    }
   },
   {
     "id": "l11_c_m_48",
@@ -5269,7 +6451,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 23,
     "ayah": 92,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/023_092_002.mp3"
+    }
   },
   {
     "id": "l11_c_m_49",
@@ -5278,7 +6463,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 72,
     "ayah": 6,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/072_006_009.mp3"
+    }
   },
   {
     "id": "l11_c_m_50",
@@ -5287,7 +6475,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 146,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_146_012.mp3"
+    }
   },
   {
     "id": "l11_c_m_51",
@@ -5296,7 +6487,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 25,
     "ayah": 31,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/025_031_007.mp3"
+    }
   },
   {
     "id": "l11_c_m_52",
@@ -5305,7 +6499,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 52,
     "ayah": 17,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/052_017_002.mp3"
+    }
   },
   {
     "id": "l11_c_m_53",
@@ -5314,7 +6511,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 84,
     "ayah": 25,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/084_025_007.mp3"
+    }
   },
   {
     "id": "l11_c_m_54",
@@ -5323,7 +6523,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 148,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_148_003.mp3"
+    }
   },
   {
     "id": "l11_c_m_55",
@@ -5332,7 +6535,10 @@ export const lesson11Data: ToonItem[] = [
     "type": "single",
     "surah": 41,
     "ayah": 43,
-    "word_index": 16
+    "word_index": 16,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/041_043_016.mp3"
+    }
   }
 ];
 
@@ -5344,7 +6550,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 33,
     "ayah": 1,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/033_001_012.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_1",
@@ -5353,7 +6562,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 104,
-    "word_index": 16
+    "word_index": 16,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_104_016.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_2",
@@ -5362,7 +6574,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 148,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_148_013.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_3",
@@ -5371,7 +6586,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 33,
     "ayah": 34,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/033_034_013.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_4",
@@ -5380,7 +6598,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 44,
-    "word_index": 20
+    "word_index": 20,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_044_020.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_5",
@@ -5389,7 +6610,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 131,
-    "word_index": 31
+    "word_index": 31,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_131_031.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_6",
@@ -5398,7 +6622,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 99,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_099_009.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_7",
@@ -5407,7 +6634,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 86,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_086_008.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_8",
@@ -5416,7 +6646,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 89,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_089_006.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_9",
@@ -5425,7 +6658,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 93,
-    "word_index": 20
+    "word_index": 20,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_093_020.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_10",
@@ -5434,7 +6670,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 83,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_083_011.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_11",
@@ -5443,7 +6682,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 49,
     "ayah": 13,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/049_013_009.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_12",
@@ -5452,7 +6694,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 50,
     "ayah": 3,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/050_003_004.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_13",
@@ -5461,7 +6706,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 73,
     "ayah": 10,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/073_010_006.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_14",
@@ -5470,7 +6718,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 34,
     "ayah": 13,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/034_013_015.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_15",
@@ -5479,7 +6730,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 90,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_090_008.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_16",
@@ -5488,7 +6742,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 48,
     "ayah": 1,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/048_001_004.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_17",
@@ -5497,7 +6754,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 48,
     "ayah": 3,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/048_003_003.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_18",
@@ -5506,7 +6766,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 33,
     "ayah": 39,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/033_039_008.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_19",
@@ -5515,7 +6778,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 112,
     "ayah": 4,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/112_004_004.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_20",
@@ -5524,7 +6790,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 7,
     "ayah": 79,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/007_079_007.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_21",
@@ -5533,7 +6802,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 55,
     "ayah": 31,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/055_031_003.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_22",
@@ -5542,7 +6814,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 29,
     "ayah": 35,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/029_035_005.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_23",
@@ -5551,7 +6826,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 47,
     "ayah": 20,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/047_020_010.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_24",
@@ -5560,7 +6838,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 7,
     "ayah": 162,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/007_162_005.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_25",
@@ -5569,7 +6850,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 18,
     "ayah": 30,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/018_030_007.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_26",
@@ -5578,7 +6862,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 9,
     "ayah": 102,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/009_102_008.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_27",
@@ -5587,7 +6874,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 11,
     "ayah": 3,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/011_003_009.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_28",
@@ -5596,7 +6886,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 110,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_110_003.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_29",
@@ -5605,7 +6898,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 49,
     "ayah": 11,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/049_011_012.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_30",
@@ -5614,7 +6910,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 99,
     "ayah": 8,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/099_008_005.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_31",
@@ -5623,7 +6922,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 7,
     "ayah": 188,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/007_188_007.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_32",
@@ -5632,7 +6934,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 8,
     "ayah": 69,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/008_069_005.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_33",
@@ -5641,7 +6946,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 10,
     "ayah": 59,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/010_059_003.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_34",
@@ -5650,7 +6958,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 77,
     "ayah": 46,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/077_046_003.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_35",
@@ -5659,7 +6970,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 9,
     "ayah": 126,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/009_126_001.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_36",
@@ -5668,7 +6982,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 235,
-    "word_index": 21
+    "word_index": 21,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_235_021.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_37",
@@ -5677,7 +6994,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 44,
     "ayah": 23,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/044_023_003.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_38",
@@ -5686,7 +7006,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 10,
     "ayah": 50,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/010_050_008.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_39",
@@ -5695,7 +7018,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 12,
     "ayah": 16,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/012_016_003.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_40",
@@ -5704,7 +7030,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 39,
     "ayah": 43,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/039_043_006.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_41",
@@ -5713,7 +7042,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_005.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_42",
@@ -5722,7 +7054,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 22,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_022_005.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_43",
@@ -5731,7 +7066,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 22,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_022_007.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_44",
@@ -5740,7 +7078,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 22,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_022_011.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_45",
@@ -5749,7 +7090,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 22,
-    "word_index": 16
+    "word_index": 16,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_022_016.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_46",
@@ -5758,7 +7102,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 22,
-    "word_index": 21
+    "word_index": 21,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_022_021.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_47",
@@ -5767,7 +7114,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 18
+    "word_index": 18,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_018.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_48",
@@ -5776,7 +7126,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 27
+    "word_index": 27,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_027.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_49",
@@ -5785,7 +7138,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 26,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_026_007.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_50",
@@ -5794,7 +7150,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 26,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_026_009.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_51",
@@ -5803,7 +7162,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 26,
-    "word_index": 28
+    "word_index": 28,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_026_028.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_52",
@@ -5812,7 +7174,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 26,
-    "word_index": 31
+    "word_index": 31,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_026_031.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_53",
@@ -5821,7 +7186,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 26,
-    "word_index": 34
+    "word_index": 34,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_026_034.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_54",
@@ -5830,7 +7198,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 28,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_028_005.mp3"
+    }
   },
   {
     "id": "l12_tan_fat_55",
@@ -5839,7 +7210,10 @@ export const lesson12Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 29,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_029_008.mp3"
+    }
   }
 ];
 
@@ -5851,7 +7225,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 113,
     "ayah": 5,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/113_005_003.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_1",
@@ -5860,7 +7237,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 10,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_010_009.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_2",
@@ -5869,7 +7249,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 91,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_091_015.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_3",
@@ -5878,7 +7261,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 98,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_098_009.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_4",
@@ -5887,7 +7273,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 99,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_099_005.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_5",
@@ -5896,7 +7285,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 98,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_098_004.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_6",
@@ -5905,7 +7297,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 249,
-    "word_index": 28
+    "word_index": 28,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_249_028.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_7",
@@ -5914,7 +7309,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 18
+    "word_index": 18,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_018.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_8",
@@ -5923,7 +7321,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 159,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_159_010.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_9",
@@ -5932,7 +7333,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 43,
     "ayah": 52,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/043_052_008.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_10",
@@ -5941,7 +7345,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 11,
     "ayah": 82,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/011_082_011.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_11",
@@ -5950,7 +7357,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 106,
     "ayah": 4,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/106_004_004.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_12",
@@ -5959,7 +7369,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 111,
     "ayah": 4,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/111_004_002.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_13",
@@ -5968,7 +7381,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 111,
     "ayah": 5,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/111_005_002.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_14",
@@ -5977,7 +7393,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 48,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_048_009.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_15",
@@ -5986,7 +7405,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 104,
     "ayah": 9,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/104_009_002.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_16",
@@ -5995,7 +7417,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 104,
     "ayah": 6,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/104_006_001.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_17",
@@ -6004,7 +7429,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 104,
     "ayah": 1,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/104_001_003.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_18",
@@ -6013,7 +7441,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 104,
     "ayah": 2,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/104_002_002.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_19",
@@ -6022,7 +7453,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 77,
     "ayah": 13,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/077_013_003.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_20",
@@ -6031,7 +7465,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 25,
     "ayah": 53,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/025_053_007.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_21",
@@ -6040,7 +7477,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 25,
     "ayah": 53,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/025_053_010.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_22",
@@ -6049,7 +7489,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 25,
     "ayah": 53,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/025_053_013.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_23",
@@ -6058,7 +7501,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 25,
     "ayah": 54,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/025_054_008.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_24",
@@ -6067,7 +7513,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 56,
     "ayah": 55,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/056_055_002.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_25",
@@ -6076,7 +7525,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 66,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_066_009.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_26",
@@ -6085,7 +7537,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 66,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_066_013.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_27",
@@ -6094,7 +7549,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 66,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_066_014.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_28",
@@ -6103,7 +7561,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 66,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_066_015.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_29",
@@ -6112,7 +7573,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 66,
-    "word_index": 16
+    "word_index": 16,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_066_016.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_30",
@@ -6121,7 +7585,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 67,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_067_008.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_31",
@@ -6130,7 +7597,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 67,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_067_009.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_32",
@@ -6139,7 +7609,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 75,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_075_011.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_33",
@@ -6148,7 +7621,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 76,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_076_003.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_34",
@@ -6157,7 +7633,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 76,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_076_006.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_35",
@@ -6166,7 +7645,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 76,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_076_015.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_36",
@@ -6175,7 +7657,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 76,
-    "word_index": 16
+    "word_index": 16,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_076_016.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_37",
@@ -6184,7 +7669,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 76,
-    "word_index": 28
+    "word_index": 28,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_076_028.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_39",
@@ -6193,7 +7681,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 80,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_080_006.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_40",
@@ -6202,7 +7693,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 80,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_080_010.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_41",
@@ -6211,7 +7705,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 80,
-    "word_index": 19
+    "word_index": 19,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_080_019.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_42",
@@ -6220,7 +7717,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_015.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_43",
@@ -6229,7 +7729,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_002.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_44",
@@ -6238,7 +7741,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 20,
-    "word_index": 24
+    "word_index": 24,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_020_024.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_45",
@@ -6247,7 +7753,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 23,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_023_004.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_46",
@@ -6256,7 +7765,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 23,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_023_010.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_47",
@@ -6265,7 +7777,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_008.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_48",
@@ -6274,7 +7789,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 17
+    "word_index": 17,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_017.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_49",
@@ -6283,7 +7801,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 29,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_029_015.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_50",
@@ -6292,7 +7813,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 29,
-    "word_index": 18
+    "word_index": 18,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_029_018.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_51",
@@ -6301,7 +7825,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 36,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_036_011.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_52",
@@ -6310,7 +7837,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 37,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_037_005.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_53",
@@ -6319,7 +7849,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 41,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_041_010.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_54",
@@ -6328,7 +7861,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 48,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_048_007.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_55",
@@ -6337,7 +7873,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 9,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_009_005.mp3"
+    }
   },
   {
     "id": "l13_tan_kas_56",
@@ -6346,7 +7885,10 @@ export const lesson13Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 15,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_015_003.mp3"
+    }
   }
 ];
 
@@ -6358,7 +7900,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 173,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_173_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_1",
@@ -6367,7 +7912,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 173,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_173_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_2",
@@ -6376,7 +7924,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 29,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_029_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_3",
@@ -6385,7 +7936,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 32,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_032_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_4",
@@ -6394,7 +7948,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_5",
@@ -6403,7 +7960,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 20,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_020_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_6",
@@ -6412,7 +7972,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 96,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_096_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_7",
@@ -6421,7 +7984,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 6,
     "ayah": 18,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/006_018_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_8",
@@ -6430,7 +7996,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 225,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_225_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_9",
@@ -6439,7 +8008,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 35,
     "ayah": 30,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/035_030_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_10",
@@ -6448,7 +8020,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 37,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_037_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_11",
@@ -6457,7 +8032,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 115,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_115_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_12",
@@ -6466,7 +8044,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 101,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_101_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_13",
@@ -6475,7 +8056,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 119,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_119_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_14",
@@ -6484,7 +8068,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 119,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_119_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_15",
@@ -6493,7 +8080,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 98,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_098_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_16",
@@ -6502,7 +8092,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 68,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_068_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_17",
@@ -6511,7 +8104,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 168,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_168_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_18",
@@ -6520,7 +8116,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 86,
     "ayah": 10,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/086_010_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_19",
@@ -6529,7 +8128,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 48,
     "ayah": 29,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/048_029_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_20",
@@ -6538,7 +8140,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 2,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_002_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_21",
@@ -6547,7 +8152,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 12,
     "ayah": 2,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/012_002_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_22",
@@ -6556,7 +8164,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 7,
     "ayah": 2,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/007_002_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_23",
@@ -6565,7 +8176,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 2,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_002_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_24",
@@ -6574,7 +8188,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 174,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_174_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_25",
@@ -6583,7 +8200,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 147,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_147_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_26",
@@ -6592,7 +8212,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 42,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_042_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_27",
@@ -6601,7 +8224,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 202,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_202_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_28",
@@ -6610,7 +8236,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 62,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_062_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_29",
@@ -6619,7 +8248,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_30",
@@ -6628,7 +8260,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 13,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_013_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_31",
@@ -6637,7 +8272,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 219,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_219_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_32",
@@ -6646,7 +8284,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 92,
     "ayah": 1,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/092_001_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_33",
@@ -6655,7 +8296,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 92,
     "ayah": 2,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/092_002_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_34",
@@ -6664,7 +8308,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 81,
     "ayah": 1,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/081_001_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_35",
@@ -6673,7 +8320,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 54,
     "ayah": 1,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/054_001_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_36",
@@ -6682,7 +8332,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 18,
     "ayah": 109,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/018_109_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_37",
@@ -6691,7 +8344,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 14,
     "ayah": 24,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/014_024_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_38",
@@ -6700,7 +8356,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 88,
     "ayah": 10,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/088_010_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_39",
@@ -6709,7 +8368,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 101,
     "ayah": 11,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/101_011_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_40",
@@ -6718,7 +8380,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 11,
     "ayah": 7,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/011_007_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_41",
@@ -6727,7 +8392,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 13,
     "ayah": 13,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/013_013_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_42",
@@ -6736,7 +8404,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_43",
@@ -6745,7 +8416,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 164,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_164_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_44",
@@ -6754,7 +8428,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_45",
@@ -6763,7 +8440,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 18,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_018_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_46",
@@ -6772,7 +8452,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 18,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_018_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_47",
@@ -6781,7 +8464,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 18,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_018_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_48",
@@ -6790,7 +8476,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 10,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_010_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_49",
@@ -6799,7 +8488,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 38,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_038_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_50",
@@ -6808,7 +8500,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 155,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_155_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_51",
@@ -6817,7 +8512,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 88,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_088_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_52",
@@ -6826,7 +8524,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 246,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_246_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_53",
@@ -6835,7 +8536,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 50,
     "ayah": 3,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/050_003_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_54",
@@ -6844,7 +8548,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 186,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_186_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_55",
@@ -6853,7 +8560,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 165,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_165_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_56",
@@ -6862,7 +8572,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 48,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_048_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_57",
@@ -6871,7 +8584,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 134,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_134_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_58",
@@ -6880,7 +8596,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 164,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_164_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_59",
@@ -6889,7 +8608,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 34,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_034_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_60",
@@ -6898,7 +8620,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 34,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_034_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_61",
@@ -6907,7 +8632,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_62",
@@ -6916,7 +8644,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 31,
     "ayah": 33,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/031_033_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_63",
@@ -6925,7 +8656,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 116,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_116_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_64",
@@ -6934,7 +8668,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 11,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_011_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_65",
@@ -6943,7 +8680,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 36,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_036_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_66",
@@ -6952,7 +8692,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 13,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_013_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_67",
@@ -6961,7 +8704,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 36,
     "ayah": 28,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/036_028_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_68",
@@ -6970,7 +8716,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 103,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_103_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_69",
@@ -6979,7 +8728,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 113,
     "ayah": 2,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/113_002_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_70",
@@ -6988,7 +8740,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 97,
     "ayah": 5,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/097_005_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_71",
@@ -6997,7 +8752,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 263,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_263_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_72",
@@ -7006,7 +8764,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_73",
@@ -7015,7 +8776,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 48,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_048_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_74",
@@ -7024,7 +8788,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 48,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_048_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_75",
@@ -7033,7 +8800,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 49,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_049_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_76",
@@ -7042,7 +8812,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_77",
@@ -7051,7 +8824,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 20,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_020_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_78",
@@ -7060,7 +8836,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 57,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_057_001.mp3"
+    }
   },
   {
     "id": "l14_tan_dam_79",
@@ -7069,7 +8848,10 @@ export const lesson14Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 201,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_201_001.mp3"
+    }
   }
 ];
 
@@ -7081,7 +8863,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 163,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_163_002.mp3"
+    }
   },
   {
     "id": "l15_st_fat_1",
@@ -7090,7 +8875,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_005.mp3"
+    }
   },
   {
     "id": "l15_st_fat_2",
@@ -7099,7 +8887,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 51,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_051_003.mp3"
+    }
   },
   {
     "id": "l15_st_fat_3",
@@ -7108,7 +8899,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 87,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_087_010.mp3"
+    }
   },
   {
     "id": "l15_st_fat_4",
@@ -7117,7 +8911,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 37,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_037_009.mp3"
+    }
   },
   {
     "id": "l15_st_fat_5",
@@ -7126,7 +8923,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 16,
     "ayah": 1,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/016_001_001.mp3"
+    }
   },
   {
     "id": "l15_st_fat_6",
@@ -7135,7 +8935,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 185,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_185_007.mp3"
+    }
   },
   {
     "id": "l15_st_fat_7",
@@ -7144,7 +8947,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 1,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_001_001.mp3"
+    }
   },
   {
     "id": "l15_st_fat_8",
@@ -7153,7 +8959,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 1,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_001_003.mp3"
+    }
   },
   {
     "id": "l15_st_fat_9",
@@ -7162,7 +8971,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 1,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_001_004.mp3"
+    }
   },
   {
     "id": "l15_st_fat_10",
@@ -7171,7 +8983,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 1,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_001_005.mp3"
+    }
   },
   {
     "id": "l15_st_fat_11",
@@ -7180,7 +8995,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 1,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_001_014.mp3"
+    }
   },
   {
     "id": "l15_st_fat_12",
@@ -7189,7 +9007,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 2,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_002_005.mp3"
+    }
   },
   {
     "id": "l15_st_fat_13",
@@ -7198,7 +9019,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 3,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_003_001.mp3"
+    }
   },
   {
     "id": "l15_st_fat_14",
@@ -7207,7 +9031,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 5,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_005_003.mp3"
+    }
   },
   {
     "id": "l15_st_fat_15",
@@ -7216,7 +9043,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 5,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_005_005.mp3"
+    }
   },
   {
     "id": "l15_st_fat_16",
@@ -7225,7 +9055,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 5,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_005_007.mp3"
+    }
   },
   {
     "id": "l15_st_fat_17",
@@ -7234,7 +9067,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 5,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_005_010.mp3"
+    }
   },
   {
     "id": "l15_st_fat_18",
@@ -7243,7 +9079,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 5,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_005_011.mp3"
+    }
   },
   {
     "id": "l15_st_fat_19",
@@ -7252,7 +9091,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 7,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_007_002.mp3"
+    }
   },
   {
     "id": "l15_st_fat_20",
@@ -7261,7 +9103,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 8,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_008_001.mp3"
+    }
   },
   {
     "id": "l15_st_fat_21",
@@ -7270,7 +9115,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 8,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_008_004.mp3"
+    }
   },
   {
     "id": "l15_st_fat_22",
@@ -7279,7 +9127,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 9,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_009_004.mp3"
+    }
   },
   {
     "id": "l15_st_fat_23",
@@ -7288,7 +9139,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 9,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_009_007.mp3"
+    }
   },
   {
     "id": "l15_st_fat_24",
@@ -7297,7 +9151,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 12,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_012_011.mp3"
+    }
   },
   {
     "id": "l15_st_fat_25",
@@ -7306,7 +9163,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 12,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_012_013.mp3"
+    }
   },
   {
     "id": "l15_st_fat_26",
@@ -7315,7 +9175,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 12,
-    "word_index": 17
+    "word_index": 17,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_012_017.mp3"
+    }
   },
   {
     "id": "l15_st_fat_27",
@@ -7324,7 +9187,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 13,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_013_006.mp3"
+    }
   },
   {
     "id": "l15_st_fat_28",
@@ -7333,7 +9199,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 15,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_015_013.mp3"
+    }
   },
   {
     "id": "l15_st_fat_29",
@@ -7342,7 +9211,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 15,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_015_014.mp3"
+    }
   },
   {
     "id": "l15_st_fat_30",
@@ -7351,7 +9223,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 15,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_015_015.mp3"
+    }
   },
   {
     "id": "l15_st_fat_31",
@@ -7360,7 +9235,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 16,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_016_006.mp3"
+    }
   },
   {
     "id": "l15_st_fat_32",
@@ -7369,7 +9247,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 16,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_016_007.mp3"
+    }
   },
   {
     "id": "l15_st_fat_33",
@@ -7378,7 +9259,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 16,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_016_008.mp3"
+    }
   },
   {
     "id": "l15_st_fat_34",
@@ -7387,7 +9271,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 17,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_017_002.mp3"
+    }
   },
   {
     "id": "l15_st_fat_35",
@@ -7396,7 +9283,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 17,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_017_010.mp3"
+    }
   },
   {
     "id": "l15_st_fat_36",
@@ -7405,7 +9295,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 18,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_018_003.mp3"
+    }
   },
   {
     "id": "l15_st_fat_37",
@@ -7414,7 +9307,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 18,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_018_005.mp3"
+    }
   },
   {
     "id": "l15_st_fat_38",
@@ -7423,7 +9319,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 18,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_018_009.mp3"
+    }
   },
   {
     "id": "l15_st_fat_39",
@@ -7432,7 +9331,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 19,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_019_006.mp3"
+    }
   },
   {
     "id": "l15_st_fat_40",
@@ -7441,7 +9343,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 20,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_020_002.mp3"
+    }
   },
   {
     "id": "l15_st_fat_41",
@@ -7450,7 +9355,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 20,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_020_006.mp3"
+    }
   },
   {
     "id": "l15_st_fat_42",
@@ -7459,7 +9367,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 23,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_023_004.mp3"
+    }
   },
   {
     "id": "l15_st_fat_43",
@@ -7468,7 +9379,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 23,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_023_008.mp3"
+    }
   },
   {
     "id": "l15_st_fat_44",
@@ -7477,7 +9391,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 23,
-    "word_index": 19
+    "word_index": 19,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_023_019.mp3"
+    }
   },
   {
     "id": "l15_st_fat_45",
@@ -7486,7 +9403,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 23,
-    "word_index": 21
+    "word_index": 21,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_023_021.mp3"
+    }
   },
   {
     "id": "l15_st_fat_46",
@@ -7495,7 +9415,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 15,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_015_006.mp3"
+    }
   },
   {
     "id": "l15_st_fat_47",
@@ -7504,7 +9427,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 16,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_016_004.mp3"
+    }
   },
   {
     "id": "l15_st_fat_48",
@@ -7513,7 +9439,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 16,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_016_005.mp3"
+    }
   },
   {
     "id": "l15_st_fat_49",
@@ -7522,7 +9451,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 16,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_016_008.mp3"
+    }
   },
   {
     "id": "l15_st_fat_50",
@@ -7531,7 +9463,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_010.mp3"
+    }
   },
   {
     "id": "l15_st_fat_51",
@@ -7540,7 +9475,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_014.mp3"
+    }
   },
   {
     "id": "l15_st_fat_52",
@@ -7549,7 +9487,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 20,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_020_004.mp3"
+    }
   },
   {
     "id": "l15_st_fat_53",
@@ -7558,7 +9499,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 20,
-    "word_index": 19
+    "word_index": 19,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_020_019.mp3"
+    }
   },
   {
     "id": "l15_st_fat_54",
@@ -7567,7 +9511,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 21,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_021_001.mp3"
+    }
   },
   {
     "id": "l15_st_fat_55",
@@ -7576,7 +9523,10 @@ export const lesson15Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 22,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_022_015.mp3"
+    }
   }
 ];
 
@@ -7588,7 +9538,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 285,
-    "word_index": 20
+    "word_index": 20,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_285_020.mp3"
+    }
   },
   {
     "id": "l16_st_kas_1",
@@ -7597,7 +9550,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 285,
-    "word_index": 20
+    "word_index": 20,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_285_020.mp3"
+    }
   },
   {
     "id": "l16_st_kas_2",
@@ -7606,7 +9562,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 103,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_103_008.mp3"
+    }
   },
   {
     "id": "l16_st_kas_3",
@@ -7615,7 +9574,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 42,
     "ayah": 24,
-    "word_index": 18
+    "word_index": 18,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/042_024_018.mp3"
+    }
   },
   {
     "id": "l16_st_kas_4",
@@ -7624,7 +9586,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 255,
-    "word_index": 26
+    "word_index": 26,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_255_026.mp3"
+    }
   },
   {
     "id": "l16_st_kas_5",
@@ -7633,7 +9598,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 79,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_079_005.mp3"
+    }
   },
   {
     "id": "l16_st_kas_6",
@@ -7642,7 +9610,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 16
+    "word_index": 16,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_016.mp3"
+    }
   },
   {
     "id": "l16_st_kas_7",
@@ -7651,7 +9622,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 130,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_130_013.mp3"
+    }
   },
   {
     "id": "l16_st_kas_8",
@@ -7660,7 +9634,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 1,
     "ayah": 2,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/001_002_001.mp3"
+    }
   },
   {
     "id": "l16_st_kas_9",
@@ -7669,7 +9646,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 155,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_155_004.mp3"
+    }
   },
   {
     "id": "l16_st_kas_10",
@@ -7678,7 +9658,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 144,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_144_009.mp3"
+    }
   },
   {
     "id": "l16_st_kas_11",
@@ -7687,7 +9670,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 195,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_195_004.mp3"
+    }
   },
   {
     "id": "l16_st_kas_12",
@@ -7696,7 +9682,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 35,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_035_006.mp3"
+    }
   },
   {
     "id": "l16_st_kas_13",
@@ -7705,7 +9694,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 27,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_027_001.mp3"
+    }
   },
   {
     "id": "l16_st_kas_14",
@@ -7714,7 +9706,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 7,
     "ayah": 179,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/007_179_006.mp3"
+    }
   },
   {
     "id": "l16_st_kas_15",
@@ -7723,7 +9718,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 6,
     "ayah": 48,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/006_048_003.mp3"
+    }
   },
   {
     "id": "l16_st_kas_16",
@@ -7732,7 +9730,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 6,
     "ayah": 48,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/006_048_003.mp3"
+    }
   },
   {
     "id": "l16_st_kas_17",
@@ -7741,7 +9742,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 61,
-    "word_index": 25
+    "word_index": 25,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_061_025.mp3"
+    }
   },
   {
     "id": "l16_st_kas_18",
@@ -7750,7 +9754,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 69,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_069_003.mp3"
+    }
   },
   {
     "id": "l16_st_kas_19",
@@ -7759,7 +9766,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 69,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_069_007.mp3"
+    }
   },
   {
     "id": "l16_st_kas_20",
@@ -7768,7 +9778,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 125,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_125_003.mp3"
+    }
   },
   {
     "id": "l16_st_kas_21",
@@ -7777,7 +9790,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 116,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_116_003.mp3"
+    }
   },
   {
     "id": "l16_st_kas_22",
@@ -7786,7 +9802,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 9,
     "ayah": 112,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/009_112_002.mp3"
+    }
   },
   {
     "id": "l16_st_kas_23",
@@ -7795,7 +9814,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 2,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_002_005.mp3"
+    }
   },
   {
     "id": "l16_st_kas_24",
@@ -7804,7 +9826,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 6,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_006_005.mp3"
+    }
   },
   {
     "id": "l16_st_kas_25",
@@ -7813,7 +9838,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_004.mp3"
+    }
   },
   {
     "id": "l16_st_kas_26",
@@ -7822,7 +9850,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_006.mp3"
+    }
   },
   {
     "id": "l16_st_kas_27",
@@ -7831,7 +9862,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_008.mp3"
+    }
   },
   {
     "id": "l16_st_kas_28",
@@ -7840,7 +9874,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 15,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_015_003.mp3"
+    }
   },
   {
     "id": "l16_st_kas_29",
@@ -7849,7 +9886,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 15,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_015_006.mp3"
+    }
   },
   {
     "id": "l16_st_kas_30",
@@ -7858,7 +9898,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 14,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_014_010.mp3"
+    }
   },
   {
     "id": "l16_st_kas_31",
@@ -7867,7 +9910,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 9,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_009_008.mp3"
+    }
   },
   {
     "id": "l16_st_kas_32",
@@ -7876,7 +9922,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 16,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_016_008.mp3"
+    }
   },
   {
     "id": "l16_st_kas_34",
@@ -7885,7 +9934,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_012.mp3"
+    }
   },
   {
     "id": "l16_st_kas_35",
@@ -7894,7 +9946,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_010.mp3"
+    }
   },
   {
     "id": "l16_st_kas_36",
@@ -7903,7 +9958,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 79,
-    "word_index": 20
+    "word_index": 20,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_079_020.mp3"
+    }
   },
   {
     "id": "l16_st_kas_37",
@@ -7912,7 +9970,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_008.mp3"
+    }
   },
   {
     "id": "l16_st_kas_38",
@@ -7921,7 +9982,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 163,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_163_002.mp3"
+    }
   },
   {
     "id": "l16_st_kas_39",
@@ -7930,7 +9994,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 21,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_021_004.mp3"
+    }
   },
   {
     "id": "l16_st_kas_41",
@@ -7939,7 +10006,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 49,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_049_014.mp3"
+    }
   },
   {
     "id": "l16_st_kas_42",
@@ -7948,7 +10018,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 35,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_035_014.mp3"
+    }
   },
   {
     "id": "l16_st_kas_43",
@@ -7957,7 +10030,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 27,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_027_006.mp3"
+    }
   },
   {
     "id": "l16_st_kas_44",
@@ -7966,7 +10042,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 15,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_015_003.mp3"
+    }
   },
   {
     "id": "l16_st_kas_45",
@@ -7975,7 +10054,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_012.mp3"
+    }
   },
   {
     "id": "l16_st_kas_46",
@@ -7984,7 +10066,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_005.mp3"
+    }
   },
   {
     "id": "l16_st_kas_47",
@@ -7993,7 +10078,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_012.mp3"
+    }
   },
   {
     "id": "l16_st_kas_48",
@@ -8002,7 +10090,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 20,
-    "word_index": 18
+    "word_index": 18,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_020_018.mp3"
+    }
   },
   {
     "id": "l16_st_kas_49",
@@ -8011,7 +10102,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 22,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_022_013.mp3"
+    }
   },
   {
     "id": "l16_st_kas_50",
@@ -8020,7 +10114,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 22,
-    "word_index": 20
+    "word_index": 20,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_022_020.mp3"
+    }
   },
   {
     "id": "l16_st_kas_51",
@@ -8029,7 +10126,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 23,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_023_012.mp3"
+    }
   },
   {
     "id": "l16_st_kas_52",
@@ -8038,7 +10138,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 23,
-    "word_index": 17
+    "word_index": 17,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_023_017.mp3"
+    }
   },
   {
     "id": "l16_st_kas_53",
@@ -8047,7 +10150,10 @@ export const lesson16Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 26,
-    "word_index": 37
+    "word_index": 37,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_026_037.mp3"
+    }
   }
 ];
 
@@ -8059,7 +10165,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 255,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_255_013.mp3"
+    }
   },
   {
     "id": "l17_st_dam_1",
@@ -8068,7 +10177,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 251,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_251_005.mp3"
+    }
   },
   {
     "id": "l17_st_dam_2",
@@ -8077,7 +10189,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 171,
-    "word_index": 18
+    "word_index": 18,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_171_018.mp3"
+    }
   },
   {
     "id": "l17_st_dam_3",
@@ -8086,7 +10201,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 7,
     "ayah": 70,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/007_070_005.mp3"
+    }
   },
   {
     "id": "l17_st_dam_4",
@@ -8095,7 +10213,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 255,
-    "word_index": 24
+    "word_index": 24,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_255_024.mp3"
+    }
   },
   {
     "id": "l17_st_dam_5",
@@ -8104,7 +10225,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 65,
     "ayah": 3,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/065_003_015.mp3"
+    }
   },
   {
     "id": "l17_st_dam_6",
@@ -8113,7 +10237,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 124,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_124_004.mp3"
+    }
   },
   {
     "id": "l17_st_dam_7",
@@ -8122,7 +10249,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 6,
     "ayah": 73,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/006_073_011.mp3"
+    }
   },
   {
     "id": "l17_st_dam_8",
@@ -8131,7 +10261,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 90,
     "ayah": 7,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/090_007_004.mp3"
+    }
   },
   {
     "id": "l17_st_dam_9",
@@ -8140,7 +10273,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 90,
     "ayah": 6,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/090_006_003.mp3"
+    }
   },
   {
     "id": "l17_st_dam_10",
@@ -8149,7 +10285,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 84,
     "ayah": 9,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/084_009_003.mp3"
+    }
   },
   {
     "id": "l17_st_dam_11",
@@ -8158,7 +10297,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 84,
     "ayah": 7,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/084_007_004.mp3"
+    }
   },
   {
     "id": "l17_st_dam_12",
@@ -8167,7 +10309,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 84,
     "ayah": 10,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/084_010_005.mp3"
+    }
   },
   {
     "id": "l17_st_dam_13",
@@ -8176,7 +10321,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 96,
     "ayah": 4,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/096_004_002.mp3"
+    }
   },
   {
     "id": "l17_st_dam_14",
@@ -8185,7 +10333,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 197,
-    "word_index": 20
+    "word_index": 20,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_197_020.mp3"
+    }
   },
   {
     "id": "l17_st_dam_15",
@@ -8194,7 +10345,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 22,
     "ayah": 15,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/022_015_006.mp3"
+    }
   },
   {
     "id": "l17_st_dam_16",
@@ -8203,7 +10357,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_002.mp3"
+    }
   },
   {
     "id": "l17_st_dam_17",
@@ -8212,7 +10369,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 191,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_191_002.mp3"
+    }
   },
   {
     "id": "l17_st_dam_18",
@@ -8221,7 +10381,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 33,
     "ayah": 56,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/033_056_004.mp3"
+    }
   },
   {
     "id": "l17_st_dam_19",
@@ -8230,7 +10393,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 7,
     "ayah": 206,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/007_206_006.mp3"
+    }
   },
   {
     "id": "l17_st_dam_20",
@@ -8239,7 +10405,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 31,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_031_007.mp3"
+    }
   },
   {
     "id": "l17_st_dam_21",
@@ -8248,7 +10417,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 6,
     "ayah": 33,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/006_033_009.mp3"
+    }
   },
   {
     "id": "l17_st_dam_22",
@@ -8257,7 +10429,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 22,
     "ayah": 39,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/022_039_003.mp3"
+    }
   },
   {
     "id": "l17_st_dam_23",
@@ -8266,7 +10441,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 10,
     "ayah": 50,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/010_050_010.mp3"
+    }
   },
   {
     "id": "l17_st_dam_24",
@@ -8275,7 +10453,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_002.mp3"
+    }
   },
   {
     "id": "l17_st_dam_25",
@@ -8284,7 +10465,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 9,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_009_006.mp3"
+    }
   },
   {
     "id": "l17_st_dam_26",
@@ -8293,7 +10477,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 85,
-    "word_index": 31
+    "word_index": 31,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_085_031.mp3"
+    }
   },
   {
     "id": "l17_st_dam_27",
@@ -8302,7 +10489,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_005.mp3"
+    }
   },
   {
     "id": "l17_st_dam_28",
@@ -8311,7 +10501,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_008.mp3"
+    }
   },
   {
     "id": "l17_st_dam_29",
@@ -8320,7 +10513,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 14,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_014_002.mp3"
+    }
   },
   {
     "id": "l17_st_dam_30",
@@ -8329,7 +10525,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_009.mp3"
+    }
   },
   {
     "id": "l17_st_dam_31",
@@ -8338,7 +10537,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 20,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_020_013.mp3"
+    }
   },
   {
     "id": "l17_st_dam_32",
@@ -8347,7 +10549,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 21,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_021_003.mp3"
+    }
   },
   {
     "id": "l17_st_dam_33",
@@ -8356,7 +10561,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 22,
-    "word_index": 19
+    "word_index": 19,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_022_019.mp3"
+    }
   },
   {
     "id": "l17_st_dam_34",
@@ -8365,7 +10573,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 23,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_023_009.mp3"
+    }
   },
   {
     "id": "l17_st_dam_35",
@@ -8374,7 +10585,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 23,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_023_013.mp3"
+    }
   },
   {
     "id": "l17_st_dam_36",
@@ -8383,7 +10597,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 23,
-    "word_index": 16
+    "word_index": 16,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_023_016.mp3"
+    }
   },
   {
     "id": "l17_st_dam_37",
@@ -8392,7 +10609,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 24,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_024_003.mp3"
+    }
   },
   {
     "id": "l17_st_dam_38",
@@ -8401,7 +10621,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 24,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_024_006.mp3"
+    }
   },
   {
     "id": "l17_st_dam_39",
@@ -8410,7 +10633,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 24,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_024_009.mp3"
+    }
   },
   {
     "id": "l17_st_dam_40",
@@ -8419,7 +10645,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_004.mp3"
+    }
   },
   {
     "id": "l17_st_dam_41",
@@ -8428,7 +10657,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_014.mp3"
+    }
   },
   {
     "id": "l17_st_dam_42",
@@ -8437,7 +10669,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 19
+    "word_index": 19,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_019.mp3"
+    }
   },
   {
     "id": "l17_st_dam_43",
@@ -8446,7 +10681,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 25
+    "word_index": 25,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_025.mp3"
+    }
   },
   {
     "id": "l17_st_dam_44",
@@ -8455,7 +10693,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 26,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_026_015.mp3"
+    }
   },
   {
     "id": "l17_st_dam_45",
@@ -8464,7 +10705,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 26,
-    "word_index": 23
+    "word_index": 23,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_026_023.mp3"
+    }
   },
   {
     "id": "l17_st_dam_46",
@@ -8473,7 +10717,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 27,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_027_002.mp3"
+    }
   },
   {
     "id": "l17_st_dam_47",
@@ -8482,7 +10729,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 27,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_027_008.mp3"
+    }
   },
   {
     "id": "l17_st_dam_48",
@@ -8491,7 +10741,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 27,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_027_014.mp3"
+    }
   },
   {
     "id": "l17_st_dam_49",
@@ -8500,7 +10753,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 27,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_027_015.mp3"
+    }
   },
   {
     "id": "l17_st_dam_50",
@@ -8509,7 +10765,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 28,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_028_002.mp3"
+    }
   },
   {
     "id": "l17_st_dam_51",
@@ -8518,7 +10777,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 29,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_029_001.mp3"
+    }
   },
   {
     "id": "l17_st_dam_52",
@@ -8527,7 +10789,10 @@ export const lesson17Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 29,
-    "word_index": 16
+    "word_index": 16,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_029_016.mp3"
+    }
   }
 ];
 
@@ -8539,7 +10804,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 30,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_030_002.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_1",
@@ -8548,7 +10816,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 32,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_032_001.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_2",
@@ -8557,7 +10828,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_002.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_3",
@@ -8566,7 +10840,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 8,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_008_004.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_4",
@@ -8575,7 +10852,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 29
+    "word_index": 29,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_029.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_5",
@@ -8584,7 +10864,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 51,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_051_003.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_6",
@@ -8593,7 +10876,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 87,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_087_010.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_7",
@@ -8602,7 +10888,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 7,
     "ayah": 85,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/007_085_004.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_8",
@@ -8611,7 +10900,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 113,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_113_007.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_9",
@@ -8620,7 +10912,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 2,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_002_003.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_10",
@@ -8629,7 +10924,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 2,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_002_005.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_11",
@@ -8638,7 +10936,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_004.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_12",
@@ -8647,7 +10948,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_003.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_13",
@@ -8656,7 +10960,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_006.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_14",
@@ -8665,7 +10972,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 5,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_005_001.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_15",
@@ -8674,7 +10984,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 5,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_005_006.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_16",
@@ -8683,7 +10996,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 6,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_006_003.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_17",
@@ -8692,7 +11008,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 6,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_006_004.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_18",
@@ -8701,7 +11020,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_009.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_19",
@@ -8710,7 +11032,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_011.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_20",
@@ -8719,7 +11044,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 8,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_008_004.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_21",
@@ -8728,7 +11056,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 8,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_008_009.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_22",
@@ -8737,7 +11068,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 9,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_009_001.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_23",
@@ -8746,7 +11080,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 9,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_009_004.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_24",
@@ -8755,7 +11092,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 10,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_010_002.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_25",
@@ -8764,7 +11104,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 10,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_010_004.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_26",
@@ -8773,7 +11116,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 10,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_010_009.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_27",
@@ -8782,7 +11128,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 10,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_010_010.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_28",
@@ -8791,7 +11140,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 10,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_010_011.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_29",
@@ -8800,7 +11152,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_001.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_30",
@@ -8809,7 +11164,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_002.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_31",
@@ -8818,7 +11176,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_008.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_32",
@@ -8827,7 +11188,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 12,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_012_001.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_33",
@@ -8836,7 +11200,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 12,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_012_005.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_34",
@@ -8845,7 +11212,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 13,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_013_004.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_35",
@@ -8854,7 +11224,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 13,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_013_005.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_36",
@@ -8863,7 +11236,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 13,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_013_006.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_37",
@@ -8872,7 +11248,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 14,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_014_002.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_38",
@@ -8881,7 +11260,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 16,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_016_006.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_39",
@@ -8890,7 +11272,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_005.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_40",
@@ -8899,7 +11284,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_008.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_41",
@@ -8908,7 +11296,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_015.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_42",
@@ -8917,7 +11308,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_005.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_43",
@@ -8926,7 +11320,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_006.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_44",
@@ -8935,7 +11332,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_007.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_45",
@@ -8944,7 +11344,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_008.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_46",
@@ -8953,7 +11356,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_012.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_47",
@@ -8962,7 +11368,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_004.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_48",
@@ -8971,7 +11380,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 33,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_033_015.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_49",
@@ -8980,7 +11392,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 12,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_012_001.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_50",
@@ -8989,7 +11404,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 12,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_012_006.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_51",
@@ -8998,7 +11416,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 13,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_013_005.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_52",
@@ -9007,7 +11428,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 13,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_013_006.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_53",
@@ -9016,7 +11440,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 13,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_013_007.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_54",
@@ -9025,7 +11452,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 13,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_013_012.mp3"
+    }
   },
   {
     "id": "l18_madd_asli_55",
@@ -9034,7 +11464,10 @@ export const lesson18Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 13,
-    "word_index": 16
+    "word_index": 16,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_013_016.mp3"
+    }
   }
 ];
 
@@ -9046,7 +11479,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 26,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_026_005.mp3"
+    }
   },
   {
     "id": "l19_sukoon_1",
@@ -9055,7 +11491,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 144,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_144_001.mp3"
+    }
   },
   {
     "id": "l19_sukoon_2",
@@ -9064,7 +11503,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 76,
     "ayah": 1,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/076_001_001.mp3"
+    }
   },
   {
     "id": "l19_sukoon_3",
@@ -9073,7 +11515,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 88,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_088_004.mp3"
+    }
   },
   {
     "id": "l19_sukoon_4",
@@ -9082,7 +11527,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 249,
-    "word_index": 49
+    "word_index": 49,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_249_049.mp3"
+    }
   },
   {
     "id": "l19_sukoon_5",
@@ -9091,7 +11539,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 112,
     "ayah": 3,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/112_003_001.mp3"
+    }
   },
   {
     "id": "l19_sukoon_6",
@@ -9100,7 +11551,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_008.mp3"
+    }
   },
   {
     "id": "l19_sukoon_7",
@@ -9109,7 +11563,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 35,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_035_001.mp3"
+    }
   },
   {
     "id": "l19_sukoon_10",
@@ -9118,7 +11575,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 103,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_103_010.mp3"
+    }
   },
   {
     "id": "l19_sukoon_11",
@@ -9127,7 +11587,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 108,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_108_001.mp3"
+    }
   },
   {
     "id": "l19_sukoon_12",
@@ -9136,7 +11599,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 106,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_106_005.mp3"
+    }
   },
   {
     "id": "l19_sukoon_13",
@@ -9145,7 +11611,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 23,
-    "word_index": 18
+    "word_index": 18,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_023_018.mp3"
+    }
   },
   {
     "id": "l19_sukoon_14",
@@ -9154,7 +11623,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 40,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_040_010.mp3"
+    }
   },
   {
     "id": "l19_sukoon_16",
@@ -9163,7 +11635,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 2,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_002_002.mp3"
+    }
   },
   {
     "id": "l19_sukoon_17",
@@ -9172,7 +11647,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 2,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_002_004.mp3"
+    }
   },
   {
     "id": "l19_sukoon_18",
@@ -9181,7 +11659,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_002.mp3"
+    }
   },
   {
     "id": "l19_sukoon_19",
@@ -9190,7 +11671,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_003.mp3"
+    }
   },
   {
     "id": "l19_sukoon_20",
@@ -9199,7 +11683,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_005.mp3"
+    }
   },
   {
     "id": "l19_sukoon_21",
@@ -9208,7 +11695,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_010.mp3"
+    }
   },
   {
     "id": "l19_sukoon_22",
@@ -9217,7 +11707,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_011.mp3"
+    }
   },
   {
     "id": "l19_sukoon_23",
@@ -9226,7 +11719,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 6,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_006_005.mp3"
+    }
   },
   {
     "id": "l19_sukoon_24",
@@ -9235,7 +11731,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 6,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_006_006.mp3"
+    }
   },
   {
     "id": "l19_sukoon_25",
@@ -9244,7 +11743,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 6,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_006_007.mp3"
+    }
   },
   {
     "id": "l19_sukoon_26",
@@ -9253,7 +11755,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 6,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_006_008.mp3"
+    }
   },
   {
     "id": "l19_sukoon_27",
@@ -9262,7 +11767,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 6,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_006_009.mp3"
+    }
   },
   {
     "id": "l19_sukoon_28",
@@ -9271,7 +11779,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_004.mp3"
+    }
   },
   {
     "id": "l19_sukoon_29",
@@ -9280,7 +11791,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_006.mp3"
+    }
   },
   {
     "id": "l19_sukoon_30",
@@ -9289,7 +11803,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_010.mp3"
+    }
   },
   {
     "id": "l19_sukoon_31",
@@ -9298,7 +11815,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 8,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_008_007.mp3"
+    }
   },
   {
     "id": "l19_sukoon_32",
@@ -9307,7 +11827,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 8,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_008_008.mp3"
+    }
   },
   {
     "id": "l19_sukoon_33",
@@ -9316,7 +11839,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 9,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_009_006.mp3"
+    }
   },
   {
     "id": "l19_sukoon_34",
@@ -9325,7 +11851,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 9,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_009_008.mp3"
+    }
   },
   {
     "id": "l19_sukoon_35",
@@ -9334,7 +11863,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_003.mp3"
+    }
   },
   {
     "id": "l19_sukoon_36",
@@ -9343,7 +11875,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_005.mp3"
+    }
   },
   {
     "id": "l19_sukoon_37",
@@ -9352,7 +11887,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_007.mp3"
+    }
   },
   {
     "id": "l19_sukoon_38",
@@ -9361,7 +11899,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_010.mp3"
+    }
   },
   {
     "id": "l19_sukoon_39",
@@ -9370,7 +11911,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 12,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_012_004.mp3"
+    }
   },
   {
     "id": "l19_sukoon_40",
@@ -9379,7 +11923,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 13,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_013_009.mp3"
+    }
   },
   {
     "id": "l19_sukoon_41",
@@ -9388,7 +11935,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 14,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_014_008.mp3"
+    }
   },
   {
     "id": "l19_sukoon_42",
@@ -9397,7 +11947,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 14,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_014_010.mp3"
+    }
   },
   {
     "id": "l19_sukoon_43",
@@ -9406,7 +11959,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 14,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_014_013.mp3"
+    }
   },
   {
     "id": "l19_sukoon_44",
@@ -9415,7 +11971,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 15,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_015_002.mp3"
+    }
   },
   {
     "id": "l19_sukoon_45",
@@ -9424,7 +11983,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 15,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_015_003.mp3"
+    }
   },
   {
     "id": "l19_sukoon_46",
@@ -9433,7 +11995,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 15,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_015_006.mp3"
+    }
   },
   {
     "id": "l19_sukoon_47",
@@ -9442,7 +12007,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 16,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_016_003.mp3"
+    }
   },
   {
     "id": "l19_sukoon_48",
@@ -9451,7 +12019,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 16,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_016_005.mp3"
+    }
   },
   {
     "id": "l19_sukoon_49",
@@ -9460,7 +12031,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_001.mp3"
+    }
   },
   {
     "id": "l19_sukoon_50",
@@ -9469,7 +12043,10 @@ export const lesson19Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_004.mp3"
+    }
   }
 ];
 
@@ -9481,7 +12058,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 110,
     "ayah": 1,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/110_001_003.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_1",
@@ -9490,7 +12070,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 97,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_097_001.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_2",
@@ -9499,7 +12082,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 32,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_032_004.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_3",
@@ -9508,7 +12094,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 200,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_200_010.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_4",
@@ -9517,7 +12106,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 125,
-    "word_index": 18
+    "word_index": 18,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_125_018.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_5",
@@ -9526,7 +12118,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 103,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_103_009.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_6",
@@ -9535,7 +12130,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 81,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_081_014.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_7",
@@ -9544,7 +12142,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 105,
     "ayah": 1,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/105_001_001.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_8",
@@ -9553,7 +12154,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 94,
     "ayah": 1,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/094_001_002.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_10",
@@ -9562,7 +12166,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 2,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_002_002.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_11",
@@ -9571,7 +12178,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 2,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_002_004.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_12",
@@ -9580,7 +12190,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_002.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_13",
@@ -9589,7 +12202,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_003.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_14",
@@ -9598,7 +12214,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_005.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_15",
@@ -9607,7 +12226,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_010.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_16",
@@ -9616,7 +12238,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_011.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_17",
@@ -9625,7 +12250,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 6,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_006_005.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_18",
@@ -9634,7 +12262,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 6,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_006_006.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_19",
@@ -9643,7 +12274,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 6,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_006_007.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_20",
@@ -9652,7 +12286,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 6,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_006_008.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_21",
@@ -9661,7 +12298,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 6,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_006_009.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_22",
@@ -9670,7 +12310,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_004.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_23",
@@ -9679,7 +12322,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_006.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_24",
@@ -9688,7 +12334,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_010.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_25",
@@ -9697,7 +12346,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 8,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_008_007.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_26",
@@ -9706,7 +12358,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 8,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_008_008.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_27",
@@ -9715,7 +12370,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 9,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_009_006.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_28",
@@ -9724,7 +12382,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 9,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_009_008.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_29",
@@ -9733,7 +12394,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_003.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_30",
@@ -9742,7 +12406,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_005.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_31",
@@ -9751,7 +12418,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_007.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_32",
@@ -9760,7 +12430,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_010.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_33",
@@ -9769,7 +12442,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 12,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_012_004.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_34",
@@ -9778,7 +12454,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 13,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_013_009.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_35",
@@ -9787,7 +12466,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 14,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_014_008.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_36",
@@ -9796,7 +12478,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 14,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_014_010.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_37",
@@ -9805,7 +12490,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 14,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_014_013.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_38",
@@ -9814,7 +12502,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 15,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_015_002.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_39",
@@ -9823,7 +12514,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 15,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_015_003.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_40",
@@ -9832,7 +12526,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 2,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_002_002.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_41",
@@ -9841,7 +12538,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_002.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_42",
@@ -9850,7 +12550,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_003.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_43",
@@ -9859,7 +12562,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_005.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_44",
@@ -9868,7 +12574,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 6,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_006_005.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_45",
@@ -9877,7 +12586,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_004.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_46",
@@ -9886,7 +12598,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_006.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_47",
@@ -9895,7 +12610,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_008.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_48",
@@ -9904,7 +12622,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 9,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_009_006.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_49",
@@ -9913,7 +12634,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_003.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_50",
@@ -9922,7 +12646,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_010.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_51",
@@ -9931,7 +12658,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 14,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_014_008.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_52",
@@ -9940,7 +12670,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 14,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_014_013.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_53",
@@ -9949,7 +12682,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 15,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_015_002.mp3"
+    }
   },
   {
     "id": "l20_sukoon_word_54",
@@ -9958,7 +12694,10 @@ export const lesson20Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 15,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_015_004.mp3"
+    }
   }
 ];
 
@@ -10810,7 +13549,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 105,
     "ayah": 2,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/105_002_002.mp3"
+    }
   },
   {
     "id": "l21_q_word_2",
@@ -10819,7 +13561,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 106,
     "ayah": 4,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/106_004_002.mp3"
+    }
   },
   {
     "id": "l21_q_word_3",
@@ -10828,7 +13573,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 110,
     "ayah": 2,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/110_002_003.mp3"
+    }
   },
   {
     "id": "l21_q_word_4",
@@ -10837,7 +13585,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 111,
     "ayah": 5,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/111_005_003.mp3"
+    }
   },
   {
     "id": "l21_q_word_5",
@@ -10846,7 +13597,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 95,
     "ayah": 4,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/095_004_002.mp3"
+    }
   },
   {
     "id": "l21_q_word_6",
@@ -10855,7 +13609,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 75,
     "ayah": 37,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/075_037_003.mp3"
+    }
   },
   {
     "id": "l21_q_word_7",
@@ -10864,7 +13621,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 86,
     "ayah": 8,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/086_008_003.mp3"
+    }
   },
   {
     "id": "l21_q_word_10",
@@ -10873,7 +13633,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 18,
     "ayah": 22,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/018_022_009.mp3"
+    }
   },
   {
     "id": "l21_q_word_13",
@@ -10882,7 +13645,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 24
+    "word_index": 24,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_024.mp3"
+    }
   },
   {
     "id": "l21_q_word_14",
@@ -10891,7 +13657,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_007.mp3"
+    }
   },
   {
     "id": "l21_q_word_15",
@@ -10900,7 +13669,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_009.mp3"
+    }
   },
   {
     "id": "l21_q_word_16",
@@ -10909,7 +13681,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_008.mp3"
+    }
   },
   {
     "id": "l21_q_word_17",
@@ -10918,7 +13693,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_009.mp3"
+    }
   },
   {
     "id": "l21_q_word_18",
@@ -10927,7 +13705,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 21,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_021_009.mp3"
+    }
   },
   {
     "id": "l21_q_word_19",
@@ -10936,7 +13717,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 22,
-    "word_index": 19
+    "word_index": 19,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_022_019.mp3"
+    }
   },
   {
     "id": "l21_q_word_20",
@@ -10945,7 +13729,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 23,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_023_008.mp3"
+    }
   },
   {
     "id": "l21_q_word_21",
@@ -10954,7 +13741,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 23,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_023_013.mp3"
+    }
   },
   {
     "id": "l21_q_word_22",
@@ -10963,7 +13753,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_009.mp3"
+    }
   },
   {
     "id": "l21_q_word_23",
@@ -10972,7 +13765,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 22
+    "word_index": 22,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_022.mp3"
+    }
   },
   {
     "id": "l21_q_word_24",
@@ -10981,7 +13777,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 24
+    "word_index": 24,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_024.mp3"
+    }
   },
   {
     "id": "l21_q_word_25",
@@ -10990,7 +13789,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 27,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_027_008.mp3"
+    }
   },
   {
     "id": "l21_q_word_26",
@@ -10999,7 +13801,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 29,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_029_014.mp3"
+    }
   },
   {
     "id": "l21_q_word_27",
@@ -11008,7 +13813,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_007.mp3"
+    }
   },
   {
     "id": "l21_q_word_28",
@@ -11017,7 +13825,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_009.mp3"
+    }
   },
   {
     "id": "l21_q_word_29",
@@ -11026,7 +13837,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_008.mp3"
+    }
   },
   {
     "id": "l21_q_word_30",
@@ -11035,7 +13849,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_009.mp3"
+    }
   },
   {
     "id": "l21_q_word_31",
@@ -11044,7 +13861,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 20,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_020_004.mp3"
+    }
   },
   {
     "id": "l21_q_word_32",
@@ -11053,7 +13873,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 20,
-    "word_index": 19
+    "word_index": 19,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_020_019.mp3"
+    }
   },
   {
     "id": "l21_q_word_33",
@@ -11062,7 +13885,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 21,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_021_009.mp3"
+    }
   },
   {
     "id": "l21_q_word_34",
@@ -11071,7 +13897,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 22,
-    "word_index": 19
+    "word_index": 19,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_022_019.mp3"
+    }
   },
   {
     "id": "l21_q_word_35",
@@ -11080,7 +13909,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 23,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_023_008.mp3"
+    }
   },
   {
     "id": "l21_q_word_36",
@@ -11089,7 +13921,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 23,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_023_013.mp3"
+    }
   },
   {
     "id": "l21_q_word_37",
@@ -11098,7 +13933,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_009.mp3"
+    }
   },
   {
     "id": "l21_q_word_38",
@@ -11107,7 +13945,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 22
+    "word_index": 22,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_022.mp3"
+    }
   },
   {
     "id": "l21_q_word_39",
@@ -11116,7 +13957,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 24
+    "word_index": 24,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_024.mp3"
+    }
   },
   {
     "id": "l21_q_word_40",
@@ -11125,7 +13969,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 27,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_027_008.mp3"
+    }
   },
   {
     "id": "l21_q_word_41",
@@ -11134,7 +13981,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 29,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_029_014.mp3"
+    }
   },
   {
     "id": "l21_q_word_42",
@@ -11143,7 +13993,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 30,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_030_011.mp3"
+    }
   },
   {
     "id": "l21_q_word_43",
@@ -11152,7 +14005,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 32,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_032_002.mp3"
+    }
   },
   {
     "id": "l21_q_word_44",
@@ -11161,7 +14017,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 33,
-    "word_index": 19
+    "word_index": 19,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_033_019.mp3"
+    }
   },
   {
     "id": "l21_q_word_45",
@@ -11170,7 +14029,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 34,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_034_008.mp3"
+    }
   },
   {
     "id": "l21_q_word_46",
@@ -11179,7 +14041,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 35,
-    "word_index": 13
+    "word_index": 13,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_035_013.mp3"
+    }
   },
   {
     "id": "l21_q_word_47",
@@ -11188,7 +14053,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 20,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_020_004.mp3"
+    }
   },
   {
     "id": "l21_q_word_48",
@@ -11197,7 +14065,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 20,
-    "word_index": 19
+    "word_index": 19,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_020_019.mp3"
+    }
   },
   {
     "id": "l21_q_word_49",
@@ -11206,7 +14077,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 24
+    "word_index": 24,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_024.mp3"
+    }
   },
   {
     "id": "l21_q_word_50",
@@ -11215,7 +14089,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 7,
-    "word_index": 23
+    "word_index": 23,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_007_023.mp3"
+    }
   },
   {
     "id": "l21_q_word_51",
@@ -11224,7 +14101,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 7,
-    "word_index": 25
+    "word_index": 25,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_007_025.mp3"
+    }
   },
   {
     "id": "l21_q_word_52",
@@ -11233,7 +14113,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 8,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_008_008.mp3"
+    }
   },
   {
     "id": "l21_q_word_53",
@@ -11242,7 +14125,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 11,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_011_006.mp3"
+    }
   },
   {
     "id": "l21_q_word_54",
@@ -11251,7 +14137,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 13,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_013_001.mp3"
+    }
   },
   {
     "id": "l21_q_word_55",
@@ -11260,7 +14149,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 13,
-    "word_index": 27
+    "word_index": 27,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_013_027.mp3"
+    }
   },
   {
     "id": "l21_q_word_56",
@@ -11269,7 +14161,10 @@ export const lesson21Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 20,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_020_005.mp3"
+    }
   }
 ];
 
@@ -11785,7 +14680,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 26,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_026_005.mp3"
+    }
   },
   {
     "id": "l22_sh_word_1",
@@ -11794,7 +14692,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 206,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_206_010.mp3"
+    }
   },
   {
     "id": "l22_sh_word_2",
@@ -11803,7 +14704,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 128,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_128_007.mp3"
+    }
   },
   {
     "id": "l22_sh_word_3",
@@ -11812,7 +14716,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_006.mp3"
+    }
   },
   {
     "id": "l22_sh_word_4",
@@ -11821,7 +14728,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 78,
     "ayah": 1,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/078_001_001.mp3"
+    }
   },
   {
     "id": "l22_sh_word_5",
@@ -11830,7 +14740,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 111,
     "ayah": 1,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/111_001_001.mp3"
+    }
   },
   {
     "id": "l22_sh_word_6",
@@ -11839,7 +14752,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 113,
     "ayah": 2,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/113_002_002.mp3"
+    }
   },
   {
     "id": "l22_sh_word_7",
@@ -11848,7 +14764,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 17,
     "ayah": 44,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/017_044_001.mp3"
+    }
   },
   {
     "id": "l22_sh_word_8",
@@ -11857,7 +14776,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 33,
     "ayah": 56,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/033_056_004.mp3"
+    }
   },
   {
     "id": "l22_sh_word_9",
@@ -11866,7 +14788,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 23,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_023_006.mp3"
+    }
   },
   {
     "id": "l22_sh_word_10",
@@ -11875,7 +14800,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 24,
     "ayah": 34,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/024_034_005.mp3"
+    }
   },
   {
     "id": "l22_sh_word_11",
@@ -11884,7 +14812,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_001.mp3"
+    }
   },
   {
     "id": "l22_sh_word_12",
@@ -11893,7 +14824,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_005.mp3"
+    }
   },
   {
     "id": "l22_sh_word_13",
@@ -11902,7 +14836,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_006.mp3"
+    }
   },
   {
     "id": "l22_sh_word_14",
@@ -11911,7 +14848,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_001.mp3"
+    }
   },
   {
     "id": "l22_sh_word_15",
@@ -11920,7 +14860,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 5,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_005_005.mp3"
+    }
   },
   {
     "id": "l22_sh_word_16",
@@ -11929,7 +14872,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_002.mp3"
+    }
   },
   {
     "id": "l22_sh_word_17",
@@ -11938,7 +14884,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 8,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_008_002.mp3"
+    }
   },
   {
     "id": "l22_sh_word_18",
@@ -11947,7 +14896,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 8,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_008_005.mp3"
+    }
   },
   {
     "id": "l22_sh_word_19",
@@ -11956,7 +14908,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 8,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_008_006.mp3"
+    }
   },
   {
     "id": "l22_sh_word_20",
@@ -11965,7 +14920,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 9,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_009_002.mp3"
+    }
   },
   {
     "id": "l22_sh_word_21",
@@ -11974,7 +14932,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 10,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_010_003.mp3"
+    }
   },
   {
     "id": "l22_sh_word_22",
@@ -11983,7 +14944,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_009.mp3"
+    }
   },
   {
     "id": "l22_sh_word_23",
@@ -11992,7 +14956,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 13,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_013_007.mp3"
+    }
   },
   {
     "id": "l22_sh_word_24",
@@ -12001,7 +14968,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 14,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_014_003.mp3"
+    }
   },
   {
     "id": "l22_sh_word_25",
@@ -12010,7 +14980,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 18,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_018_001.mp3"
+    }
   },
   {
     "id": "l22_sh_word_27",
@@ -12019,7 +14992,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_001.mp3"
+    }
   },
   {
     "id": "l22_sh_word_28",
@@ -12028,7 +15004,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_005.mp3"
+    }
   },
   {
     "id": "l22_sh_word_29",
@@ -12037,7 +15016,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 3,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_003_006.mp3"
+    }
   },
   {
     "id": "l22_sh_word_30",
@@ -12046,7 +15028,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 4,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_004_001.mp3"
+    }
   },
   {
     "id": "l22_sh_word_31",
@@ -12055,7 +15040,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 5,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_005_004.mp3"
+    }
   },
   {
     "id": "l22_sh_word_32",
@@ -12064,7 +15052,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 5,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_005_005.mp3"
+    }
   },
   {
     "id": "l22_sh_word_33",
@@ -12073,7 +15064,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 6,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_006_001.mp3"
+    }
   },
   {
     "id": "l22_sh_word_34",
@@ -12082,7 +15076,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 7,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_007_002.mp3"
+    }
   },
   {
     "id": "l22_sh_word_35",
@@ -12091,7 +15088,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 8,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_008_002.mp3"
+    }
   },
   {
     "id": "l22_sh_word_36",
@@ -12100,7 +15100,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 8,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_008_005.mp3"
+    }
   },
   {
     "id": "l22_sh_word_37",
@@ -12109,7 +15112,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 8,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_008_006.mp3"
+    }
   },
   {
     "id": "l22_sh_word_38",
@@ -12118,7 +15124,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 9,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_009_002.mp3"
+    }
   },
   {
     "id": "l22_sh_word_39",
@@ -12127,7 +15136,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 9,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_009_007.mp3"
+    }
   },
   {
     "id": "l22_sh_word_40",
@@ -12136,7 +15148,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 10,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_010_003.mp3"
+    }
   },
   {
     "id": "l22_sh_word_41",
@@ -12145,7 +15160,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_009.mp3"
+    }
   },
   {
     "id": "l22_sh_word_42",
@@ -12154,7 +15172,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 12,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_012_002.mp3"
+    }
   },
   {
     "id": "l22_sh_word_43",
@@ -12163,7 +15184,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 12,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_012_006.mp3"
+    }
   },
   {
     "id": "l22_sh_word_44",
@@ -12172,7 +15196,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 13,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_013_007.mp3"
+    }
   },
   {
     "id": "l22_sh_word_45",
@@ -12181,7 +15208,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 13,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_013_012.mp3"
+    }
   },
   {
     "id": "l22_sh_word_46",
@@ -12190,7 +15220,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 14,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_014_012.mp3"
+    }
   },
   {
     "id": "l22_sh_word_47",
@@ -12199,7 +15232,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 15,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_015_004.mp3"
+    }
   },
   {
     "id": "l22_sh_word_48",
@@ -12208,7 +15244,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 16,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_016_004.mp3"
+    }
   },
   {
     "id": "l22_sh_word_49",
@@ -12217,7 +15256,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 16,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_016_008.mp3"
+    }
   },
   {
     "id": "l22_sh_word_50",
@@ -12226,7 +15268,10 @@ export const lesson22Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_003.mp3"
+    }
   }
 ];
 
@@ -12238,7 +15283,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 7,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_007_010.mp3"
+    }
   },
   {
     "id": "l23_sh_har_1",
@@ -12247,7 +15295,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 72,
     "ayah": 3,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/072_003_003.mp3"
+    }
   },
   {
     "id": "l23_sh_har_2",
@@ -12256,7 +15307,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 11,
     "ayah": 38,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/011_038_004.mp3"
+    }
   },
   {
     "id": "l23_sh_har_3",
@@ -12265,7 +15319,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 18,
     "ayah": 48,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/018_048_004.mp3"
+    }
   },
   {
     "id": "l23_sh_har_4",
@@ -12274,7 +15331,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 168,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_168_015.mp3"
+    }
   },
   {
     "id": "l23_sh_har_5",
@@ -12283,7 +15343,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 107,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_107_015.mp3"
+    }
   },
   {
     "id": "l23_sh_har_6",
@@ -12292,7 +15355,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 24,
     "ayah": 41,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/024_041_005.mp3"
+    }
   },
   {
     "id": "l23_sh_har_7",
@@ -12301,7 +15367,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 23,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_023_006.mp3"
+    }
   },
   {
     "id": "l23_sh_har_8",
@@ -12310,7 +15379,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 22,
     "ayah": 36,
-    "word_index": 24
+    "word_index": 24,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/022_036_024.mp3"
+    }
   },
   {
     "id": "l23_sh_har_9",
@@ -12319,7 +15391,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 33,
     "ayah": 52,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/033_052_009.mp3"
+    }
   },
   {
     "id": "l23_sh_har_10",
@@ -12328,7 +15403,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 286,
-    "word_index": 22
+    "word_index": 22,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_286_022.mp3"
+    }
   },
   {
     "id": "l23_sh_har_11",
@@ -12337,7 +15415,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 127,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_127_008.mp3"
+    }
   },
   {
     "id": "l23_sh_har_12",
@@ -12346,7 +15427,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 128,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_128_001.mp3"
+    }
   },
   {
     "id": "l23_sh_har_13",
@@ -12355,7 +15439,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 127,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_127_011.mp3"
+    }
   },
   {
     "id": "l23_sh_har_14",
@@ -12364,7 +15451,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 37,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_037_008.mp3"
+    }
   },
   {
     "id": "l23_sh_har_15",
@@ -12373,7 +15463,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 26,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_026_005.mp3"
+    }
   },
   {
     "id": "l23_sh_har_16",
@@ -12382,7 +15475,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 12,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_012_005.mp3"
+    }
   },
   {
     "id": "l23_sh_har_17",
@@ -12391,7 +15487,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 24,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_024_001.mp3"
+    }
   },
   {
     "id": "l23_sh_har_18",
@@ -12400,7 +15499,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 20,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_020_005.mp3"
+    }
   },
   {
     "id": "l23_sh_har_19",
@@ -12409,7 +15511,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 23,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_023_005.mp3"
+    }
   },
   {
     "id": "l23_sh_har_20",
@@ -12418,7 +15523,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 74,
-    "word_index": 36
+    "word_index": 36,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_074_036.mp3"
+    }
   },
   {
     "id": "l23_sh_har_21",
@@ -12427,7 +15535,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 80,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_080_006.mp3"
+    }
   },
   {
     "id": "l23_sh_har_22",
@@ -12436,7 +15547,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 28,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_028_007.mp3"
+    }
   },
   {
     "id": "l23_sh_har_23",
@@ -12445,7 +15559,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_006.mp3"
+    }
   },
   {
     "id": "l23_sh_har_24",
@@ -12454,7 +15571,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 89,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_089_001.mp3"
+    }
   },
   {
     "id": "l23_sh_har_25",
@@ -12463,7 +15583,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 55,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_055_007.mp3"
+    }
   },
   {
     "id": "l23_sh_har_26",
@@ -12472,7 +15595,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 6,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_006_001.mp3"
+    }
   },
   {
     "id": "l23_sh_har_27",
@@ -12481,7 +15607,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 9,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_009_002.mp3"
+    }
   },
   {
     "id": "l23_sh_har_28",
@@ -12490,7 +15619,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 10,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_010_003.mp3"
+    }
   },
   {
     "id": "l23_sh_har_29",
@@ -12499,7 +15631,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 11,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_011_009.mp3"
+    }
   },
   {
     "id": "l23_sh_har_30",
@@ -12508,7 +15643,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 12,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_012_002.mp3"
+    }
   },
   {
     "id": "l23_sh_har_31",
@@ -12517,7 +15655,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 14,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_014_012.mp3"
+    }
   },
   {
     "id": "l23_sh_har_32",
@@ -12526,7 +15667,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 16,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_016_004.mp3"
+    }
   },
   {
     "id": "l23_sh_har_33",
@@ -12535,7 +15679,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_003.mp3"
+    }
   },
   {
     "id": "l23_sh_har_34",
@@ -12544,7 +15691,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 18,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_018_001.mp3"
+    }
   },
   {
     "id": "l23_sh_har_37",
@@ -12553,7 +15703,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_004.mp3"
+    }
   },
   {
     "id": "l23_sh_har_38",
@@ -12562,7 +15715,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 14
+    "word_index": 14,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_014.mp3"
+    }
   },
   {
     "id": "l23_sh_har_39",
@@ -12571,7 +15727,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_004.mp3"
+    }
   },
   {
     "id": "l23_sh_har_40",
@@ -12580,7 +15739,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 21,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_021_002.mp3"
+    }
   },
   {
     "id": "l23_sh_har_41",
@@ -12589,7 +15751,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 21,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_021_004.mp3"
+    }
   },
   {
     "id": "l23_sh_har_42",
@@ -12598,7 +15763,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 22,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_022_001.mp3"
+    }
   },
   {
     "id": "l23_sh_har_43",
@@ -12607,7 +15775,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 35,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_035_006.mp3"
+    }
   },
   {
     "id": "l23_sh_har_44",
@@ -12616,7 +15787,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 35,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_035_006.mp3"
+    }
   },
   {
     "id": "l23_sh_har_45",
@@ -12625,7 +15799,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 37,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_037_004.mp3"
+    }
   },
   {
     "id": "l23_sh_har_46",
@@ -12634,7 +15811,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 37,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_037_010.mp3"
+    }
   },
   {
     "id": "l23_sh_har_47",
@@ -12643,7 +15823,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_003.mp3"
+    }
   },
   {
     "id": "l23_sh_har_48",
@@ -12652,7 +15835,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_006.mp3"
+    }
   },
   {
     "id": "l23_sh_har_49",
@@ -12661,7 +15847,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_003.mp3"
+    }
   },
   {
     "id": "l23_sh_har_50",
@@ -12670,7 +15859,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_004.mp3"
+    }
   },
   {
     "id": "l23_sh_har_51",
@@ -12679,7 +15871,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 19,
-    "word_index": 17
+    "word_index": 17,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_019_017.mp3"
+    }
   },
   {
     "id": "l23_sh_har_52",
@@ -12688,7 +15883,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 20,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_020_005.mp3"
+    }
   },
   {
     "id": "l23_sh_har_53",
@@ -12697,7 +15895,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 20,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_020_008.mp3"
+    }
   },
   {
     "id": "l23_sh_har_54",
@@ -12706,7 +15907,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 20,
-    "word_index": 23
+    "word_index": 23,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_020_023.mp3"
+    }
   },
   {
     "id": "l23_sh_har_55",
@@ -12715,7 +15919,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 21,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_021_004.mp3"
+    }
   },
   {
     "id": "l23_sh_har_56",
@@ -12724,7 +15931,10 @@ export const lesson23Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 21,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_021_010.mp3"
+    }
   }
 ];
 
@@ -12736,7 +15946,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 236,
-    "word_index": 23
+    "word_index": 23,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_236_023.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_1",
@@ -12745,7 +15958,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 253,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_253_009.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_2",
@@ -12754,7 +15970,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 230,
-    "word_index": 20
+    "word_index": 20,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_230_020.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_3",
@@ -12763,7 +15982,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 99,
     "ayah": 8,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/099_008_005.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_4",
@@ -12772,7 +15994,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 165,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_165_015.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_5",
@@ -12781,7 +16006,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 89,
     "ayah": 21,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/089_021_005.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_6",
@@ -12790,7 +16018,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 153,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_153_012.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_7",
@@ -12799,7 +16030,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 168,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_168_007.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_8",
@@ -12808,7 +16042,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 196,
-    "word_index": 21
+    "word_index": 21,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_196_021.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_9",
@@ -12817,7 +16054,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 99,
     "ayah": 7,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/099_007_004.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_10",
@@ -12826,7 +16066,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 58,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_058_015.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_11",
@@ -12835,7 +16078,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 128,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_128_007.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_12",
@@ -12844,7 +16090,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 120,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_120_009.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_13",
@@ -12853,7 +16102,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 25,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_025_008.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_14",
@@ -12862,7 +16114,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 36,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_036_012.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_15",
@@ -12871,7 +16126,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 45,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_045_006.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_16",
@@ -12880,7 +16138,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 23,
-    "word_index": 53
+    "word_index": 53,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_023_053.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_17",
@@ -12889,7 +16150,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 24,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_024_010.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_18",
@@ -12898,7 +16162,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 19,
-    "word_index": 21
+    "word_index": 21,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_019_021.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_19",
@@ -12907,7 +16174,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 58,
-    "word_index": 24
+    "word_index": 24,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_058_024.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_20",
@@ -12916,7 +16186,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 81,
-    "word_index": 22
+    "word_index": 22,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_081_022.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_21",
@@ -12925,7 +16198,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 7,
-    "word_index": 2
+    "word_index": 2,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_007_002.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_22",
@@ -12934,7 +16210,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 52,
-    "word_index": 3
+    "word_index": 3,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_052_003.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_23",
@@ -12943,7 +16222,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 96,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_096_008.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_24",
@@ -12952,7 +16234,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 36,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_036_012.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_25",
@@ -12961,7 +16246,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 15
+    "word_index": 15,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_015.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_26",
@@ -12970,7 +16258,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 17,
-    "word_index": 5
+    "word_index": 5,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_017_005.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_27",
@@ -12979,7 +16270,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 89,
-    "word_index": 7
+    "word_index": 7,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_089_007.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_28",
@@ -12988,7 +16282,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 29,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_029_008.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_29",
@@ -12997,7 +16294,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 30,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_030_009.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_30",
@@ -13006,7 +16306,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 32,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_032_008.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_31",
@@ -13015,7 +16318,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 35,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_035_009.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_32",
@@ -13024,7 +16330,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 26,
-    "word_index": 31
+    "word_index": 31,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_026_031.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_33",
@@ -13033,7 +16342,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 213,
-    "word_index": 26
+    "word_index": 26,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_213_026.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_34",
@@ -13042,7 +16354,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 213,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_213_008.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_35",
@@ -13051,7 +16366,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 143,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_143_006.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_36",
@@ -13060,7 +16378,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 219,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_219_008.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_37",
@@ -13069,7 +16390,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 201,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_201_008.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_38",
@@ -13078,7 +16402,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 81,
-    "word_index": 22
+    "word_index": 22,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_081_022.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_39",
@@ -13087,7 +16414,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 4,
     "ayah": 45,
-    "word_index": 6
+    "word_index": 6,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/004_045_006.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_40",
@@ -13096,7 +16426,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 96,
-    "word_index": 23
+    "word_index": 23,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_096_023.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_41",
@@ -13105,7 +16438,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 2,
     "ayah": 41,
-    "word_index": 4
+    "word_index": 4,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/002_041_004.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_42",
@@ -13114,7 +16450,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 15,
-    "word_index": 10
+    "word_index": 10,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_015_010.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_43",
@@ -13123,7 +16462,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 15,
-    "word_index": 18
+    "word_index": 18,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_015_018.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_44",
@@ -13132,7 +16474,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 21,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_021_009.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_45",
@@ -13141,7 +16486,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 24,
-    "word_index": 8
+    "word_index": 8,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_024_008.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_46",
@@ -13150,7 +16498,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 24,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_024_009.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_47",
@@ -13159,7 +16510,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 30,
-    "word_index": 9
+    "word_index": 9,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_030_009.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_48",
@@ -13168,7 +16522,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 34,
-    "word_index": 1
+    "word_index": 1,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_034_001.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_49",
@@ -13177,7 +16534,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 35,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_035_012.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_50",
@@ -13186,7 +16546,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 38,
-    "word_index": 11
+    "word_index": 11,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_038_011.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_51",
@@ -13195,7 +16558,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 38,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_038_012.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_52",
@@ -13204,7 +16570,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 39,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_039_012.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_53",
@@ -13213,7 +16582,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 39,
-    "word_index": 16
+    "word_index": 16,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_039_016.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_54",
@@ -13222,7 +16594,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 39,
-    "word_index": 18
+    "word_index": 18,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_039_018.mp3"
+    }
   },
   {
     "id": "l24_sh_tan_55",
@@ -13231,7 +16606,10 @@ export const lesson24Data: ToonItem[] = [
     "type": "single",
     "surah": 3,
     "ayah": 41,
-    "word_index": 12
+    "word_index": 12,
+    "audio": {
+      "main": "https://audio.qurancdn.com/wbw/003_041_012.mp3"
+    }
   }
 ];
 

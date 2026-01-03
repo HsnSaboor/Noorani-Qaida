@@ -617,7 +617,8 @@ const LessonPage: React.FC = () => {
 
         const getAudioSrc = (wordItem: any, index: number = -1) => {
             // Priority 1: Explicit audio path provided (Pre-calculated and usually correct)
-            if (wordItem?.audio) return wordItem.audio;
+            if (wordItem?.audio?.main) return wordItem.audio.main;
+            if (wordItem?.audio && typeof wordItem.audio === 'string') return wordItem.audio;
             if (typeof wordItem === 'string' && wordItem.includes('/')) return wordItem;
 
             // Priority 2: WBW API if Lesson 5+ and have metadata (Fallback)
@@ -1334,7 +1335,7 @@ const LessonPage: React.FC = () => {
 
             {/* DETAILS PANEL (Context Aware) - Only show in Study Mode */}
             {activeTab === 'study' && (
-                <div className={`fixed bottom-0 left-0 w-full bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 shadow-[0_-10px_40px_-15px_rgba(0,0,0,0.1)] z-50 transition-transform duration-300 ease-in-out ${selectedItemId ? 'translate-y-0' : 'translate-y-full'}`}>
+                <div className={`fixed bottom-0 left-0 w-full lg:w-80 bg-white dark:bg-slate-900 border-t border-r border-slate-200 dark:border-slate-800 shadow-[0_-10px_40px_-15px_rgba(0,0,0,0.1)] z-50 transition-transform duration-300 ease-in-out ${selectedItemId ? 'translate-y-0' : 'translate-y-full'}`}>
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 pb-6">
                         {activeItem && (
                             <>

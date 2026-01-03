@@ -26,6 +26,9 @@ interface ToonItem {
     surah?: number;
     ayah?: number;
     word_index?: number;
+    audio?: {
+        main: string;
+    };
 }
 
 interface ToonMeta {
@@ -51,6 +54,7 @@ function parseToonContent(content: string): ToonItem[] {
     const isPipeFormat = lines.some(line => line.startsWith('|'));
 
     if (isPipeFormat) {
+        // ... (existing pipe format logic if needed, but primarily focusing on comma format based on Lesson 4)
         for (const line of lines) {
             if (line.startsWith('#') || line.trim() === '' || line.startsWith('|')) continue;
 
@@ -83,7 +87,9 @@ function parseToonContent(content: string): ToonItem[] {
 
             if (!parsingData) continue;
 
-            const match = line.match(/^([^,]+),\s*"([^"]*)",\s*"([^"]*)",\s*"([^"]*)"(?:,\s*(\d*),\s*(\d*),\s*(\d*))?/);
+            // Updated regex to handle optional wbw: prefix and coordinates
+            // Matches: id, "text", "translit", "type" [, wbw:S:A:W | S:A:W]
+            const match = line.match(/^([^,]+),\s*"([^"]*)",\s*"([^"]*)",\s*"([^"]*)"(?:,\s*(?:wbw:)?(\d+)[:,\s]+(\d+)[:,\s]+(\d+))?/);
 
             if (match) {
                 const item: ToonItem = {
@@ -91,10 +97,22 @@ function parseToonContent(content: string): ToonItem[] {
                     text_ar: match[2]?.trim() || '',
                     transliteration: match[3]?.trim() || '',
                     type: match[4]?.trim() || 'single',
-                    surah: match[5]?.trim() ? parseInt(match[5]) : undefined,
-                    ayah: match[6]?.trim() ? parseInt(match[6]) : undefined,
-                    word_index: match[7]?.trim() ? parseInt(match[7]) : undefined,
                 };
+
+                // Parse coordinates if available
+                if (match[5] && match[6] && match[7]) {
+                    item.surah = parseInt(match[5]);
+                    item.ayah = parseInt(match[6]);
+                    item.word_index = parseInt(match[7]);
+
+                    // Generate Audio URL
+                    const s = String(item.surah).padStart(3, '0');
+                    const a = String(item.ayah).padStart(3, '0');
+                    const w = String(item.word_index).padStart(3, '0');
+                    item.audio = {
+                        main: `https://audio.qurancdn.com/wbw/${s}_${a}_${w}.mp3`
+                    };
+                }
 
                 if (item.id && item.text_ar) {
                     items.push(item);
@@ -251,6 +269,9 @@ export interface ToonItem {
   surah?: number;
   ayah?: number;
   word_index?: number;
+  audio?: {
+    main: string;
+  };
 }
 
 export interface ToonMeta {

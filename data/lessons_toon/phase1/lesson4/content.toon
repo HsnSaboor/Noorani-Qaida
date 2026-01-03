@@ -45,16 +45,16 @@ l4_vs_t_t, "تَ vs طَ", "Ta (Light) vs Toa (Heavy)", "comparison"
 l4_vs_s_s, "سَ vs صَ", "Seen (Light) vs Sad (Heavy)", "comparison"
 l4_vs_d_d, "دَ vs ضَ", "Dal (Light) vs Dad (Heavy)", "comparison"
 l4_vs_k_q, "كَ vs قَ", "Kaf (Light) vs Qaf (Heavy)", "comparison"
-l4_w_0, "خَلَقَ", "Khalaqa", "sequence", 55:14:1
-l4_w_1, "صَدَقَ", "Sadaqa", "sequence", 3:95:2
-l4_w_2, "ضَرَبَ", "Daraba", "sequence", 14:24:3
-l4_w_3, "غَلَبَ", "Ghalaba", "sequence", 18:21:2
-l4_w_4, "طَلَبَ", "Talaba", "sequence", 18:64:14
-l4_w_5, "قَتَلَ", "Qatala", "sequence", 5:32:8
-l4_w_6, "ظَلَمَ", "Zalama", "sequence", 2:231:26
-l4_w_7, "خَتَمَ", "Khatama", "sequence", 2, 7, 1
-l4_w_8, "صَبَرَ", "Sabara", "sequence", 42:43:3
-l4_w_9, "قَرَأَ", "Qara-a", "sequence", 96:1:1
-l4_w_light_0, "كَتَبَ", "Kataba (Light)", "sequence", 58:21:1
-l4_w_light_1, "سَمِعَ", "Sami'a (Light)", "sequence", 58:1:2
-l4_w_light_2, "فَتَحَ", "Fataha (Light)", "sequence", 2:76:8
+l4_w_0, "خَلَقَ", "Khalaqa", "sequence", wbw:55:14:1
+l4_w_1, "صَدَقَ", "Sadaqa", "sequence", wbw:3:95:2
+l4_w_2, "ضَرَبَ", "Daraba", "sequence", wbw:14:24:3
+l4_w_3, "غَلَبَ", "Ghalaba", "sequence", wbw:18:21:2
+l4_w_4, "خَطَبَ", "Khataba", "sequence", wbw:22:73:14
+l4_w_5, "قَتَلَ", "Qatala", "sequence", wbw:5:32:8
+l4_w_6, "ظَلَمَ", "Zalama", "sequence", wbw:2:231:26
+l4_w_7, "خَتَمَ", "Khatama", "sequence", wbw:2:7:1
+l4_w_8, "صَبَرَ", "Sabara", "sequence", wbw:42:43:3
+l4_w_9, "قَرَأَ", "Qara-a", "sequence", wbw:96:1:1
+l4_w_light_0, "كَتَبَ", "Kataba (Light)", "sequence", wbw:58:21:1
+l4_w_light_1, "سَمِعَ", "Sami'a (Light)", "sequence", wbw:58:1:2
+l4_w_light_2, "فَتَحَ", "Fataha (Light)", "sequence", wbw:2:76:8
