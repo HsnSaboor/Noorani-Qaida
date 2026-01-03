@@ -1,0 +1,75 @@
+# Lesson 27 Content
+
+|id|text_ar|transliteration|type|surah|ayah|word_index
+l27_1|مَن يَقُولُ|Man Yaqulu|word|2|8|2
+l27_2|مَن يَشَاءُ|Man Yasha-u|word|2|105|14
+l27_3|أَن يَتُوبَ|An Yatuba|word|4|27|2
+l27_4|أَن يَكُونَ|An Yakuna|word|2|116|10
+l27_5|فَمَن يَعْمَلْ|Faman Ya-mal|word|99|7|2
+l27_6|أَن يَضْرِبَ|An Yadriba|word|2|26|7
+l27_7|مَن يَهْدِ|Man Yahdi|word|18|17|3
+l27_8|لَن يَقْدِرَ|Lan Yaqdira|word|90|5|2
+l27_9|مَّن يَعْمَلْ|Man Ya-mal|word|4|123|1
+l27_10|يَوْمَئِذٍ يَصْدُرُ|Yawma-idhin Yasduru|word|99|6|1
+l27_11|وُجُوهٌ يَوْمَئِذٍ|Wujuhun Yawma-idhin|word|88|2|1
+l27_12|أَن يَحْكُمَ|An Yahkuma|word|5|42|6
+l27_13|أَن يَأْتِيَ|An Ya-tiya|word|2|210|3
+l27_14|مَن يَرْغَبُ|Man Yarghabu|word|2|130|2
+l27_15|خَيْرٌ يَرَهُ|Khayrun Yarahu|word|99|7|4
+l27_16|شَرًّا يَرَهُ|Sharran Yarahu|word|99|8|4
+l27_17|مِن رَّبِّهِمْ|Min Rabbihim|word|2|5|7
+l27_18|مِن رَّبِّكَ|Min Rabbika|word|2|147|5
+l27_19|مِن رِّزْقِ|Min Rizqi|word|2|22|12
+l27_20|عَن رَّبِّهِمْ|An Rabbihim|word|83|15|3
+l27_21|غَفُورٌ رَّحِيمٌ|Ghafurun Rahimun|word|2|173|19
+l27_22|رَءُوفٌ رَّحِيمٌ|Ra-ufun Rahimun|word|2|143|33
+l27_23|ثَمَرَةٍ رِّزْقًا|Thamara-tin Rizqan|word|2|25|13
+l27_24|عِيشَةٍ رَّاضِيَةٍ|Ishatin Radiyatin|word|101|9|2
+l27_25|رَبٌّ رَّحِيمٌ|Rabbun Rahimun|word|36|58|4
+l27_26|فِى عِيشَةٍ رَّاضِيَةٍ|Fi Ishatin Radiyatin|word|69|21|2
+l27_27|مِّن رَّحِيقٍ|Min Rahiqin|word|83|25|2
+l27_28|كَلَّا لَوْ تَعْلَمُونَ|Kalla Law Ta-lamuna|word|102|5|1
+l27_29|مِن مَّالٍ|Min Malin|word|23|55|6
+l27_30|مِن مَّسَدٍ|Min Masadin|word|111|5|4
+l27_31|مِن مَّاءٍ|Min Ma-in|word|86|6|2
+l27_32|مِمَّن مَّنَعَ|Mimman Mana-a|word|2|114|2
+l27_33|رَسُولٌ مِّنَ|Rasulun Mina|word|98|2|1
+l27_34|صُحُفًا مُّطَهَّرَةً|Suhufan Mutah-haratan|word|98|2|2
+l27_35|لُؤْلُؤًا مَّنثُورًا|Lu-lu-an Manthuran|word|76|19|10
+l27_36|جَزَاءً مِّن|Jaza-an Min|word|78|36|1
+l27_37|مَثَلًا مَّا|Mathalan Ma|word|2|26|6
+l27_38|قَوْلًا مَّعْرُوفًا|Qawlan Ma-rufan|word|2|235|14
+l27_39|بَشَرًا مِّثْلَنَا|Basharan Mithlana|word|36|15|6
+l27_40|مُسْتَقِيمٍ مَّعَ|Mustaqimin Ma-a|word|6|87|8
+l27_41|أَن لَّن|An Lan|word|73|12|5
+l27_42|أَن لَّمْ|An Lam|word|90|7|3
+l27_43|مِن لَّدُنْهُ|Min Ladunhu|word|18|2|5
+l27_44|هُدًى لِّلْمُتَّقِينَ|Hudan Lil-Muttaqina|word|2|2|5
+l27_45|يَكُن لَّهُ|Yakun Lahu|word|112|4|2
+l27_46|يُبَيِّن لَّكُمْ|Yubayyin Lakum|word|2|187|43
+l27_47|أَلَّفَ|Allafa|word|8|63|6
+l27_48|وَأَلَّوْ|Wa-allaw|word|72|16|1
+l27_49|إِن لَّمْ|In Lam|word|2|24|6
+l27_50|وَلَكِن لَّآ|Walakin La|word|2|12|7
+l27_51|مِن لَّبَنٍ|Min Labanin|word|47|15|8
+l27_52|رِزْقًا لَّكُمْ|Rizqan Lakum|word|2|22|21
+l27_53|مِن وَالٍ|Min Walin|word|13|11|32
+l27_54|مِن وَرَائِهِم|Min Wara-ihim|word|85|20|2
+l27_55|مِن وَاقٍ|Min Waqin|word|13|34|12
+l27_56|وَلِيٍّ وَلَا|Waliyyin Wala|word|2|107|7
+l27_57|أَبِى لَهَبٍ وَتَبَّ|Abi Lahabin Watab-ba|word|111|1|4
+l27_58|رَحِيمٌ وَدُودٌ|Rahimun Wadudun|word|11|90|10
+l27_59|غَشَاوَةٌ وَلَهُمْ|Ghashawatun Walahum|word|2|7|9
+l27_60|عَذَابٌ وَاصِبٌ|Adhabun Wasibun|word|37|9|3
+l27_61|مِن نُّورٍ|Min Nurin|word|24|35|12
+l27_62|مِن نَّفْسٍ|Min Nafsin|word|4|1|3
+l27_63|أَن نَّقُولَ|An Naqula|word|18|15|6
+l27_64|لَن نُّؤْمِنَ|Lan Nu-mina|word|2|55|3
+l27_65|إِن نَّحْنُ|In Nahnu|word|23|37|1
+l27_66|إِن نَّظُنُّ|In Nadhunnu|word|45|32|1
+l27_67|مِن نَّصِيرٍ|Min Nasirin|word|2|107|10
+l27_68|حِطَّةٌ نَّغْفِرْ|Hittatun Naghfir|word|2|58|12
+l27_69|عَامِلَةٌ نَّاصِبَةٌ|Amilatun Nasibatun|word|88|3|1
+l27_70|وُجُوهٌ يَوْمَئِذٍ نَّاعِمَةٌ|Wujuhun Yawma-idhin Na-imatun|word|88|8|3
+l27_71|يَوْمَئِذٍ نَّاضِرَةٌ|Yawma-idhin Nadiratun|word|75|22|2
+l27_72|عِظَامًا نَّخِرَةً|Idhaman Nakhiratan|word|79|11|2

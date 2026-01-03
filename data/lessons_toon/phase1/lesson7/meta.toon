@@ -1,0 +1,9 @@
+id: 7
+title_en: "Kasra"
+title_ur: "زیر"
+description_en: "The short vowel 'E/I'. Focus on the downward sound."
+description_ur: "زیر کی پہچان اور باریک آواز میں ادائیگی۔"
+validation_rules
+:
+pattern_name, "contains_kasra"
+regex, "[\u0650]"

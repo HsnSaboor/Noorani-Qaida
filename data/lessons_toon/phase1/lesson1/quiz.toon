@@ -1,0 +1,12 @@
+# Quiz format: id|question (Arabic text)|correct_answer|wrong1|wrong2|wrong3
+# Questions should be in Arabic, answers should be CORRECT matching words
+q1_1|ب|ب|ت|ث|ن
+q1_2|م|م|ن|ل|ك
+q1_3|خ|خ|ح|ج|ه
+q1_4|ء|ء|ع|ه|ا
+q1_5|د|د|ذ|ر|ز
+q1_6|ص|ص|س|ض|ش
+q1_7|ا|ا|ب|ت|ث
+q1_8|ف|ف|ق|و|ن
+q1_9|ط|ط|ظ|ت|ث
+q1_10|ع|ع|غ|ء|ح

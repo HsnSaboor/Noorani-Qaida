@@ -1,0 +1,9 @@
+id: 17
+title_en: "Standing Damma"
+title_ur: "الٹا پیش"
+description_en: "Inverted Damma above a letter. 2-beat stretch."
+description_ur: "الٹا پیش۔ اسے ۲ حرکات تک کھینچیں۔"
+validation_rules
+:
+pattern_name, "contains_damma"
+regex, "[\u064F]"

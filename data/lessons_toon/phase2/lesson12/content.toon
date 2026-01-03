@@ -1,0 +1,58 @@
+items[56] {id, content, transliteration, type, surah, ayah, word_index}
+:
+l12_tan_fat_0, "عَلِيمًا", "Aliman", "single", 33, 1, 12
+l12_tan_fat_1, "مَا", "Hakiman", "single", 4, 104, 16
+l12_tan_fat_2, "سَمِيعًا", "Sami-an", "single", 4, 148, 13
+l12_tan_fat_3, "لَطِيفًا", "Latifan", "single", 33, 34, 13
+l12_tan_fat_4, "حَلِيمًا", "Haliman", "single", 17, 44, 20
+l12_tan_fat_5, "غَنِيًّا", "Ghaniyyan", "single", 4, 131, 31
+l12_tan_fat_6, "عَفُوًّا", "Afuwwan", "single", 4, 99, 9
+l12_tan_fat_7, "لَا", "Wakilan", "single", 17, 86, 8
+l12_tan_fat_8, "شَهِيدًا", "Shahidan", "single", 16, 89, 6
+l12_tan_fat_9, "سُبْحَانَ", "Subhana", "single", 17, 93, 20
+l12_tan_fat_10, "إِحْسَانًۭا", "Ihsanan", "single", 2, 83, 11
+l12_tan_fat_11, "شُعُوبًۭا", "Shu-uban", "single", 49, 13, 9
+l12_tan_fat_12, "تُرَابًۭا ۖ", "Turaban", "single", 50, 3, 4
+l12_tan_fat_13, "هَجْرًۭا", "Hajran", "single", 73, 10, 6
+l12_tan_fat_14, "شُكْرًۭا ۚ", "Shukran", "single", 34, 13, 15
+l12_tan_fat_15, "كُفْرًۭا", "Kufran", "single", 3, 90, 8
+l12_tan_fat_16, "فَتْحًۭا", "Fathan", "single", 48, 1, 4
+l12_tan_fat_17, "نَصْرًا", "Nasran", "single", 48, 3, 3
+l12_tan_fat_18, "أَحَدًا", "Ahadan", "single", 33, 39, 8
+l12_tan_fat_19, "كُفُوًا", "Kufuwan", "single", 112, 4, 4
+l12_tan_fat_20, "رِسَالَةَ", "Risalatan", "single", 7, 79, 7
+l12_tan_fat_21, "أَيُّهَ", "Ayatan", "single", 55, 31, 3
+l12_tan_fat_22, "بَيِّنَةًۭ", "Bayyinatan", "single", 29, 35, 5
+l12_tan_fat_23, "مُّحْكَمَةٌۭ", "Muhkamatan", "single", 47, 20, 10
+l12_tan_fat_24, "قَوْلًا", "Qawlan", "single", 7, 162, 5
+l12_tan_fat_25, "لَا", "Amalan", "single", 18, 30, 7
+l12_tan_fat_26, "سَيِّئًا", "Sayyi-an", "single", 9, 102, 8
+l12_tan_fat_27, "حَسَنًا", "Hasanan", "single", 11, 3, 9
+l12_tan_fat_28, "سُوٓءًا", "Su-an", "single", 4, 110, 3
+l12_tan_fat_29, "خَيْرًۭا", "Khayran", "single", 49, 11, 12
+l12_tan_fat_30, "شَرًّۭا", "Sharran", "single", 99, 8, 5
+l12_tan_fat_31, "ضَرًّا", "Darran", "single", 7, 188, 7
+l12_tan_fat_32, "طَيِّبًۭا ۚ", "Tayyiban", "single", 8, 69, 5
+l12_tan_fat_33, "مَّآ", "Haraman", "single", 10, 59, 3
+l12_tan_fat_34, "قَلِيلًا", "Qalilan", "single", 77, 46, 3
+l12_tan_fat_35, "أَوَلَا", "Awwalan", "single", 9, 126, 1
+l12_tan_fat_36, "سِرًّا", "Sirran", "single", 2, 235, 21
+l12_tan_fat_37, "لَيْلًا", "Laylan", "single", 44, 23, 3
+l12_tan_fat_38, "نَهَارًۭا", "Naharan", "single", 10, 50, 8
+l12_tan_fat_39, "عِشَآءًۭ", "Isha-an", "single", 12, 16, 3
+l12_tan_fat_40, "شُفَعَآءَ ۚ", "Shaf-an", "single", 39, 43, 6
+l12_tan_fat_41, "نَارًۭا", "Word", "single", 2, 17, 5
+l12_tan_fat_42, "فِرَٰشًۭا", "Word", "single", 2, 22, 5
+l12_tan_fat_43, "بِنَآءًۭ", "Word", "single", 2, 22, 7
+l12_tan_fat_44, "مَآءًۭ", "Word", "single", 2, 22, 11
+l12_tan_fat_45, "رِزْقًۭا", "Word", "single", 2, 22, 16
+l12_tan_fat_46, "أَندَادًۭا", "Word", "single", 2, 22, 21
+l12_tan_fat_47, "رِّزْقًۭا ۙ", "Word", "single", 2, 25, 18
+l12_tan_fat_48, "مُتَشَـٰبِهًۭا ۖ", "Word", "single", 2, 25, 27
+l12_tan_fat_49, "مَثَلًۭا", "Word", "single", 2, 26, 7
+l12_tan_fat_50, "بَعُوضَةًۭ", "Word", "single", 2, 26, 9
+l12_tan_fat_51, "مَثَلًۭا ۘ", "Word", "single", 2, 26, 28
+l12_tan_fat_52, "كَثِيرًۭا", "Word", "single", 2, 26, 31
+l12_tan_fat_53, "كَثِيرًۭا ۚ", "Word", "single", 2, 26, 34
+l12_tan_fat_54, "أَمْوَٰتًۭا", "Word", "single", 2, 28, 5
+l12_tan_fat_55, "جَمِيعًۭا", "Word", "single", 2, 29, 8

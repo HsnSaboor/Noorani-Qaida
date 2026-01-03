@@ -1,0 +1,9 @@
+id: 8
+title_en: "Damma"
+title_ur: "پیش"
+description_en: "The short vowel 'U'. Focus on the rounded lip sound."
+description_ur: "پیش کی پہچان اور ہونٹوں کو گول کر کے ادائیگی۔"
+validation_rules
+:
+pattern_name, "contains_damma"
+regex, "[\u064F]"

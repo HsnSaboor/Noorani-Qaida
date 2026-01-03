@@ -1,0 +1,8 @@
+id: 43
+title_en: "Sun & Moon"
+title_ur: "Sun & Moon"
+description_en: "Al-Lam Rules"
+description_ur: "Al-Lam Rules"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

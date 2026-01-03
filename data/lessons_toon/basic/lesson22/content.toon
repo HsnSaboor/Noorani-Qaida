@@ -1,0 +1,136 @@
+items[135] {id, content, transliteration, type, surah, ayah, word_index}
+:
+l22_sh_f_0, "اَّ", "Alif Shaddah Fatha", "single", , , 
+l22_sh_k_0, "اِّ", "Alif Shaddah Kasra", "single", , , 
+l22_sh_d_0, "اُّ", "Alif Shaddah Damma", "single", , , 
+l22_sh_f_1, "بَّ", "Ba Shaddah Fatha", "single", , , 
+l22_sh_k_1, "بِّ", "Ba Shaddah Kasra", "single", , , 
+l22_sh_d_1, "بُّ", "Ba Shaddah Damma", "single", , , 
+l22_sh_f_2, "تَّ", "Ta Shaddah Fatha", "single", , , 
+l22_sh_k_2, "تِّ", "Ta Shaddah Kasra", "single", , , 
+l22_sh_d_2, "تُّ", "Ta Shaddah Damma", "single", , , 
+l22_sh_f_3, "ثَّ", "Tha Shaddah Fatha", "single", , , 
+l22_sh_k_3, "ثِّ", "Tha Shaddah Kasra", "single", , , 
+l22_sh_d_3, "ثُّ", "Tha Shaddah Damma", "single", , , 
+l22_sh_f_4, "جَّ", "Jeem Shaddah Fatha", "single", , , 
+l22_sh_k_4, "جِّ", "Jeem Shaddah Kasra", "single", , , 
+l22_sh_d_4, "جُّ", "Jeem Shaddah Damma", "single", , , 
+l22_sh_f_5, "حَّ", "Ha Shaddah Fatha", "single", , , 
+l22_sh_k_5, "حِّ", "Ha Shaddah Kasra", "single", , , 
+l22_sh_d_5, "حُّ", "Ha Shaddah Damma", "single", , , 
+l22_sh_f_6, "خَّ", "Kha Shaddah Fatha", "single", , , 
+l22_sh_k_6, "خِّ", "Kha Shaddah Kasra", "single", , , 
+l22_sh_d_6, "خُّ", "Kha Shaddah Damma", "single", , , 
+l22_sh_f_7, "دَّ", "Dal Shaddah Fatha", "single", , , 
+l22_sh_k_7, "دِّ", "Dal Shaddah Kasra", "single", , , 
+l22_sh_d_7, "دُّ", "Dal Shaddah Damma", "single", , , 
+l22_sh_f_8, "ذَّ", "Dhal Shaddah Fatha", "single", , , 
+l22_sh_k_8, "ذِّ", "Dhal Shaddah Kasra", "single", , , 
+l22_sh_d_8, "ذُّ", "Dhal Shaddah Damma", "single", , , 
+l22_sh_f_9, "رَّ", "Ra Shaddah Fatha", "single", , , 
+l22_sh_k_9, "رِّ", "Ra Shaddah Kasra", "single", , , 
+l22_sh_d_9, "رُّ", "Ra Shaddah Damma", "single", , , 
+l22_sh_f_10, "زَّ", "Za Shaddah Fatha", "single", , , 
+l22_sh_k_10, "زِّ", "Za Shaddah Kasra", "single", , , 
+l22_sh_d_10, "زُّ", "Za Shaddah Damma", "single", , , 
+l22_sh_f_11, "سَّ", "Seen Shaddah Fatha", "single", , , 
+l22_sh_k_11, "سِّ", "Seen Shaddah Kasra", "single", , , 
+l22_sh_d_11, "سُّ", "Seen Shaddah Damma", "single", , , 
+l22_sh_f_12, "شَّ", "Sheen Shaddah Fatha", "single", , , 
+l22_sh_k_12, "شِّ", "Sheen Shaddah Kasra", "single", , , 
+l22_sh_d_12, "شُّ", "Sheen Shaddah Damma", "single", , , 
+l22_sh_f_13, "صَّ", "Sad Shaddah Fatha", "single", , , 
+l22_sh_k_13, "صِّ", "Sad Shaddah Kasra", "single", , , 
+l22_sh_d_13, "صُّ", "Sad Shaddah Damma", "single", , , 
+l22_sh_f_14, "ضَّ", "Dad Shaddah Fatha", "single", , , 
+l22_sh_k_14, "ضِّ", "Dad Shaddah Kasra", "single", , , 
+l22_sh_d_14, "ضُّ", "Dad Shaddah Damma", "single", , , 
+l22_sh_f_15, "طَّ", "Toa Shaddah Fatha", "single", , , 
+l22_sh_k_15, "طِّ", "Toa Shaddah Kasra", "single", , , 
+l22_sh_d_15, "طُّ", "Toa Shaddah Damma", "single", , , 
+l22_sh_f_16, "ظَّ", "Zoa Shaddah Fatha", "single", , , 
+l22_sh_k_16, "ظِّ", "Zoa Shaddah Kasra", "single", , , 
+l22_sh_d_16, "ظُّ", "Zoa Shaddah Damma", "single", , , 
+l22_sh_f_17, "عَّ", "Ain Shaddah Fatha", "single", , , 
+l22_sh_k_17, "عِّ", "Ain Shaddah Kasra", "single", , , 
+l22_sh_d_17, "عُّ", "Ain Shaddah Damma", "single", , , 
+l22_sh_f_18, "غَّ", "Ghain Shaddah Fatha", "single", , , 
+l22_sh_k_18, "غِّ", "Ghain Shaddah Kasra", "single", , , 
+l22_sh_d_18, "غُّ", "Ghain Shaddah Damma", "single", , , 
+l22_sh_f_19, "فَّ", "Fa Shaddah Fatha", "single", , , 
+l22_sh_k_19, "فِّ", "Fa Shaddah Kasra", "single", , , 
+l22_sh_d_19, "فُّ", "Fa Shaddah Damma", "single", , , 
+l22_sh_f_20, "قَّ", "Qaf Shaddah Fatha", "single", , , 
+l22_sh_k_20, "قِّ", "Qaf Shaddah Kasra", "single", , , 
+l22_sh_d_20, "قُّ", "Qaf Shaddah Damma", "single", , , 
+l22_sh_f_21, "كَّ", "Kaf Shaddah Fatha", "single", , , 
+l22_sh_k_21, "كِّ", "Kaf Shaddah Kasra", "single", , , 
+l22_sh_d_21, "كُّ", "Kaf Shaddah Damma", "single", , , 
+l22_sh_f_22, "لَّ", "Lam Shaddah Fatha", "single", , , 
+l22_sh_k_22, "لِّ", "Lam Shaddah Kasra", "single", , , 
+l22_sh_d_22, "لُّ", "Lam Shaddah Damma", "single", , , 
+l22_sh_f_23, "مَّ", "Meem Shaddah Fatha", "single", , , 
+l22_sh_k_23, "مِّ", "Meem Shaddah Kasra", "single", , , 
+l22_sh_d_23, "مُّ", "Meem Shaddah Damma", "single", , , 
+l22_sh_f_24, "نَّ", "Noon Shaddah Fatha", "single", , , 
+l22_sh_k_24, "نِّ", "Noon Shaddah Kasra", "single", , , 
+l22_sh_d_24, "نُّ", "Noon Shaddah Damma", "single", , , 
+l22_sh_f_25, "وَّ", "Waw Shaddah Fatha", "single", , , 
+l22_sh_k_25, "وِّ", "Waw Shaddah Kasra", "single", , , 
+l22_sh_d_25, "وُّ", "Waw Shaddah Damma", "single", , , 
+l22_sh_f_26, "هَّ", "Ha Shaddah Fatha", "single", , , 
+l22_sh_k_26, "هِّ", "Ha Shaddah Kasra", "single", , , 
+l22_sh_d_26, "هُّ", "Ha Shaddah Damma", "single", , , 
+l22_sh_f_27, "يَّ", "Ya Shaddah Fatha", "single", , , 
+l22_sh_k_27, "يِّ", "Ya Shaddah Kasra", "single", , , 
+l22_sh_d_27, "يُّ", "Ya Shaddah Damma", "single", , , 
+l22_sh_word_0, "أَنَّ", "Anna", "single", 2, 26, 5
+l22_sh_word_1, "جَهَنَّمَ", "Jahannama", "single", 2, 206, 10
+l22_sh_word_2, "أُمَّةً", "Ummatan", "single", 2, 128, 7
+l22_sh_word_3, "فَلَمَّا", "Falamma", "single", 2, 17, 6
+l22_sh_word_4, "عَمَّ", "Amma", "single", 78, 1, 1
+l22_sh_word_5, "تَبَّتْ", "Tabbat", "single", 111, 1, 1
+l22_sh_word_6, "شَرٍّ", "Sharrin", "single", 113, 2, 2
+l22_sh_word_7, "تُسَبِّحُ", "Tusabbihu", "single", 17, 44, 1
+l22_sh_word_8, "يُصَلُّونَ", "Yusalluna", "single", 33, 56, 4
+l22_sh_word_9, "نُزِّلَ", "Nuz-zila", "single", 2, 23, 6
+l22_sh_word_10, "مُبَيِّنَاتٍ", "Mubay-yinatin", "single", 24, 34, 5
+l22_sh_word_11, "ٱلَّذِينَ", "Alladhina", "single", 2, 3, 1
+l22_sh_word_12, "ٱلصَّلَوٰةَ", "As-Salata", "single", 2, 3, 5
+l22_sh_word_13, "وَمِمَّا", "Wamimma", "single", 2, 3, 6
+l22_sh_word_14, "وَٱلَّذِينَ", "Walladhina", "single", 2, 4, 1
+l22_sh_word_15, "رَّبِّهِمْ", "Rabbihim", "single", 2, 5, 5
+l22_sh_word_16, "ٱللَّهُ", "Allahu", "single", 2, 7, 2
+l22_sh_word_17, "ٱلنَّاسِ", "An-Nasi", "single", 2, 8, 2
+l22_sh_word_18, "ءَامَنَّا", "Amanna", "single", 2, 8, 5
+l22_sh_word_19, "بِٱللَّهِ", "Billahi", "single", 2, 8, 6
+l22_sh_word_20, "ٱللَّهَ", "Allaha", "single", 2, 9, 2
+l22_sh_word_21, "مَّرَضٌ", "Maradun", "single", 2, 10, 3
+l22_sh_word_22, "إِنَّمَا", "Innama", "single", 2, 11, 9
+l22_sh_word_23, "ٱلسُّفَهَآءُ", "As-Sufahau", "single", 2, 13, 7
+l22_sh_word_24, "ٱلشَّيَـٰطِينِ", "Ash-Shayatini", "single", 2, 14, 3
+l22_sh_word_25, "صُمٌّ", "Summun", "single", 2, 18, 1
+l22_sh_word_27, "ٱلَّذِينَ", "Alladhina", "single", 2, 3, 1
+l22_sh_word_28, "ٱلصَّلَوٰةَ", "As-Salata", "single", 2, 3, 5
+l22_sh_word_29, "وَمِمَّا", "Wamimma", "single", 2, 3, 6
+l22_sh_word_30, "وَٱلَّذِينَ", "Walladhina", "single", 2, 4, 1
+l22_sh_word_31, "مِّن", "Min", "single", 2, 5, 4
+l22_sh_word_32, "رَّبِّهِمْ", "Rabbihim", "single", 2, 5, 5
+l22_sh_word_33, "إِنَّ", "Inna", "single", 2, 6, 1
+l22_sh_word_34, "ٱللَّهُ", "Allahu", "single", 2, 7, 2
+l22_sh_word_35, "ٱلنَّاسِ", "An-Nasi", "single", 2, 8, 2
+l22_sh_word_36, "ءَامَنَّا", "Amanna", "single", 2, 8, 5
+l22_sh_word_37, "بِٱللَّهِ", "Billahi", "single", 2, 8, 6
+l22_sh_word_38, "ٱللَّهَ", "Allaha", "single", 2, 9, 2
+l22_sh_word_39, "إِلَّآ", "Illa", "single", 2, 9, 7
+l22_sh_word_40, "مَّرَضٌ", "Maradun", "single", 2, 10, 3
+l22_sh_word_41, "إِنَّمَا", "Innama", "single", 2, 11, 9
+l22_sh_word_42, "إِنَّهُمْ", "Innahum", "single", 2, 12, 2
+l22_sh_word_43, "لَّا", "La", "single", 2, 12, 6
+l22_sh_word_44, "ٱلنَّاسُ", "An-Nasu", "single", 2, 13, 7
+l22_sh_word_45, "ٱلسُّفَهَآءُ", "As-Sufahau", "single", 2, 13, 12
+l22_sh_word_46, "إِنَّا", "Inna", "single", 2, 14, 12
+l22_sh_word_47, "وَيَمُدُّهُمْ", "Wayamudduhum", "single", 2, 15, 4
+l22_sh_word_48, "ٱلضَّلَـٰلَةَ", "Ad-Dalalata", "single", 2, 16, 4
+l22_sh_word_49, "تِّجَـٰرَتُهُمْ", "Tijaratuhum", "single", 2, 16, 8
+l22_sh_word_50, "ٱلَّذِى", "Alladhi", "single", 2, 17, 3

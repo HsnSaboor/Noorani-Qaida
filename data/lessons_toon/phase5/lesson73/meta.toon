@@ -1,0 +1,8 @@
+id: 73
+title_en: "Surah Al-Ma'un"
+title_ur: "Surah Al-Ma'un"
+description_en: "Small Kindnesses"
+description_ur: "Small Kindnesses"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

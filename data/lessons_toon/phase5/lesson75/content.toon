@@ -1,0 +1,28 @@
+# Surah Al-Kafirun
+|id|text_ar|transliteration|type|surah|ayah|word_index|translation|rule
+75_0_0|قُلۡ|قُلۡ|word|109|1|0|Say|Heavy Qaf
+75_0_1|يَـٰٓأَيُّهَا|يَـٰٓأَيُّهَا|word|109|1|0|O|Madd Munfasil (4)
+75_0_2|ٱلۡكَـٰفِرُونَ|ٱلۡكَـٰفِرُونَ|word|109|1|0|disbelievers|Madd Arid
+75_1_0|لَآ|لَآ|word|109|2|0|I do not|Madd Munfasil (4)
+75_1_1|أَعۡبُدُ|أَعۡبُدُ|word|109|2|0|worship|Deep Ain
+75_1_2|مَا|مَا|word|109|2|0|what|Madd Asli
+75_1_3|تَعۡبُدُونَ|تَعۡبُدُونَ|word|109|2|0|you worship|Deep Ain + Madd Arid
+75_2_0|وَلَآ|وَلَآ|word|109|3|0|Nor are|Madd Munfasil (4)
+75_2_1|أَنتُمۡ|أَنتُمۡ|word|109|3|0|you|Ikhfa Nun
+75_2_2|عَـٰبِدُونَ|عَـٰبِدُونَ|word|109|3|0|worshippers|Madd Asli
+75_2_3|مَآ|مَآ|word|109|3|0|of what|Madd Munfasil (4)
+75_2_4|أَعۡبُدُ|أَعۡبُدُ|word|109|3|0|I worship|Deep Ain + Qalqala (Stop)
+75_3_0|وَلَآ|وَلَآ|word|109|4|0|Nor|Madd Munfasil (4)
+75_3_1|أَنَا۠|أَنَا۠|word|109|4|0|am I|Drop Alif (Ana)
+75_3_2|عَابِدٌ|عَابِدٌ|word|109|4|0|a worshipper|Idgham (Tanween->Meem)
+75_3_3|مَّا|مَّا|word|109|4|0|of what|Madd Asli
+75_3_4|عَبَدتُّمۡ|عَبَدتُّمۡ|word|109|4|0|you worshipped|Idgham (Dal->Ta)
+75_4_0|وَلَآ|وَلَآ|word|109|5|0|Nor are|Madd Munfasil (4)
+75_4_1|أَنتُمۡ|أَنتُمۡ|word|109|5|0|you|Ikhfa Nun
+75_4_2|عَـٰبِدُونَ|عَـٰبِدُونَ|word|109|5|0|worshippers|Madd Asli
+75_4_3|مَآ|مَآ|word|109|5|0|of what|Madd Munfasil (4)
+75_4_4|أَعۡبُدُ|أَعۡبُدُ|word|109|5|0|I worship|Deep Ain + Qalqala (Stop)
+75_5_0|لَكُمۡ|لَكُمۡ|word|109|6|0|For you is|Clear Meem
+75_5_1|دِينُكُمۡ|دِينُكُمۡ|word|109|6|0|your religion|Madd Asli
+75_5_2|وَلِيَ|وَلِيَ|word|109|6|0|and for me is|Light Lam
+75_5_3|دِينِ|دِينِ|word|109|6|0|my religion|Madd Arid

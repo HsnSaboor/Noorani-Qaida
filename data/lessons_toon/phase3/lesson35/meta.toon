@@ -1,0 +1,8 @@
+id: 35
+title_en: "Madd Lazim"
+title_ur: "Madd Lazim"
+description_en: "Compulsory"
+description_ur: "Compulsory"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

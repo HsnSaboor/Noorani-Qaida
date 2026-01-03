@@ -1,0 +1,8 @@
+id: 9
+title_en: "Mixed Harakat"
+title_ur: "حرکات کی مشق"
+description_en: "Fluency Challenge: Fatha, Kasra, Damma combined."
+description_ur: "مخلوط حرکات کی مشق۔"
+validation_rules
+:
+pattern_name, ""

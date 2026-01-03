@@ -1,0 +1,8 @@
+id: 26
+title_en: "Izhar"
+title_ur: "Izhar"
+description_en: "Clear"
+description_ur: "Clear"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

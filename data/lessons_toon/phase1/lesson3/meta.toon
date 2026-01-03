@@ -1,0 +1,8 @@
+id: 3
+title_en: "Similar Letters"
+title_ur: "ملتے جلتے حروف"
+description_en: "Distinguish between letters that look alike or sound alike."
+description_ur: "ملتی جلتی شکلوں اور آوازوں میں فرق۔"
+validation_rules
+:
+pattern_name, ""

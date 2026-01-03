@@ -1,0 +1,8 @@
+id: 26
+title_en: "Izhar (Clear)"
+title_ur: "اظہار"
+description_en: "Clear pronunciation of Nun."
+description_ur: "نون کو ظاہر کرنا۔"
+validation_rules
+:
+pattern_name, ""

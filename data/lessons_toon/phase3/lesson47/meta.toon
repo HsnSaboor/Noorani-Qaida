@@ -1,0 +1,8 @@
+id: 47
+title_en: "Meaning Stops"
+title_ur: "Meaning Stops"
+description_en: "Ayn Sign"
+description_ur: "Ayn Sign"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

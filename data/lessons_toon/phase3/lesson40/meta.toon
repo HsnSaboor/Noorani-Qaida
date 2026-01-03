@@ -1,0 +1,8 @@
+id: 40
+title_en: "Salah (Namaz)"
+title_ur: "Salah (Namaz)"
+description_en: "Prayer"
+description_ur: "Prayer"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

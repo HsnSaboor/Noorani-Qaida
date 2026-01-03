@@ -1,0 +1,60 @@
+items[60] {id, content, transliteration, type}
+:
+l4_intro, "خ ص ض غ ط ق ظ", "The 7 Heavy Letters (Musta'liyah)", "sequence"
+l4_h_0_f, "خَ", "Kha (Fatha)", "single"
+l4_h_0_k, "خِ", "Kha (Kasra)", "single"
+l4_h_0_d, "خُ", "Kha (Damma)", "single"
+l4_h_1_f, "صَ", "Sad (Fatha)", "single"
+l4_h_1_k, "صِ", "Sad (Kasra)", "single"
+l4_h_1_d, "صُ", "Sad (Damma)", "single"
+l4_h_2_f, "ضَ", "Dad (Fatha)", "single"
+l4_h_2_k, "ضِ", "Dad (Kasra)", "single"
+l4_h_2_d, "ضُ", "Dad (Damma)", "single"
+l4_h_3_f, "غَ", "Ghain (Fatha)", "single"
+l4_h_3_k, "غِ", "Ghain (Kasra)", "single"
+l4_h_3_d, "غُ", "Ghain (Damma)", "single"
+l4_h_4_f, "طَ", "Toa (Fatha)", "single"
+l4_h_4_k, "طِ", "Toa (Kasra)", "single"
+l4_h_4_d, "طُ", "Toa (Damma)", "single"
+l4_h_5_f, "قَ", "Qaf (Fatha)", "single"
+l4_h_5_k, "قِ", "Qaf (Kasra)", "single"
+l4_h_5_d, "قُ", "Qaf (Damma)", "single"
+l4_h_6_f, "ظَ", "Zoa (Fatha)", "single"
+l4_h_6_k, "ظِ", "Zoa (Kasra)", "single"
+l4_h_6_d, "ظُ", "Zoa (Damma)", "single"
+l4_light_intro, "ب ت ث ج د ذ ز س ش ع ف ك ل م ن ه ي", "Light Letters (Tarqeeq)", "sequence"
+l4_l_0_f, "بَ", "Ba (Light)", "single"
+l4_l_0_k, "بِ", "Ba (Light)", "single"
+l4_l_0_d, "بُ", "Ba (Light)", "single"
+l4_l_1_f, "تَ", "Ta (Light)", "single"
+l4_l_1_k, "تِ", "Ta (Light)", "single"
+l4_l_1_d, "تُ", "Ta (Light)", "single"
+l4_l_2_f, "سَ", "Seen (Light)", "single"
+l4_l_2_k, "سِ", "Seen (Light)", "single"
+l4_l_2_d, "سُ", "Seen (Light)", "single"
+l4_l_3_f, "دَ", "Dal (Light)", "single"
+l4_l_3_k, "دِ", "Dal (Light)", "single"
+l4_l_3_d, "دُ", "Dal (Light)", "single"
+l4_l_4_f, "فَ", "Fa (Light)", "single"
+l4_l_4_k, "فِ", "Fa (Light)", "single"
+l4_l_4_d, "فُ", "Fa (Light)", "single"
+l4_l_5_f, "كَ", "Kaf (Light)", "single"
+l4_l_5_k, "كِ", "Kaf (Light)", "single"
+l4_l_5_d, "كُ", "Kaf (Light)", "single"
+l4_vs_t_t, "تَ vs طَ", "Ta (Light) vs Toa (Heavy)", "comparison"
+l4_vs_s_s, "سَ vs صَ", "Seen (Light) vs Sad (Heavy)", "comparison"
+l4_vs_d_d, "دَ vs ضَ", "Dal (Light) vs Dad (Heavy)", "comparison"
+l4_vs_k_q, "كَ vs قَ", "Kaf (Light) vs Qaf (Heavy)", "comparison"
+l4_w_0, "خَلَقَ", "Khalaqa", "sequence", 55:14:1
+l4_w_1, "صَدَقَ", "Sadaqa", "sequence", 3:95:2
+l4_w_2, "ضَرَبَ", "Daraba", "sequence", 14:24:3
+l4_w_3, "غَلَبَ", "Ghalaba", "sequence", 18:21:2
+l4_w_4, "طَلَبَ", "Talaba", "sequence", 18:64:14
+l4_w_5, "قَتَلَ", "Qatala", "sequence", 5:32:8
+l4_w_6, "ظَلَمَ", "Zalama", "sequence", 2:231:26
+l4_w_7, "خَتَمَ", "Khatama", "sequence", 2, 7, 1
+l4_w_8, "صَبَرَ", "Sabara", "sequence", 42:43:3
+l4_w_9, "قَرَأَ", "Qara-a", "sequence", 96:1:1
+l4_w_light_0, "كَتَبَ", "Kataba (Light)", "sequence", 58:21:1
+l4_w_light_1, "سَمِعَ", "Sami'a (Light)", "sequence", 58:1:2
+l4_w_light_2, "فَتَحَ", "Fataha (Light)", "sequence", 2:76:8

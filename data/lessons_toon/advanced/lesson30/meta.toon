@@ -1,0 +1,9 @@
+id: 30
+title_en: "Meem Sakin"
+title_ur: "میم ساکن"
+description_en: "Rules of Static Meem."
+description_ur: "میم ساکن کے ۳ قواعد۔"
+validation_rules
+:
+pattern_name, "contains_kasra"
+regex, "[\u0650]"

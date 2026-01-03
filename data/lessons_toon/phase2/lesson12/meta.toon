@@ -1,0 +1,8 @@
+id: 12
+title_en: "Tanween Fath"
+title_ur: "دو زبر"
+description_en: "The 'AN' sound. Double Fatha on letters."
+description_ur: "دو زبر کی پہچان اور 'ن' کی آواز کے ساتھ ادائیگی۔"
+validation_rules
+:
+pattern_name, ""

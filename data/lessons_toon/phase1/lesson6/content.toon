@@ -1,0 +1,67 @@
+items[58] {id, content, transliteration, type, surah, ayah, word_index}
+:
+# Creation Verbs
+l6_fatha_0, "خَلَقَ", "Khalaqa", "single", 55, 14, 1
+l6_fatha_1, "جَعَلَ", "Ja'ala", "single", 2, 22, 2
+l6_fatha_2, "بَعَثَ", "Ba'atha", "single", 62, 2, 3
+l6_fatha_3, "فَتَحَ", "Fataha", "single", 2, 76, 15
+l6_fatha_4, "خَتَمَ", "Khatama", "single", 2, 7, 1
+l6_fatha_5, "تَرَكَ", "Taraka", "single", 4, 7, 4
+l6_fatha_6, "عَبَسَ", "Abasa", "single", 80, 1, 1
+l6_fatha_7, "بَدَأَ", "Bada'a", "single", 29, 20, 7
+# Movement Actions
+l6_fatha_8, "ذَهَبَ", "Dhahaba", "single", 2, 17, 10
+l6_fatha_9, "دَخَلَ", "Dakhala", "single", 3, 37, 11
+l6_fatha_10, "مَرَجَ", "Maraja", "single", 55, 19, 1
+l6_fatha_11, "نَزَلَ", "Nazala", "single", 26, 193, 1
+l6_fatha_12, "رَجَعَ", "Raja'a", "single", 7, 150, 2
+l6_fatha_13, "وَقَعَ", "Waqa'a", "single", 4, 100, 24
+l6_fatha_14, "بَلَغَ", "Balagha", "single", 12, 22, 2
+l6_fatha_15, "حَضَرَ", "Hadara", "single", 2, 133, 5
+l6_fatha_16, "سَكَنَ", "Sakana", "single", 6, 13, 3
+l6_fatha_17, "حَسَدَ", "Hasada", "single", 113, 5, 3
+# Human Acts - Good
+l6_fatha_18, "صَدَقَ", "Sadaqa", "single", 3, 95, 2
+l6_fatha_19, "صَبَرَ", "Sabara", "single", 42, 43, 3
+l6_fatha_20, "شَكَرَ", "Shakara", "single", 27, 40, 9
+l6_fatha_21, "عَبَدَ", "Abada", "single", 5, 60, 18
+l6_fatha_22, "نَصَرَ", "Nasara", "single", 3, 123, 2
+l6_fatha_23, "كَتَبَ", "Kataba", "single", 58, 21, 1
+l6_fatha_24, "طَبَعَ", "Taba'a", "single", 16, 108, 3
+l6_fatha_25, "ذَكَرَ", "Dhakara", "single", 12, 45, 2
+# Human Acts - Bad
+l6_fatha_26, "كَفَرَ", "Kafara", "single", 30, 44, 2
+l6_fatha_27, "ظَلَمَ", "Zalama", "single", 27, 11, 3
+l6_fatha_28, "قَتَلَ", "Qatala", "single", 5, 32, 8
+l6_fatha_29, "كَذَبَ", "Kadhaba", "single", 6, 148, 2
+l6_fatha_30, "سَرَقَ", "Saraqa", "single", 12, 81, 6
+l6_fatha_31, "مَكَرَ", "Makara", "single", 13, 42, 3
+l6_fatha_32, "فَسَقَ", "Fasaqa", "single", 18, 50, 9
+l6_fatha_33, "هَلَكَ", "Halaka", "single", 8, 42, 15
+# Mental & Speech
+l6_fatha_34, "سَأَلَ", "Sa'ala", "single", 70, 1, 1
+l6_fatha_35, "قَرَأَ", "Qara'a", "single", 17, 14, 1
+l6_fatha_36, "نَظَرَ", "Nazara", "single", 74, 21, 2
+l6_fatha_37, "حَكَمَ", "Hakama", "single", 40, 48, 4
+l6_fatha_38, "عَلِمَ", "Alima", "single", 2, 235, 10
+l6_fatha_39, "شَهِدَ", "Shahida", "single", 3, 18, 1
+l6_fatha_40, "وَعَدَ", "Wa'ada", "single", 9, 68, 1
+l6_fatha_41, "زَعَمَ", "Za'ama", "single", 64, 7, 1
+# Interactions
+l6_fatha_42, "وَجَدَ", "Wajada", "single", 18, 93, 10
+l6_fatha_43, "أَخَذَ", "Akhadha", "single", 7, 154, 7
+l6_fatha_44, "تَرَكَ", "Taraka", "single", 4, 7, 4
+l6_fatha_45, "جَمَعَ", "Jama'a", "single", 104, 2, 2
+l6_fatha_46, "كَنَزَ", "Kanaza", "single", 9, 34, 12
+l6_fatha_47, "وَهَبَ", "Wahaba", "single", 38, 43, 2
+l6_fatha_48, "أَكَلَ", "Akala", "single", 5, 3, 22
+l6_fatha_49, "كَسَبَ", "Kasaba", "single", 2, 81, 3
+# Misc States
+l6_fatha_50, "عَدَلَ", "Adala", "single", 6, 70, 7
+l6_fatha_51, "نَفَعَ", "Nafa'a", "single", 6, 158, 11
+l6_fatha_52, "ظَهَرَ", "Zahara", "single", 30, 41, 1
+l6_fatha_53, "بَطَنَ", "Batana", "single", 6, 151, 1
+l6_fatha_54, "فَصَلَ", "Fasala", "single", 2, 249, 2
+l6_fatha_55, "قَدَرَ", "Qadara", "single", 74, 18, 4
+l6_fatha_56, "سَبَقَ", "Sabaqa", "single", 8, 68, 5
+l6_fatha_57, "ظَلَمَ", "Zalama", "single", 2, 231, 26

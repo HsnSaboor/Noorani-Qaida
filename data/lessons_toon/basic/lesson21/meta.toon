@@ -1,0 +1,9 @@
+id: 21
+title_en: "Qalqala"
+title_ur: "قلقلہ"
+description_en: "The 'Bouncing' echo sound on 5 letters."
+description_ur: "پانچ حروف پر 'اوآز پلٹنا'۔"
+validation_rules
+:
+pattern_name, "contains_sukoon"
+regex, "[\u0652]"

@@ -1,0 +1,8 @@
+id: 57
+title_en: "Gharib II"
+title_ur: "Gharib II"
+description_en: "Ishmam & Naql"
+description_ur: "Ishmam & Naql"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

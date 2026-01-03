@@ -1,0 +1,8 @@
+id: 59
+title_en: "The Khatam"
+title_ur: "The Khatam"
+description_en: "Final Seal"
+description_ur: "Final Seal"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

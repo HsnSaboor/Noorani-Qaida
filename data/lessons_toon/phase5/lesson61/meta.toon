@@ -1,0 +1,8 @@
+id: 61
+title_en: "Surah At-Tin"
+title_ur: "Surah At-Tin"
+description_en: "The Fig"
+description_ur: "The Fig"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

@@ -1,0 +1,8 @@
+id: 77
+title_en: "Surah Al-Masad"
+title_ur: "Surah Al-Masad"
+description_en: "The Palm Fiber"
+description_ur: "The Palm Fiber"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

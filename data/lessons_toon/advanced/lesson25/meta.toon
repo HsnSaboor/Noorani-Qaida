@@ -1,0 +1,8 @@
+id: 25
+title_en: "Nun Sakin Rules"
+title_ur: "نون ساکن کے قواعد"
+description_en: "Intro to Nun Sakin & Tanween."
+description_ur: "نون ساکن اور تنوین کا تعارف۔"
+validation_rules
+:
+pattern_name, ""

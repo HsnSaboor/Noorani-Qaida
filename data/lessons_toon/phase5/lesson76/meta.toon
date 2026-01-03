@@ -1,0 +1,8 @@
+id: 76
+title_en: "Surah An-Nasr"
+title_ur: "Surah An-Nasr"
+description_en: "Divine Support"
+description_ur: "Divine Support"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

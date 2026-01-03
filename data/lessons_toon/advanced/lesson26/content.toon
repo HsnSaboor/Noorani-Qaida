@@ -1,0 +1,75 @@
+# Lesson 26 Content
+
+|id|text_ar|transliteration|type|surah|ayah|word_index
+l26_1|مَنْ ءَامَنَ|Man Amana|word|2|62|10
+l26_2|مِنْ أَهْلِ|Min Ahli|word|2|105|3
+l26_3|عَنْ أَنفُسِكُم|An Anfusikum|word|2|48|12
+l26_4|مَنْ أَعْرَضَ|Man A-rada|word|18|57|2
+l26_5|مِنْ إِلَـٰهٍ|Min Ilahin|word|3|62|9
+l26_6|مِنْ أَمْرِنَا|Min Amrina|word|18|10|5
+l26_7|مَنْ أَسْلَمَ|Man Aslama|word|2|112|2
+l26_8|مِنْ أَجْلِ|Min Ajli|word|5|32|1
+l26_9|مِنْ أَحَدٍ|Min Ahadin|word|2|102|12
+l26_10|مِنْ أَعْنَابٍ|Min A-nabin|word|2|266|8
+l26_11|مَنْ هَدَى|Man Hada|word|6|148|11
+l26_12|مِنْ هَادٍ|Min Hadin|word|13|7|10
+l26_13|عَنْهُ|Anhu|word|2|25|27
+l26_14|مِنْهَا|Minha|word|2|36|6
+l26_15|عَنْهُم|Anhum|word|2|13|5
+l26_16|مِنْهُم|Minhum|word|2|8|4
+l26_17|مِنْهُمَا|Minhuma|word|2|102|13
+l26_18|أَنْهَارٌ|Anharun|word|2|25|12
+l26_19|يَنْهَىٰ|Yanha|word|96|9|3
+l26_20|يَنْهَوْنَ|Yanhawna|word|6|26|2
+l26_21|مِنْ عِندِ|Min Indi|word|2|89|4
+l26_22|مِنْ عِلْمٍ|Min Ilmin|word|6|148|13
+l26_23|مِنْ عِبَادِنَا|Min Ibadina|word|2|23|2
+l26_24|مَنْ عَمِلَ|Man Amila|word|4|123|2
+l26_25|مِنْ عَذَابٍ|Min Adhabin|word|3|191|14
+l26_26|عَنْ عِبَادَتِهِ|An Ibadatihi|word|4|172|6
+l26_27|أَنْعَمْتَ|An-amta|word|1|7|2
+l26_28|أَنْعَمَ|An-ama|word|5|110|4
+l26_29|مِنْ حَيْثُ|Min Haythu|word|2|150|2
+l26_30|مِنْ حَسَنَةٍ|Min Hasanatin|word|4|79|3
+l26_31|مَنْ حَادَّ|Man Hadda|word|58|20|2
+l26_32|مِنْ حَقٍّ|Min Haqqin|word|5|48|15
+l26_33|مِنْ حَوْلِنَا|Min Hawlina|word|9|120|6
+l26_34|مِنْ حَكِيمٍ|Min Hakimin|word|41|42|7
+l26_35|عَنْ حَسِّ|An Hassi|word|21|102|2
+l26_36|وَٱنْحَرْ|Wanhar|word|108|2|2
+l26_37|مِنْ غِلٍّ|Min Ghillin|word|7|43|8
+l26_38|مِنْ غَيْرِ|Min Ghayri|word|2|61|21
+l26_39|مَنْ غَشَّنَا|Man Ghash-shana|word|3|161|8
+l26_40|مِنْ غِسْلِينٍ|Min Ghislinin|word|69|36|3
+l26_41|مِنْ غَمٍّ|Min Ghammin|word|22|22|5
+l26_42|مِنْ غُسْلٍ|Min Ghuslin|word|38|42|6
+l26_43|مِنْ غَائِبَةٍ|Min Gha-ibatin|word|27|75|2
+l26_44|يُنْغِضُونَ|Yunghiduna|word|17|51|15
+l26_45|مِنْ خَيْرٍ|Min Khayrin|word|2|105|15
+l26_46|مِنْ خَوْفٍ|Min Khawfin|word|106|4|10
+l26_47|مَنْ خَشِىَ|Man Khashiya|word|50|33|2
+l26_48|مَنْ خَلَقَ|Man Khalaqa|word|67|14|2
+l26_49|مِنْ خَلَاقٍ|Min Khilaqin|word|2|102|57
+l26_50|مِنْ خِلَالِهِ|Min Khilalihi|word|17|91|6
+l26_51|مِنْ خُطُوَاتِ|Min Khutuwati|word|2|168|6
+l26_52|ٱلْمُنْخَنِقَةُ|Al-Munkhaniqatu|word|5|3|9
+l26_53|عَذَابٌ أَلِيمٌ|Adhabun Alimun|word|2|10|11
+l26_54|عَلِيمٌ حَكِيمٌ|Alimun Hakimun|word|2|32|14
+l26_55|غَفُورٌ حَلِيمٌ|Ghafurun Halimun|word|2|225|15
+l26_56|عَزِيزٌ حَكِيمٌ|Azizun Hakimun|word|2|129|25
+l26_57|لَطِيفٌ خَبِيرٌ|Latifun Khabirun|word|6|103|11
+l26_58|عَلِيمٌ خَبِيرٌ|Alimun Khabirun|word|4|35|33
+l26_59|عَذَابٌ عَظِيمٌ|Adhabun Adhimun|word|2|7|16
+l26_60|أَجْرٌ عَظِيمٌ|Ajrun Adhimun|word|2|7|11
+l26_61|سَمِيعٌ عَلِيمٌ|Sami-un Alimun|word|2|127|19
+l26_62|وَاسِعٌ عَلِيمٌ|Wasi-un Alimun|word|2|115|13
+l26_63|قَوْلًا غَيْرَ|Qawlan Ghayra|word|2|59|3
+l26_64|أَجْرًا غَيْرَ|Ajran Ghayra|word|95|6|6
+l26_65|شَيْءٍ عَلِيمٌ|Shayin Alimun|word|2|29|21
+l26_66|شَاكِرٌ عَلِيمٌ|Shakirun Alimun|word|2|158|23
+l26_67|قَوِيٌّ عَزِيزٌ|Qawiyyun Azizun|word|11|66|17
+l26_68|غَنِيٌّ حَلِيمٌ|Ghaniyyun Halimun|word|2|263|18
+l26_69|يَوْمَئِذٍ خَشِعَةٌ|Yawma-idhin Khashi-atun|word|88|2|2
+l26_70|نَارًا حَامِيَةً|Naran Hamiyatan|word|101|11|2
+l26_71|كِتَابٌ حَكِيمٌ|Kitabun Hakimun|word|11|1|12
+l26_72|جُرُفٍ هَارٍ|Jurufin Harin|word|9|109|13

@@ -1,0 +1,17 @@
+items[15] {id, content, transliteration, type}
+:
+l5_g_throat_bottom, "ء ه", "Bottom Throat (Aqsa Halq)", "sequence"
+l5_g_throat_mid, "ع ح", "Middle Throat (Wast Halq)", "sequence"
+l5_g_throat_top, "غ خ", "Top Throat (Adna Halq)", "sequence"
+l5_g_tongue_back_q, "ق", "Deep Tongue (Aqsa Lisan)", "single"
+l5_g_tongue_back_k, "ك", "Back Tongue (Aqsa Lisan)", "single"
+l5_g_tongue_mid, "ج ش ي", "Middle Tongue (Wast Lisan)", "sequence"
+l5_g_tongue_side, "ض", "Side of Tongue (Haffah)", "single"
+l5_g_tongue_lam, "ل", "Tip Side (Lam)", "single"
+l5_g_tongue_nun, "ن", "Tip (Noon)", "single"
+l5_g_tongue_ra, "ر", "Tip Back (Ra)", "single"
+l5_g_tongue_nat, "ط د ت", "Natiyah (Roots)", "sequence"
+l5_g_tongue_lis, "ظ ذ ث", "Lithawiyah (Tips)", "sequence"
+l5_g_tongue_saf, "ص ز س", "Safiriyah (Plates)", "sequence"
+l5_g_lips_f, "ف", "Lips (Fa)", "single"
+l5_g_lips_mw, "م ب و", "Lips (Meem, Ba, Waw)", "sequence"

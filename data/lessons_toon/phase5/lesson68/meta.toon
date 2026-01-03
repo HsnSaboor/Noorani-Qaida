@@ -1,0 +1,8 @@
+id: 68
+title_en: "Surah At-Takathur"
+title_ur: "Surah At-Takathur"
+description_en: "The Rivalry"
+description_ur: "The Rivalry"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

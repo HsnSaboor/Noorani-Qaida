@@ -1,0 +1,7 @@
+{
+  "name": "Noorani Qaida Interactive",
+  "description": "A kid-friendly, bilingual (English & Urdu) interactive Noorani Qaida app with audio playback, progress tracking, and gamification.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

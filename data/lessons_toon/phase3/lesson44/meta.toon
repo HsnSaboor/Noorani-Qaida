@@ -1,0 +1,8 @@
+id: 44
+title_en: "Hamza Rules"
+title_ur: "Hamza Rules"
+description_en: "Wasl & Qat"
+description_ur: "Wasl & Qat"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

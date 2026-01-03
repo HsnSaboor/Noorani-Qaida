@@ -1,0 +1,89 @@
+items[80] {id, content, transliteration, type, surah, ayah, word_index}
+:
+# Attributes of Allah
+l14_tan_dam_0, "غَفُورٌ", "Ghafurun", "single", 2, 173, 1
+l14_tan_dam_1, "رَحِيمٌ", "Rahimun", "single", 2, 173, 1
+l14_tan_dam_2, "عَلِيمٌ", "Alimun", "single", 2, 29, 1
+l14_tan_dam_3, "حَكِيمٌ", "Hakimun", "single", 2, 32, 1
+l14_tan_dam_4, "عَظِيمٌ", "Azimun", "single", 2, 7, 1
+l14_tan_dam_5, "قَدِيرٌ", "Qadirun", "single", 2, 20, 1
+l14_tan_dam_6, "بَصِيرٌ", "Basirun", "single", 2, 96, 1
+l14_tan_dam_7, "خَبِيرٌ", "Khabirun", "single", 6, 18, 1
+l14_tan_dam_8, "حَلِيمٌ", "Halimun", "single", 2, 225, 1
+l14_tan_dam_9, "شَكُورٌ", "Shakurun", "single", 35, 30, 1
+l14_tan_dam_10, "تَوَّابٌ", "Tawwabun", "single", 2, 37, 1
+l14_tan_dam_11, "وَاسِعٌ", "Wasi'un", "single", 2, 115, 1
+# Prophets & Messengers
+l14_tan_dam_12, "رَسُولٌ", "Rasulun", "single", 2, 101, 1
+l14_tan_dam_13, "بَشِيرٌ", "Bashirun", "single", 2, 119, 1
+l14_tan_dam_14, "نَذِيرٌ", "Nadhirun", "single", 2, 119, 1
+l14_tan_dam_15, "شَهِيدٌ", "Shahidun", "single", 3, 98, 1
+l14_tan_dam_16, "نَبِيٌّ", "Nabiyyun", "single", 3, 68, 1
+l14_tan_dam_17, "مُبِينٌ", "Mubinun", "single", 2, 168, 1
+l14_tan_dam_18, "نَاصِرٌ", "Nasirun", "single", 86, 10, 1
+l14_tan_dam_19, "مُحَمَّدٌ", "Muhammadun", "single", 48, 29, 1
+# Quranic Nouns
+l14_tan_dam_20, "كِتَـٰبٌ", "Kitabun", "single", 2, 2, 1
+l14_tan_dam_21, "قُرۡءَانٌ", "Qur'anun", "single", 12, 2, 1
+l14_tan_dam_22, "ذِكۡرٌ", "Dhikrun", "single", 7, 2, 1
+l14_tan_dam_23, "هُدًى", "Huda(n)", "single", 2, 2, 1
+l14_tan_dam_24, "نُورٌ", "Nurun", "single", 4, 174, 1
+l14_tan_dam_25, "حَقٌّ", "Haqqun", "single", 2, 147, 1
+l14_tan_dam_26, "بَـٰطِلٌ", "Batilun", "single", 2, 42, 1
+l14_tan_dam_27, "حِسَابٌ", "Hisabun", "single", 2, 202, 1
+l14_tan_dam_28, "أَجۡرٌ", "Ajrun", "single", 2, 62, 1
+l14_tan_dam_29, "رِزۡقٌ", "Rizqun", "single", 2, 25, 1
+l14_tan_dam_30, "فَوۡزٌ", "Fawzun", "single", 4, 13, 1
+l14_tan_dam_31, "إِثۡمٌ", "Ithmun", "single", 2, 219, 1
+# Nature & Creation
+l14_tan_dam_32, "لَيۡلٌ", "Laylun", "single", 92, 1, 1
+l14_tan_dam_33, "نَهَارٌ", "Naharun", "single", 92, 2, 1
+l14_tan_dam_34, "شَمۡسٌ", "Shamsun", "single", 81, 1, 1
+l14_tan_dam_35, "قَمَرٌ", "Qamarun", "single", 54, 1, 1
+l14_tan_dam_36, "بَحۡرٌ", "Bahrun", "single", 18, 109, 1
+l14_tan_dam_37, "شَجَرَةٌ", "Shajaratun", "single", 14, 24, 1
+l14_tan_dam_38, "جَنَّةٌ", "Jannatun", "single", 88, 10, 1
+l14_tan_dam_39, "نَارٌ", "Narun", "single", 101, 11, 1
+l14_tan_dam_40, "مَآءٌ", "Ma'un", "single", 11, 7, 1
+l14_tan_dam_41, "رَعۡدٌ", "Ra'dun", "single", 13, 13, 1
+l14_tan_dam_42, "بَرۡقٌ", "Barqun", "single", 2, 19, 1
+l14_tan_dam_43, "سَحَابٌ", "Sahabun", "single", 2, 164, 1
+# Conditions & Adjectives
+l14_tan_dam_44, "ظُلُمَـٰتٌ", "Zulumatun", "single", 2, 19, 1
+l14_tan_dam_45, "صُمٌّ", "Summun", "single", 2, 18, 1
+l14_tan_dam_46, "بُكۡمٌ", "Bukmun", "single", 2, 18, 1
+l14_tan_dam_47, "عُمۡىٌ", "Umyun", "single", 2, 18, 1
+l14_tan_dam_48, "مَرَضٌ", "Maradun", "single", 2, 10, 1
+l14_tan_dam_49, "خَوۡفٌ", "Khawfun", "single", 2, 38, 1
+l14_tan_dam_50, "جُوعٌ", "Ju'un", "single", 2, 155, 1
+l14_tan_dam_51, "قَلِيلٌ", "Qalilun", "single", 2, 88, 1
+l14_tan_dam_52, "كَثِيرٌ", "Kathirun", "single", 2, 246, 1
+l14_tan_dam_53, "بَعِيدٌ", "Ba'idun", "single", 50, 3, 1
+l14_tan_dam_54, "قَرِيبٌ", "Qaribun", "single", 2, 186, 1
+l14_tan_dam_55, "شَدِيدٌ", "Shadidun", "single", 2, 165, 1
+# Relationships & People
+l14_tan_dam_56, "نَفۡسٌ", "Nafsun", "single", 2, 48, 1
+l14_tan_dam_57, "أُمَّةٌ", "Ummatun", "single", 2, 134, 1
+l14_tan_dam_58, "قَوۡمٌ", "Qawmun", "single", 2, 164, 1
+l14_tan_dam_59, "رِجَالٌ", "Rijalun", "single", 4, 34, 1
+l14_tan_dam_60, "نِسَآءٌ", "Nisa'un", "single", 4, 34, 1
+l14_tan_dam_61, "أَزۡوَٰجٌ", "Azwajun", "single", 2, 25, 1
+l14_tan_dam_62, "وَٰلِدٌ", "Walidun", "single", 31, 33, 1
+l14_tan_dam_63, "وَلَدٌ", "Waladun", "single", 2, 116, 1
+l14_tan_dam_64, "أَخٌ", "Akhun", "single", 4, 11, 1
+l14_tan_dam_65, "عَدُوٌّ", "Aduwwun", "single", 2, 36, 1
+l14_tan_dam_66, "فِئَةٌ", "Fi'atun", "single", 3, 13, 1
+l14_tan_dam_67, "جُندٌ", "Jundun", "single", 36, 28, 1
+# Qualities & Miscellaneous
+l14_tan_dam_68, "خَيۡرٌ", "Khayrun", "single", 2, 103, 1
+l14_tan_dam_69, "شَرٌّ", "Sharrun", "single", 113, 2, 1
+l14_tan_dam_70, "سَلَـٰمٌ", "Salamun", "single", 97, 5, 1
+l14_tan_dam_71, "قَوۡلٌ", "Qawlun", "single", 2, 263, 1
+l14_tan_dam_72, "مُحِيطٌ", "Muhitun", "single", 2, 19, 1
+l14_tan_dam_73, "عَدۡلٌ", "Adlun", "single", 2, 48, 1
+l14_tan_dam_74, "شَفَـٰعَةٌ", "Shafa'atun", "single", 2, 48, 1
+l14_tan_dam_75, "بَلَآءٌ", "Bala'un", "single", 2, 49, 1
+l14_tan_dam_76, "عَذَابٌ", "Adhabun", "single", 2, 7, 1
+l14_tan_dam_77, "شَىۡءٌ", "Shay'un", "single", 2, 20, 1
+l14_tan_dam_78, "كُلٌّ", "Kullun", "single", 2, 57, 1
+l14_tan_dam_79, "حَسَنَةٌ", "Hasanatun", "single", 2, 201, 1

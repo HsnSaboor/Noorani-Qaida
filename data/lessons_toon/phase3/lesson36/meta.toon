@@ -1,0 +1,8 @@
+id: 36
+title_en: "Madd Arid"
+title_ur: "Madd Arid"
+description_en: "Temporary"
+description_ur: "Temporary"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

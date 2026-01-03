@@ -1,0 +1,8 @@
+id: 79
+title_en: "Surah Al-Falaq"
+title_ur: "Surah Al-Falaq"
+description_en: "The Daybreak"
+description_ur: "The Daybreak"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

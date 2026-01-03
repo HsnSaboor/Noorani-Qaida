@@ -1,0 +1,8 @@
+id: 27
+title_en: "Idgham (Merge)"
+title_ur: "ادغام"
+description_en: "Merging Nun into next letter."
+description_ur: "نون کو ملانا۔"
+validation_rules
+:
+pattern_name, ""

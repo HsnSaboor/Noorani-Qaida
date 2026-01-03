@@ -1,0 +1,58 @@
+items[56] {id, content, transliteration, type, surah, ayah, word_index}
+:
+l11_c_m_0, "لَا", "La", "single", 59, 12, 3
+l11_c_m_1, "بِمَا", "Bima", "single", 32, 14, 2
+l11_c_m_2, "لَهَا", "Laha", "single", 26, 208, 6
+l11_c_m_3, "فِيهَا", "Fiha", "single", 21, 100, 2
+l11_c_m_4, "مِنْهَا", "Minha", "single", 5, 22, 12
+l11_c_m_5, "عَنْهَا", "Anha", "single", 15, 81, 4
+l11_c_m_6, "لَهُمُ", "Lahum", "single", 47, 25, 10
+l11_c_m_7, "بِهِمْ", "Bihim", "single", 11, 77, 6
+l11_c_m_8, "مِنْهُمْ", "Minhum", "single", 18, 18, 18
+l11_c_m_9, "عَنْهُمْ ۖ", "Anhum", "single", 9, 95, 8
+l11_c_m_10, "فِيهِمْ", "Fihim", "single", 18, 22, 25
+l11_c_m_11, "عَلَيْهِمْ", "Alayhim", "single", 1, 7, 4
+l11_c_m_12, "إِلَيْهِمْ", "Ilayhim", "single", 4, 6, 12
+l11_c_m_13, "لَدَيْهِمْ", "Ladayhim", "single", 3, 44, 9
+l11_c_m_14, "مِنكُم", "Minkum", "single", 43, 60, 4
+l11_c_m_15, "فِيكُمْ", "Fikum", "single", 10, 16, 13
+l11_c_m_16, "عَلَيْكُمْ", "Alaykum", "single", 2, 150, 18
+l11_c_m_17, "إِلَيْكُمْ", "Ilaykum", "single", 36, 16, 5
+l11_c_m_18, "مَعَكُمْ", "Ma-akum", "single", 3, 81, 16
+l11_c_m_19, "بَيْنَكُمْ", "Baynakum", "single", 4, 73, 10
+l11_c_m_20, "رَبَّنَا", "Rabbana", "single", 2, 286, 13
+l11_c_m_21, "رَّبِّهِمُ", "Rabbihim", "single", 53, 23, 24
+l11_c_m_22, "رَبِّكَ", "Rabbika", "single", 52, 48, 3
+l11_c_m_23, "رَّبِّى ۖ", "Rabbi", "single", 18, 98, 5
+l11_c_m_24, "عَبْدِهِ", "Abdihi", "single", 18, 1, 6
+l11_c_m_25, "رَسُولَهُ", "Rasulahu", "single", 48, 27, 4
+l11_c_m_26, "نَفْسَهُ", "Nafsahu", "single", 2, 207, 5
+l11_c_m_27, "وَجْهَهُۥ", "Wajhahu", "single", 4, 125, 6
+l11_c_m_28, "يَدَيْهِ", "Yadayhi", "single", 5, 46, 10
+l11_c_m_29, "قَلْبِهِۦ", "Qalbihi", "single", 2, 204, 14
+l11_c_m_30, "صَدْرَهُۥ", "Sadrahu", "single", 6, 125, 7
+l11_c_m_31, "بَيْتِهِۦ", "Baytihi", "single", 4, 100, 15
+l11_c_m_32, "أَهْلِهِۦ", "Ahlihi", "single", 75, 33, 4
+l11_c_m_33, "مَآ", "Malihi", "single", 111, 2, 1
+l11_c_m_34, "وَلَدِهِۦ", "Waladihi", "single", 31, 33, 11
+l11_c_m_35, "سَبِيلِ", "Sabili", "single", 4, 74, 3
+l11_c_m_36, "عَذَابِ", "Adhabi", "single", 43, 74, 4
+l11_c_m_37, "رَحْمَةِ", "Rahmati", "single", 3, 107, 6
+l11_c_m_38, "نِّعْمَةٍۢ", "Ni-matin", "join", 16, 53, 4
+l11_c_m_39, "مَا", "As-Samawat", "single", 4, 131, 2
+l11_c_m_40, "ٱلْأَرْضِ", "Al-Ard", "single", 17, 37, 4
+l11_c_m_41, "ٱلشَّمْسَ", "Ash-Shams", "single", 25, 45, 14
+l11_c_m_42, "ٱلنَّهَارِ", "An-Nahar", "single", 22, 61, 7
+l11_c_m_43, "ٱلدُّنْيَا", "Ad-Dunya", "single", 13, 26, 9
+l11_c_m_44, "ٱلْجَنَّةِ ۚ", "Al-Jannah", "single", 59, 20, 6
+l11_c_m_45, "ٱلنَّارُ ۖ", "An-Nar", "single", 32, 20, 5
+l11_c_m_46, "ٱلْحَقُّ ۖ", "Al-Haqq", "single", 10, 32, 4
+l11_c_m_47, "ٱلْهُدَى ۙ", "Al-Huda", "single", 47, 25, 11
+l11_c_m_48, "ٱلْغَيْبِ", "Al-Ghayb", "single", 23, 92, 2
+l11_c_m_49, "ٱلْجِنِّ", "Al-Jinn", "single", 72, 6, 9
+l11_c_m_50, "ٱلْمُؤْمِنِينَ ۖ", "Al-Mu-minin", "single", 4, 146, 12
+l11_c_m_51, "ٱلْمُجْرِمِينَ ۗ", "Al-Mujrimin", "single", 25, 31, 7
+l11_c_m_52, "ٱلْمُتَّقِينَ", "Al-Muttaqin", "single", 52, 17, 2
+l11_c_m_53, "أَجْرٌ", "Ajrun", "single", 84, 25, 7
+l11_c_m_54, "ثَوَابَ", "Thawabun", "single", 3, 148, 3
+l11_c_m_55, "عِقَابٍ", "Iqabun", "single", 41, 43, 16

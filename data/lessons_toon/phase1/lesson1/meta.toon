@@ -1,0 +1,8 @@
+id: 1
+title_en: "The Alphabet"
+title_ur: "حروف مفردات"
+description_en: "Arabic Alphabet Recognition and Pronunciation."
+description_ur: "عربی حروف کی پہچان اور مخارج۔"
+validation_rules
+:
+pattern_name, ""

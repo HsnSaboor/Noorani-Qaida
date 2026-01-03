@@ -1,0 +1,8 @@
+id: 75
+title_en: "Surah Al-Kafirun"
+title_ur: "Surah Al-Kafirun"
+description_en: "The Disbelievers"
+description_ur: "The Disbelievers"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

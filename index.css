@@ -1,0 +1,206 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Nunito', 'sans-serif';
+  --font-arabic: "KFGQPC Uthman Taha Naskh", "Amiri", serif;
+  --font-urdu: "Jameel Noori Nastaleeq Kasheeda", "Noto Nastaliq Urdu", serif;
+  --font-calligraphy: "Aref Ruqaa", serif;
+
+  --color-brand-light: var(--color-brand-light);
+  --color-brand: var(--color-brand);
+  --color-brand-DEFAULT: var(--color-brand);
+  --color-brand-dark: var(--color-brand-dark);
+  --color-surface: var(--color-surface);
+
+  --animate-bounce-short: bounce 0.5s 1;
+  --animate-blob: blob 10s infinite;
+  --animate-float: float 5s ease-in-out infinite;
+  --animate-drop-bounce: dropBounce 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  --animate-wiggle: wiggle 1s ease-in-out infinite;
+
+  @keyframes blob {
+    0% { transform: translate(0px, 0px) scale(1); }
+    33% { transform: translate(30px, -50px) scale(1.1); }
+    66% { transform: translate(-20px, 20px) scale(0.9); }
+    100% { transform: translate(0px, 0px) scale(1); }
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  @keyframes dropBounce {
+    0% { transform: translateY(-50px) scale(0); opacity: 0; }
+    60% { transform: translateY(0) scale(1.1); opacity: 1; }
+    80% { transform: translateY(0) scale(0.95); }
+    100% { transform: translateY(0) scale(1); opacity: 1; }
+  }
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(-3deg); }
+    50% { transform: rotate(3deg); }
+  }
+}
+
+/* Custom Fonts Setup */
+@font-face {
+  font-family: 'Jameel Noori Nastaleeq Kasheeda';
+  src: local('Jameel Noori Nastaleeq Kasheeda'), url('/fonts/Jameel Noori Nastaleeq Kasheeda.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'KFGQPC Uthman Taha Naskh'; 
+  src: local('KFGQPC Uthman Taha Naskh'), url('/fonts/UthmanTaha.ttf') format('truetype');
+  font-display: swap;
+}
+
+:root {
+  /* Default Theme (Sky High - Bright Blue/Cyan) */
+  --color-brand-light: #E0F7FA;
+  --color-brand: #00BCD4; /* Cyan 500 */
+  --color-brand-dark: #0097A7;
+  --bg-gradient-1: #E0F7FA;
+  --bg-gradient-2: #E1F5FE;
+  --bg-blob-1: #4DD0E1;
+  --bg-blob-2: #81D4FA;
+  --color-surface: transparent;
+}
+
+body.theme-sunset {
+  /* Sunset -> Tiger Orange (Vibrant Orange/Yellow) */
+  --color-brand-light: #FFF8E1;
+  --color-brand: #FF9800; /* Orange 500 */
+  --color-brand-dark: #F57C00;
+  --bg-gradient-1: #FFF8E1;
+  --bg-gradient-2: #FFF3E0;
+  --bg-blob-1: #FFCC80;
+  --bg-blob-2: #FFEB3B;
+}
+
+body.theme-forest {
+  /* Forest -> Froggy Green (Lime/Green) */
+  --color-brand-light: #F1F8E9;
+  --color-brand: #8BC34A; /* Light Green 500 */
+  --color-brand-dark: #689F38;
+  --bg-gradient-1: #F1F8E9;
+  --bg-gradient-2: #DCEDC8;
+  --bg-blob-1: #AED581;
+  --bg-blob-2: #C5E1A5;
+}
+
+body.theme-lavender {
+  /* Lavender -> Unicorn Purple (Pink/Purple) */
+  --color-brand-light: #FCE4EC;
+  --color-brand: #E91E63; /* Pink 500 */
+  --color-brand-dark: #C2185B;
+  --bg-gradient-1: #F3E5F5;
+  --bg-gradient-2: #F8BBD0;
+  --bg-blob-1: #F06292;
+  --bg-blob-2: #BA68C8;
+}
+
+/* Dark Mode Overrides - Keeping them slightly playful but accessible */
+.dark body {
+  --bg-gradient-1: #0f172a;
+  --bg-gradient-2: #1e293b;
+  --bg-blob-1: #3b82f6; 
+  --bg-blob-2: #6366f1; 
+  --color-surface: #0f172a;
+  color: #f8fafc;
+}
+
+/* Animated Background */
+html {
+  background-color: var(--bg-gradient-2);
+  min-height: 100%;
+}
+
+html.dark {
+  background-color: #0f172a;
+}
+
+body {
+  background-color: var(--bg-gradient-2);
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before, body::after {
+  content: '';
+  position: fixed;
+  width: 70vw;
+  height: 70vw;
+  border-radius: 50%;
+  filter: blur(90px);
+  opacity: 0.5;
+  z-index: -1;
+  animation: blob 15s infinite alternate;
+}
+
+body::before {
+  background: var(--bg-blob-1);
+  top: -15%;
+  left: -15%;
+}
+
+body::after {
+  background: var(--bg-blob-2);
+  bottom: -15%;
+  right: -15%;
+  animation-delay: -5s;
+}
+
+/* Glassmorphism Utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 2rem;
+}
+.dark .glass-panel {
+  background: rgba(15, 23, 42, 0.7);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Rounded Bubbles */
+.rounded-bubble {
+  border-radius: 2.5rem;
+}
+
+/* Custom scrollbar - Chunky for kids */
+::-webkit-scrollbar {
+  width: 14px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  border: 4px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-brand);
+}
+.rtl-text {
+  direction: rtl;
+  text-align: right;
+}
+
+/* 3D Styles */
+.perspective-1000 { perspective: 1000px; }
+.transform-style-3d { transform-style: preserve-3d; }
+.backface-hidden { backface-visibility: hidden; }
+.rotate-y-180 { transform: rotateY(180deg); }
+
+/* Card Hover Lift */
+.hover-lift {
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+}
+.hover-lift:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 25px 30px -5px rgba(0, 0, 0, 0.1), 0 15px 15px -5px rgba(0, 0, 0, 0.04);
+}

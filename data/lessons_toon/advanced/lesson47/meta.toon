@@ -1,0 +1,8 @@
+id: 47
+title_en: "Meaning Stops"
+title_ur: "معنوی وقف"
+description_en: "How stopping affects meaning."
+description_ur: "وقف سے معنی کیسے بدلتے ہیں۔"
+validation_rules
+:
+pattern_name, ""

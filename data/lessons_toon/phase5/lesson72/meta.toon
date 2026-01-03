@@ -1,0 +1,8 @@
+id: 72
+title_en: "Surah Quraysh"
+title_ur: "Surah Quraysh"
+description_en: "The Quraysh"
+description_ur: "The Quraysh"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

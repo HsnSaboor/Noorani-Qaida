@@ -1,0 +1,9 @@
+id: 6
+title_en: "Fatha"
+title_ur: "زبر"
+description_en: "The short vowel 'A'. Simple and clear."
+description_ur: "زبر کی پہچان اور ادائیگی۔"
+validation_rules
+:
+pattern_name, "strict_fatha_3char"
+regex, "^[\u0600-\u06FF]\u064E[\u0600-\u06FF]\u064E[\u0600-\u06FF]\u064E$"

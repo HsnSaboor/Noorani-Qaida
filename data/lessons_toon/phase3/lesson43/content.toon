@@ -1,0 +1,32 @@
+# Lesson 43: Sun & Moon Letters
+|id|text_ar|transliteration|type|surah|ayah|word_index|translation|rule
+# Moon Letters (Al-Qamari) - Lam IS pronounced
+l43_1_1|ٱلْأَرْضُ|al-arḍ|word|99|1|9|the earth|Qamari: Alif
+l43_1_2|ٱلْبَلَدِ|al-balad|word|90|1|5|the city|Qamari: Ba
+l43_1_3|ٱلْجِبَالُ|al-jibāl|word|101|5|5|the mountains|Qamari: Jeem
+l43_1_4|ٱلْحَمْدُ|al-ḥamd|word|1|2|5|the praise|Qamari: Ha
+l43_1_5|ٱلْخَنَّاسِ|al-khannās|word|114|4|6|the retreat|Qamari: Kha
+l43_1_6|ٱلْعَـٰلَمِينَ|al-‘ālamīn|word|1|2|4|the worlds|Qamari: Ain
+l43_1_7|ٱلْغَـٰشِيَةِ|al-ghāshiyah|word|88|1|4|the Overwhelming|Qamari: Ghain
+l43_1_8|ٱلْفَجْرِ|al-fajr|word|89|1|2|the dawn|Qamari: Fa
+l43_1_9|ٱلْقَارِعَةُ|al-qāri‘ah|word|101|1|6|the Calamity|Qamari: Qaf
+l43_1_10|ٱلْكِتَـٰبُ|al-kitāb|word|2|2|2|the Book|Qamari: Kaf
+l43_1_11|ٱلْمَلَـٰٓئِكَةُ|al-malā’ikah|word|97|4|10|the angels|Qamari: Meem
+l43_1_12|ٱلْهُدَىٰٓ|al-hudā|word|96|11|6|the guidance|Qamari: Ha
+l43_1_13|ٱلْوَسْوَاسِ|al-waswās|word|114|4|5|the whisperer|Qamari: Waw
+l43_1_14|ٱلْيَقِينِ|al-yaqīn|word|102|5|6|the certainty|Qamari: Ya
+# Sun Letters (Al-Shamsi) - Lam is NOT pronounced
+l43_2_1|ٱلتَّكَاثُرُ|at-takāthur|word|102|1|7|competition|Shamsi: Ta
+l43_2_2|ٱلثَّاقِبُ|ath-thāqib|word|86|3|3|piercing|Shamsi: Tha
+l43_2_3|ٱلدِّينِ|ad-dīn|word|1|4|4|the Judgment|Shamsi: Dal
+l43_2_4|ٱلذِّكْرَىٰ|adh-dhikrā|word|89|23|11|the remembrance|Shamsi: Dhal
+l43_2_5|ٱلرَّحْمَـٰنِ|ar-raḥmān|word|1|1|3|the Most Gracious|Shamsi: Ra
+l43_2_6|ٱلزَّيْتُونِ|az-zaytūn|word|95|1|5|the olive|Shamsi: Zai
+l43_2_7|ٱلسَّمَآءِ|as-samā’|word|85|1|2|the sky|Shamsi: Seen
+l43_2_8|ٱلشَّمْسُ|ash-shams|word|91|1|2|the sun|Shamsi: Sheen
+l43_2_9|ٱلصَّمَدُ|aṣ-ṣamad|word|112|2|4|the Eternal|Shamsi: Sad
+l43_2_10|ٱلضَّحِكَ|aḍ-ḍaḥik|word|53|43|3|laughter|Shamsi: Dad
+l43_2_11|ٱلطَّارِقِ|aṭ-ṭāriq|word|86|1|4|the Nightcomer|Shamsi: Ta
+l43_2_12|ٱلظَّنِّ|aẓ-ẓann|word|49|12|7|suspicion|Shamsi: Za
+l43_2_13|ٱللَّهِ|Allāh|word|1|1|5|Allah|Shamsi: Lam
+l43_2_14|ٱلنَّاسِ|an-nās|word|114|1|5|mankind|Shamsi: Nun

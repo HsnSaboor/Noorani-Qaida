@@ -1,0 +1,8 @@
+id: 25
+title_en: "Nun Sakin Intro"
+title_ur: "Nun Sakin Intro"
+description_en: "Rules Intro"
+description_ur: "Rules Intro"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

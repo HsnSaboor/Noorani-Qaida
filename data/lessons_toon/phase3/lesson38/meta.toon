@@ -1,0 +1,8 @@
+id: 38
+title_en: "Ghunnah Rules"
+title_ur: "Ghunnah Rules"
+description_en: "Nasal"
+description_ur: "Nasal"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

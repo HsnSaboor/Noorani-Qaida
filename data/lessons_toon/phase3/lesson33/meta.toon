@@ -1,0 +1,8 @@
+id: 33
+title_en: "Madd Muttasil"
+title_ur: "Madd Muttasil"
+description_en: "Connected"
+description_ur: "Connected"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

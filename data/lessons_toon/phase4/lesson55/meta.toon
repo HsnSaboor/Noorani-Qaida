@@ -1,0 +1,8 @@
+id: 55
+title_en: "The 4 Sakts"
+title_ur: "The 4 Sakts"
+description_en: "Breathless Pauses"
+description_ur: "Breathless Pauses"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

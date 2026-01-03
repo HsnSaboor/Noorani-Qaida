@@ -1,0 +1,9 @@
+id: 19
+title_en: "Sukoon"
+title_ur: "سکون"
+description_en: "The Jazm (Link) sign. Joins two letters."
+description_ur: "جزم (سکون) کی پہچان اور حروف کو ملا کر پڑھنا۔"
+validation_rules
+:
+pattern_name, "contains_sukoon"
+regex, "[\u0652]"

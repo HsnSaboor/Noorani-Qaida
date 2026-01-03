@@ -1,0 +1,8 @@
+id: 63
+title_en: "Surah Al-Qadr"
+title_ur: "Surah Al-Qadr"
+description_en: "The Power"
+description_ur: "The Power"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

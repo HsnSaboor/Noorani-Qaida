@@ -1,0 +1,8 @@
+id: 27
+title_en: "Idgham"
+title_ur: "Idgham"
+description_en: "Merge"
+description_ur: "Merge"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

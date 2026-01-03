@@ -1,0 +1,8 @@
+id: 70
+title_en: "Surah Al-Humazah"
+title_ur: "Surah Al-Humazah"
+description_en: "The Traducer"
+description_ur: "The Traducer"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

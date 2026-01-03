@@ -1,0 +1,8 @@
+id: 36
+title_en: "Rabbana Duas (Part 5)"
+title_ur: "ربنا دعائیں (حصہ پنجم)"
+description_en: "Prayers for divine promises and rescue from oppression."
+description_ur: "الہی وعدوں اور ظلم سے نجات کے لیے دعائیں۔"
+validation_rules
+:
+regex, "[\u0651]"

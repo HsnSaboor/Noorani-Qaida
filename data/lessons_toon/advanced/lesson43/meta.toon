@@ -1,0 +1,8 @@
+id: 43
+title_en: "Silent Letters & Ana"
+title_ur: "خاموش حروف اور انا"
+description_en: "Letters written but not pronounced."
+description_ur: "لکھے ہوئے مگر خاموش حروف۔"
+validation_rules
+:
+pattern_name, ""

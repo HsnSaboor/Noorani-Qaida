@@ -1,0 +1,9 @@
+id: 23
+title_en: "Shaddah & Harakat"
+title_ur: "تشدید اور حرکات"
+description_en: "The combination of Shaddah with Fatha, Kasra, and Damma."
+description_ur: "تشدید کے ساتھ حرکات کی پہچان اور مشق۔"
+validation_rules
+:
+pattern_name, "contains_shaddah"
+regex, "[\u0651]"

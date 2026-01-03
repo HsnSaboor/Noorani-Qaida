@@ -1,0 +1,8 @@
+id: 58
+title_en: "Advanced Waqf"
+title_ur: "Advanced Waqf"
+description_en: "Rawm & Ishmam"
+description_ur: "Rawm & Ishmam"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

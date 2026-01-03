@@ -1,0 +1,9 @@
+id: 20
+title_en: "Sukoon Practice"
+title_ur: "سکون کی مشق"
+description_en: "Reading full words with Sukoon links."
+description_ur: "سکون والے مکمل قرآنی الفاظ کی مشق۔"
+validation_rules
+:
+pattern_name, "contains_sukoon"
+regex, "[\u0652]"

@@ -1,0 +1,194 @@
+items[197] {id, content, transliteration, type, surah, ayah, word_index}
+:
+l21_q_0_0, "اَقْ", "Alif with Qalqala ق", "single", , , 
+l21_q_0_1, "بَقْ", "Ba with Qalqala ق", "single", , , 
+l21_q_0_2, "تَقْ", "Ta with Qalqala ق", "single", , , 
+l21_q_0_3, "ثَقْ", "Tha with Qalqala ق", "single", , , 
+l21_q_0_4, "جَقْ", "Jeem with Qalqala ق", "single", , , 
+l21_q_0_5, "حَقْ", "Ha with Qalqala ق", "single", , , 
+l21_q_0_6, "خَقْ", "Kha with Qalqala ق", "single", , , 
+l21_q_0_7, "دَقْ", "Dal with Qalqala ق", "single", , , 
+l21_q_0_8, "ذَقْ", "Dhal with Qalqala ق", "single", , , 
+l21_q_0_9, "رَقْ", "Ra with Qalqala ق", "single", , , 
+l21_q_0_10, "زَقْ", "Za with Qalqala ق", "single", , , 
+l21_q_0_11, "سَقْ", "Seen with Qalqala ق", "single", , , 
+l21_q_0_12, "شَقْ", "Sheen with Qalqala ق", "single", , , 
+l21_q_0_13, "صَقْ", "Sad with Qalqala ق", "single", , , 
+l21_q_0_14, "ضَقْ", "Dad with Qalqala ق", "single", , , 
+l21_q_0_15, "طَقْ", "Toa with Qalqala ق", "single", , , 
+l21_q_0_16, "ظَقْ", "Zoa with Qalqala ق", "single", , , 
+l21_q_0_17, "عَقْ", "Ain with Qalqala ق", "single", , , 
+l21_q_0_18, "غَقْ", "Ghain with Qalqala ق", "single", , , 
+l21_q_0_19, "فَقْ", "Fa with Qalqala ق", "single", , , 
+l21_q_0_20, "قَقْ", "Qaf with Qalqala ق", "single", , , 
+l21_q_0_21, "كَقْ", "Kaf with Qalqala ق", "single", , , 
+l21_q_0_22, "لَقْ", "Lam with Qalqala ق", "single", , , 
+l21_q_0_23, "مَقْ", "Meem with Qalqala ق", "single", , , 
+l21_q_0_24, "نَقْ", "Noon with Qalqala ق", "single", , , 
+l21_q_0_25, "وَقْ", "Waw with Qalqala ق", "single", , , 
+l21_q_0_26, "هَقْ", "Ha with Qalqala ق", "single", , , 
+l21_q_0_27, "يَقْ", "Ya with Qalqala ق", "single", , , 
+l21_q_1_0, "اَطْ", "Alif with Qalqala ط", "single", , , 
+l21_q_1_1, "بَطْ", "Ba with Qalqala ط", "single", , , 
+l21_q_1_2, "تَطْ", "Ta with Qalqala ط", "single", , , 
+l21_q_1_3, "ثَطْ", "Tha with Qalqala ط", "single", , , 
+l21_q_1_4, "جَطْ", "Jeem with Qalqala ط", "single", , , 
+l21_q_1_5, "حَطْ", "Ha with Qalqala ط", "single", , , 
+l21_q_1_6, "خَطْ", "Kha with Qalqala ط", "single", , , 
+l21_q_1_7, "دَطْ", "Dal with Qalqala ط", "single", , , 
+l21_q_1_8, "ذَطْ", "Dhal with Qalqala ط", "single", , , 
+l21_q_1_9, "رَطْ", "Ra with Qalqala ط", "single", , , 
+l21_q_1_10, "زَطْ", "Za with Qalqala ط", "single", , , 
+l21_q_1_11, "سَطْ", "Seen with Qalqala ط", "single", , , 
+l21_q_1_12, "شَطْ", "Sheen with Qalqala ط", "single", , , 
+l21_q_1_13, "صَطْ", "Sad with Qalqala ط", "single", , , 
+l21_q_1_14, "ضَطْ", "Dad with Qalqala ط", "single", , , 
+l21_q_1_15, "طَطْ", "Toa with Qalqala ط", "single", , , 
+l21_q_1_16, "ظَطْ", "Zoa with Qalqala ط", "single", , , 
+l21_q_1_17, "عَطْ", "Ain with Qalqala ط", "single", , , 
+l21_q_1_18, "غَطْ", "Ghain with Qalqala ط", "single", , , 
+l21_q_1_19, "فَطْ", "Fa with Qalqala ط", "single", , , 
+l21_q_1_20, "قَطْ", "Qaf with Qalqala ط", "single", , , 
+l21_q_1_21, "كَطْ", "Kaf with Qalqala ط", "single", , , 
+l21_q_1_22, "لَطْ", "Lam with Qalqala ط", "single", , , 
+l21_q_1_23, "مَطْ", "Meem with Qalqala ط", "single", , , 
+l21_q_1_24, "نَطْ", "Noon with Qalqala ط", "single", , , 
+l21_q_1_25, "وَطْ", "Waw with Qalqala ط", "single", , , 
+l21_q_1_26, "هَطْ", "Ha with Qalqala ط", "single", , , 
+l21_q_1_27, "يَطْ", "Ya with Qalqala ط", "single", , , 
+l21_q_2_0, "اَبْ", "Alif with Qalqala ب", "single", , , 
+l21_q_2_1, "بَبْ", "Ba with Qalqala ب", "single", , , 
+l21_q_2_2, "تَبْ", "Ta with Qalqala ب", "single", , , 
+l21_q_2_3, "ثَبْ", "Tha with Qalqala ب", "single", , , 
+l21_q_2_4, "جَبْ", "Jeem with Qalqala ب", "single", , , 
+l21_q_2_5, "حَبْ", "Ha with Qalqala ب", "single", , , 
+l21_q_2_6, "خَبْ", "Kha with Qalqala ب", "single", , , 
+l21_q_2_7, "دَبْ", "Dal with Qalqala ب", "single", , , 
+l21_q_2_8, "ذَبْ", "Dhal with Qalqala ب", "single", , , 
+l21_q_2_9, "رَبْ", "Ra with Qalqala ب", "single", , , 
+l21_q_2_10, "زَبْ", "Za with Qalqala ب", "single", , , 
+l21_q_2_11, "سَبْ", "Seen with Qalqala ب", "single", , , 
+l21_q_2_12, "شَبْ", "Sheen with Qalqala ب", "single", , , 
+l21_q_2_13, "صَبْ", "Sad with Qalqala ب", "single", , , 
+l21_q_2_14, "ضَبْ", "Dad with Qalqala ب", "single", , , 
+l21_q_2_15, "طَبْ", "Toa with Qalqala ب", "single", , , 
+l21_q_2_16, "ظَبْ", "Zoa with Qalqala ب", "single", , , 
+l21_q_2_17, "عَبْ", "Ain with Qalqala ب", "single", , , 
+l21_q_2_18, "غَبْ", "Ghain with Qalqala ب", "single", , , 
+l21_q_2_19, "فَبْ", "Fa with Qalqala ب", "single", , , 
+l21_q_2_20, "قَبْ", "Qaf with Qalqala ب", "single", , , 
+l21_q_2_21, "كَبْ", "Kaf with Qalqala ب", "single", , , 
+l21_q_2_22, "لَبْ", "Lam with Qalqala ب", "single", , , 
+l21_q_2_23, "مَبْ", "Meem with Qalqala ب", "single", , , 
+l21_q_2_24, "نَبْ", "Noon with Qalqala ب", "single", , , 
+l21_q_2_25, "وَبْ", "Waw with Qalqala ب", "single", , , 
+l21_q_2_26, "هَبْ", "Ha with Qalqala ب", "single", , , 
+l21_q_2_27, "يَبْ", "Ya with Qalqala ب", "single", , , 
+l21_q_3_0, "اَجْ", "Alif with Qalqala ج", "single", , , 
+l21_q_3_1, "بَجْ", "Ba with Qalqala ج", "single", , , 
+l21_q_3_2, "تَجْ", "Ta with Qalqala ج", "single", , , 
+l21_q_3_3, "ثَجْ", "Tha with Qalqala ج", "single", , , 
+l21_q_3_4, "جَجْ", "Jeem with Qalqala ج", "single", , , 
+l21_q_3_5, "حَجْ", "Ha with Qalqala ج", "single", , , 
+l21_q_3_6, "خَجْ", "Kha with Qalqala ج", "single", , , 
+l21_q_3_7, "دَجْ", "Dal with Qalqala ج", "single", , , 
+l21_q_3_8, "ذَجْ", "Dhal with Qalqala ج", "single", , , 
+l21_q_3_9, "رَجْ", "Ra with Qalqala ج", "single", , , 
+l21_q_3_10, "زَجْ", "Za with Qalqala ج", "single", , , 
+l21_q_3_11, "سَجْ", "Seen with Qalqala ج", "single", , , 
+l21_q_3_12, "شَجْ", "Sheen with Qalqala ج", "single", , , 
+l21_q_3_13, "صَجْ", "Sad with Qalqala ج", "single", , , 
+l21_q_3_14, "ضَجْ", "Dad with Qalqala ج", "single", , , 
+l21_q_3_15, "طَجْ", "Toa with Qalqala ج", "single", , , 
+l21_q_3_16, "ظَجْ", "Zoa with Qalqala ج", "single", , , 
+l21_q_3_17, "عَجْ", "Ain with Qalqala ج", "single", , , 
+l21_q_3_18, "غَجْ", "Ghain with Qalqala ج", "single", , , 
+l21_q_3_19, "فَجْ", "Fa with Qalqala ج", "single", , , 
+l21_q_3_20, "قَجْ", "Qaf with Qalqala ج", "single", , , 
+l21_q_3_21, "كَجْ", "Kaf with Qalqala ج", "single", , , 
+l21_q_3_22, "لَجْ", "Lam with Qalqala ج", "single", , , 
+l21_q_3_23, "مَجْ", "Meem with Qalqala ج", "single", , , 
+l21_q_3_24, "نَجْ", "Noon with Qalqala ج", "single", , , 
+l21_q_3_25, "وَجْ", "Waw with Qalqala ج", "single", , , 
+l21_q_3_26, "هَجْ", "Ha with Qalqala ج", "single", , , 
+l21_q_3_27, "يَجْ", "Ya with Qalqala ج", "single", , , 
+l21_q_4_0, "اَدْ", "Alif with Qalqala د", "single", , , 
+l21_q_4_1, "بَدْ", "Ba with Qalqala د", "single", , , 
+l21_q_4_2, "تَدْ", "Ta with Qalqala د", "single", , , 
+l21_q_4_3, "ثَدْ", "Tha with Qalqala د", "single", , , 
+l21_q_4_4, "جَدْ", "Jeem with Qalqala د", "single", , , 
+l21_q_4_5, "حَدْ", "Ha with Qalqala د", "single", , , 
+l21_q_4_6, "خَدْ", "Kha with Qalqala د", "single", , , 
+l21_q_4_7, "دَدْ", "Dal with Qalqala د", "single", , , 
+l21_q_4_8, "ذَدْ", "Dhal with Qalqala د", "single", , , 
+l21_q_4_9, "رَدْ", "Ra with Qalqala د", "single", , , 
+l21_q_4_10, "زَدْ", "Za with Qalqala د", "single", , , 
+l21_q_4_11, "سَدْ", "Seen with Qalqala د", "single", , , 
+l21_q_4_12, "شَدْ", "Sheen with Qalqala د", "single", , , 
+l21_q_4_13, "صَدْ", "Sad with Qalqala د", "single", , , 
+l21_q_4_14, "ضَدْ", "Dad with Qalqala د", "single", , , 
+l21_q_4_15, "طَدْ", "Toa with Qalqala د", "single", , , 
+l21_q_4_16, "ظَدْ", "Zoa with Qalqala د", "single", , , 
+l21_q_4_17, "عَدْ", "Ain with Qalqala د", "single", , , 
+l21_q_4_18, "غَدْ", "Ghain with Qalqala د", "single", , , 
+l21_q_4_19, "فَدْ", "Fa with Qalqala د", "single", , , 
+l21_q_4_20, "قَدْ", "Qaf with Qalqala د", "single", , , 
+l21_q_4_21, "كَدْ", "Kaf with Qalqala د", "single", , , 
+l21_q_4_22, "لَدْ", "Lam with Qalqala د", "single", , , 
+l21_q_4_23, "مَدْ", "Meem with Qalqala د", "single", , , 
+l21_q_4_24, "نَدْ", "Noon with Qalqala د", "single", , , 
+l21_q_4_25, "وَدْ", "Waw with Qalqala د", "single", , , 
+l21_q_4_26, "هَدْ", "Ha with Qalqala د", "single", , , 
+l21_q_4_27, "يَدْ", "Ya with Qalqala د", "single", , , 
+l21_q_word_1, "يَجْعَلْ", "Yaj-al", "single", 105, 2, 2
+l21_q_word_2, "أَطْعَمَهُمْ", "At-amahum", "single", 106, 4, 2
+l21_q_word_3, "يَدْخُلُونَ", "Yadkhuluna", "single", 110, 2, 3
+l21_q_word_4, "حَبْلٌ", "Hablun", "single", 111, 5, 3
+l21_q_word_5, "خَلَقْنَا", "Khalaqna", "single", 95, 4, 2
+l21_q_word_6, "نُطْفَةٍ", "Nutfatin", "single", 75, 37, 3
+l21_q_word_7, "رَجْعِهِ", "Raj-ihi", "single", 86, 8, 3
+l21_q_word_10, "رَجْمًا", "Rajman", "single", 18, 22, 9
+l21_q_word_13, "قَبْلُ", "Qablu", "single", 2, 25, 24
+l21_q_word_14, "رَزَقْنَـٰهُمْ", "Razaqnahum", "single", 2, 3, 7
+l21_q_word_15, "قَبْلِكَ", "Qablika", "single", 2, 4, 9
+l21_q_word_16, "أَبْصَـٰرِهِمْ", "Absarihim", "single", 2, 7, 8
+l21_q_word_17, "يَجْعَلُونَ", "Yajaluna", "single", 2, 19, 9
+l21_q_word_18, "قَبْلِكُمْ", "Qablikum", "single", 2, 21, 9
+l21_q_word_19, "تَجْعَلُوا۟", "Tajalu", "single", 2, 22, 19
+l21_q_word_20, "عَبْدِنَا", "Abdina", "single", 2, 23, 8
+l21_q_word_21, "وَٱدْعُوا۟", "Waduu", "single", 2, 23, 13
+l21_q_word_22, "تَجْرِى", "Tajri", "single", 2, 25, 9
+l21_q_word_23, "رُزِقْنَا", "Ruziqna", "single", 2, 25, 22
+l21_q_word_24, "قَبْلُ", "Qablu", "single", 2, 25, 24
+l21_q_word_25, "وَيَقْطَعُونَ", "Wayaqtauna", "single", 2, 27, 8
+l21_q_word_26, "سَبْعَ", "Saba", "single", 2, 29, 14
+l21_q_word_27, "رَزَقْنَـٰهُمْ", "Razaqnahum", "single", 2, 3, 7
+l21_q_word_28, "قَبْلِكَ", "Qablika", "single", 2, 4, 9
+l21_q_word_29, "أَبْصَـٰرِهِمْ", "Absarihim", "single", 2, 7, 8
+l21_q_word_30, "يَجْعَلُونَ", "Yajaluna", "single", 2, 19, 9
+l21_q_word_31, "أَبْصَـٰرَهُمْ", "Absarahum", "single", 2, 20, 4
+l21_q_word_32, "وَأَبْصَـٰرِهِمْ", "Waabsarihim", "single", 2, 20, 19
+l21_q_word_33, "قَبْلِكُمْ", "Qablikum", "single", 2, 21, 9
+l21_q_word_34, "تَجْعَلُوا۟", "Tajalu", "single", 2, 22, 19
+l21_q_word_35, "عَبْدِنَا", "Abdina", "single", 2, 23, 8
+l21_q_word_36, "وَٱدْعُوا۟", "Waduu", "single", 2, 23, 13
+l21_q_word_37, "تَجْرِى", "Tajri", "single", 2, 25, 9
+l21_q_word_38, "رُزِقْنَا", "Ruziqna", "single", 2, 25, 22
+l21_q_word_39, "قَبْلُ", "Qablu", "single", 2, 25, 24
+l21_q_word_40, "وَيَقْطَعُونَ", "Wayaqtauna", "single", 2, 27, 8
+l21_q_word_41, "سَبْعَ", "Saba", "single", 2, 29, 14
+l21_q_word_42, "أَتَجْعَلُ", "Atajalu", "single", 2, 30, 11
+l21_q_word_43, "سُبْحَـٰنَكَ", "Subhanaka", "single", 2, 32, 2
+l21_q_word_44, "تُبْدُونَ", "Tubduna", "single", 2, 33, 19
+l21_q_word_45, "إِبْلِيسَ", "Iblisa", "single", 2, 34, 8
+l21_q_word_46, "تَقْرَبَا", "Taqraba", "single", 2, 35, 13
+l21_q_word_47, "أَبْصَـٰرَهُمْ ۖ", "Qalqala", "single", 2, 20, 4
+l21_q_word_48, "وَأَبْصَـٰرِهِمْ ۚ", "Qalqala", "single", 2, 20, 19
+l21_q_word_49, "قَبْلُ ۖ", "Qalqala", "single", 2, 25, 24
+l21_q_word_50, "ٱبْتِغَآءَ", "Qalqala", "single", 3, 7, 23
+l21_q_word_51, "وَٱبْتِغَآءَ", "Qalqala", "single", 3, 7, 25
+l21_q_word_52, "وَهَبْ", "Qalqala", "single", 3, 8, 8
+l21_q_word_53, "قَبْلِهِمْ ۚ", "Qalqala", "single", 3, 11, 6
+l21_q_word_54, "قَدْ", "Qalqala", "single", 3, 13, 1
+l21_q_word_55, "لَعِبْرَةًۭ", "Qalqala", "single", 3, 13, 27
+l21_q_word_56, "وَجْهِىَ", "Qalqala", "single", 3, 20, 5

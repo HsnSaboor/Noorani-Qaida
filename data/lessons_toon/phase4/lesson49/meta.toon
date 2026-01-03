@@ -1,0 +1,8 @@
+id: 49
+title_en: "Sifat: Opposites"
+title_ur: "Sifat: Opposites"
+description_en: "Hams & Jahr"
+description_ur: "Hams & Jahr"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

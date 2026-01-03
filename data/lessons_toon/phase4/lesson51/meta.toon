@@ -1,0 +1,8 @@
+id: 51
+title_en: "Idgham Mutajanisayn"
+title_ur: "Idgham Mutajanisayn"
+description_en: "Twin Merge"
+description_ur: "Twin Merge"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

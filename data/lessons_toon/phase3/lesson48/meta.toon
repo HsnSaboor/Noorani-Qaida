@@ -1,0 +1,8 @@
+id: 48
+title_en: "General Review"
+title_ur: "General Review"
+description_en: "Mixed Practice"
+description_ur: "Mixed Practice"
+validation_rules:
+  pattern_name: "none"
+  regex: ""

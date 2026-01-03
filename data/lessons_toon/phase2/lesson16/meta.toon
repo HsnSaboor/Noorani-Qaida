@@ -1,0 +1,9 @@
+id: 16
+title_en: "Standing Kasra"
+title_ur: "کھڑا زیر"
+description_en: "Vertical line below a letter. 2-beat stretch."
+description_ur: "حرف کے نیچے چھوٹی لکیر۔ اسے ۲ حرکات تک کھینچیں۔"
+validation_rules
+:
+pattern_name, "contains_kasra"
+regex, "[\u0650]"

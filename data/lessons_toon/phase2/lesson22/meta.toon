@@ -1,0 +1,9 @@
+id: 22
+title_en: "Shaddah"
+title_ur: "تشدید"
+description_en: "Strong, doubled pronunciation of letters."
+description_ur: "حرف کو سختی سے دو بار پڑھنا۔"
+validation_rules
+:
+pattern_name, "contains_shaddah"
+regex, "[\u0651]"

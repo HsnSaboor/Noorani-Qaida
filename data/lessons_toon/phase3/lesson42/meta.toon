@@ -1,0 +1,8 @@
+id: 42
+title_en: "Dua-e-Qanoot"
+title_ur: "Dua-e-Qanoot"
+description_en: "Witr Dua"
+description_ur: "Witr Dua"
+validation_rules:
+  pattern_name: "none"
+  regex: ""
